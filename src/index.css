@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Odia Font Support */
+.font-odia {
+  font-family: 'Noto Sans Oriya', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Button Base Styles */
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-6 rounded-xl transition-all duration-200 shadow-soft hover:shadow-lg active:scale-[0.98];
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-secondary-50 text-secondary-700 font-medium py-3 px-6 rounded-xl transition-all duration-200 border border-secondary-200 hover:border-secondary-300;
+  }
+  
+  .btn-outline {
+    @apply bg-transparent hover:bg-primary-50 text-primary-600 font-medium py-3 px-6 rounded-xl transition-all duration-200 border-2 border-primary-600 hover:border-primary-700;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-soft p-6 border border-secondary-100;
+  }
+  
+  .card-hover {
+    @apply card hover:shadow-lg hover:border-primary-200 transition-all duration-200 cursor-pointer;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border border-secondary-200 focus:border-primary-500 focus:ring-2 focus:ring-primary-100 outline-none transition-all duration-200 bg-white;
+  }
+  
+  .input-label {
+    @apply block text-sm font-medium text-secondary-700 mb-2;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-600 to-primary-800;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Question Card Styles */
+.question-option {
+  @apply p-4 rounded-xl border-2 border-secondary-200 cursor-pointer transition-all duration-200 hover:border-primary-400 hover:bg-primary-50;
+}
+
+.question-option.selected {
+  @apply border-primary-500 bg-primary-50;
+}
+
+.question-option.correct {
+  @apply border-green-500 bg-green-50;
+}
+
+.question-option.incorrect {
+  @apply border-red-500 bg-red-50;
+}
+
+/* Progress Bar */
+.progress-bar {
+  @apply h-2 bg-secondary-100 rounded-full overflow-hidden;
+}
+
+.progress-bar-fill {
+  @apply h-full bg-gradient-to-r from-primary-500 to-primary-600 rounded-full transition-all duration-500;
+}
+
+/* Timer Styles */
+.timer-warning {
+  @apply text-yellow-600;
+}
+
+.timer-danger {
+  @apply text-red-600 animate-pulse;
+}
+
+/* Responsive Container */
+.container-app {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Mobile Bottom Navigation */
+.mobile-nav {
+  @apply fixed bottom-0 left-0 right-0 bg-white border-t border-secondary-200 py-2 px-4 z-50 md:hidden;
+}
+
+/* Desktop Sidebar */
+.sidebar {
+  @apply fixed left-0 top-0 h-screen w-64 bg-white border-r border-secondary-200 p-4 hidden md:block z-40;
+}
+
+/* Main Content Area */
+.main-content {
+  @apply md:ml-64 min-h-screen pb-20 md:pb-8;
+}
+
+/* Loading Spinner */
+.spinner {
+  @apply w-8 h-8 border-4 border-primary-200 border-t-primary-600 rounded-full animate-spin;
+}
+
+/* Badge Styles */
+.badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+}
+
+.badge-primary {
+  @apply badge bg-primary-100 text-primary-700;
+}
+
+.badge-success {
+  @apply badge bg-green-100 text-green-700;
+}
+
+.badge-warning {
+  @apply badge bg-yellow-100 text-yellow-700;
+}
+
+.badge-danger {
+  @apply badge bg-red-100 text-red-700;
+}
+
+/* Tab Styles */
+.tab {
+  @apply px-4 py-2 font-medium text-secondary-500 border-b-2 border-transparent transition-all duration-200 cursor-pointer;
+}
+
+.tab.active {
+  @apply text-primary-600 border-primary-600;
+}
+
+.tab:hover:not(.active) {
+  @apply text-secondary-700;
+}
