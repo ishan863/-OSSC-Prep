@@ -17,15 +17,15 @@ const Input = ({
   return (
     <div className={`w-full ${className}`}>
       {label && (
-        <label className="input-label">
+        <label className="input-label text-xs sm:text-sm">
           {label}
           {required && <span className="text-red-500 ml-1">*</span>}
         </label>
       )}
       <div className="relative">
         {Icon && (
-          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-secondary-400">
-            <Icon size={20} />
+          <div className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 text-secondary-400">
+            <Icon size={18} className="sm:w-5 sm:h-5" />
           </div>
         )}
         <input
@@ -35,8 +35,8 @@ const Input = ({
           onChange={onChange}
           disabled={disabled}
           className={`
-            input-field
-            ${Icon ? 'pl-12' : ''}
+            input-field text-sm sm:text-base
+            ${Icon ? 'pl-10 sm:pl-12' : ''}
             ${error ? 'border-red-500 focus:border-red-500 focus:ring-red-100' : ''}
             ${disabled ? 'bg-secondary-50 cursor-not-allowed' : ''}
           `}
@@ -44,10 +44,10 @@ const Input = ({
         />
       </div>
       {error && (
-        <p className="text-red-500 text-sm mt-1">{error}</p>
+        <p className="text-red-500 text-xs sm:text-sm mt-1">{error}</p>
       )}
       {helperText && !error && (
-        <p className="text-secondary-500 text-sm mt-1">{helperText}</p>
+        <p className="text-secondary-500 text-xs sm:text-sm mt-1">{helperText}</p>
       )}
     </div>
   );

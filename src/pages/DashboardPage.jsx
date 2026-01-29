@@ -96,37 +96,38 @@ const DashboardPage = () => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Welcome Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         className="card gradient-bg text-white"
       >
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 sm:gap-4">
           <div>
-            <p className="text-primary-100 text-sm mb-1">{getGreeting()}</p>
-            <h1 className="text-2xl md:text-3xl font-bold mb-2">
+            <p className="text-primary-100 text-xs sm:text-sm mb-1">{getGreeting()}</p>
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-1 sm:mb-2">
               {user?.name} 👋
             </h1>
-            <p className="text-primary-100">
+            <p className="text-primary-100 text-sm sm:text-base">
               {selectedExam === 'RI' ? 'Revenue Inspector' : 'Assistant Inspector'} Exam Preparation
             </p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-2 sm:gap-3 mt-2 md:mt-0">
             <Button
               variant="secondary"
               onClick={() => navigate('/syllabus')}
               icon={BookOpen}
+              className="text-sm sm:text-base py-2 sm:py-3 px-3 sm:px-6"
             >
-              View Syllabus
+              <span className="hidden sm:inline">View </span>Syllabus
             </Button>
           </div>
         </div>
       </motion.div>
 
       {/* Stats Overview */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
         <StatCard
           title="Questions Practiced"
           value={stats?.totalQuestions || 0}
@@ -155,8 +156,8 @@ const DashboardPage = () => {
 
       {/* Quick Actions */}
       <div>
-        <h2 className="text-lg font-bold text-secondary-800 mb-4">Quick Actions</h2>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <h2 className="text-base sm:text-lg font-bold text-secondary-800 mb-3 sm:mb-4">Quick Actions</h2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4">
           {quickActions.map((action, index) => (
             <motion.div
               key={index}
@@ -169,11 +170,11 @@ const DashboardPage = () => {
                 onClick={() => navigate(action.path)}
                 className="h-full"
               >
-                <div className={`w-12 h-12 rounded-xl bg-${action.color === 'primary' ? 'primary' : action.color === 'success' ? 'green' : 'yellow'}-100 flex items-center justify-center mb-4`}>
-                  <action.icon className={`text-${action.color === 'primary' ? 'primary' : action.color === 'success' ? 'green' : 'yellow'}-600`} size={24} />
+                <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-${action.color === 'primary' ? 'primary' : action.color === 'success' ? 'green' : 'yellow'}-100 flex items-center justify-center mb-2 sm:mb-4`}>
+                  <action.icon className={`text-${action.color === 'primary' ? 'primary' : action.color === 'success' ? 'green' : 'yellow'}-600`} size={20} />
                 </div>
-                <h3 className="font-semibold text-secondary-800 mb-1">{action.title}</h3>
-                <p className="text-sm text-secondary-500">{action.description}</p>
+                <h3 className="font-semibold text-secondary-800 text-sm sm:text-base mb-0.5 sm:mb-1">{action.title}</h3>
+                <p className="text-xs sm:text-sm text-secondary-500 hidden sm:block">{action.description}</p>
               </Card>
             </motion.div>
           ))}

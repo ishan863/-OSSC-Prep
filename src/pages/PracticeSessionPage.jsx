@@ -268,32 +268,32 @@ const PracticeSessionPage = () => {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+        className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4"
       >
         <div>
           <button
             onClick={handleExit}
-            className="flex items-center gap-2 text-secondary-500 hover:text-secondary-700 mb-2"
+            className="flex items-center gap-1.5 sm:gap-2 text-secondary-500 hover:text-secondary-700 mb-1 sm:mb-2 text-sm"
           >
-            <ArrowLeft size={20} />
+            <ArrowLeft size={18} />
             <span>Exit Practice</span>
           </button>
-          <h1 className="text-xl font-bold text-secondary-800">
+          <h1 className="text-lg sm:text-xl font-bold text-secondary-800">
             {topicInfo?.name || 'Practice'}
           </h1>
-          <p className="text-secondary-500">
-            {subjectInfo?.name} • {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} Level
+          <p className="text-xs sm:text-sm text-secondary-500">
+            {subjectInfo?.name} • {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
           </p>
         </div>
 
-        <div className="flex items-center gap-3">
-          <span className="badge-primary">
-            AI-Generated Practice Questions
+        <div className="flex items-center gap-2 sm:gap-3">
+          <span className="badge-primary text-xs">
+            AI-Generated
           </span>
         </div>
       </motion.div>
@@ -322,24 +322,26 @@ const PracticeSessionPage = () => {
       )}
 
       {/* Navigation Buttons */}
-      <div className="flex flex-col sm:flex-row gap-3 justify-between">
+      <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-between">
         <Button
           variant="outline"
           onClick={handlePreviousQuestion}
           disabled={currentIndex === 0}
           icon={ArrowLeft}
+          className="order-2 sm:order-1 text-sm sm:text-base py-2.5 sm:py-3"
         >
           Previous
         </Button>
 
-        <div className="flex gap-3">
+        <div className="flex gap-2 sm:gap-3 order-1 sm:order-2">
           {!showResult ? (
             <Button
               onClick={handleSubmitAnswer}
               disabled={selectedOption === null}
               icon={CheckCircle}
+              className="flex-1 sm:flex-none text-sm sm:text-base py-2.5 sm:py-3"
             >
-              Submit Answer
+              Submit
             </Button>
           ) : (
             <>
@@ -348,16 +350,17 @@ const PracticeSessionPage = () => {
                   onClick={handleNextQuestion}
                   icon={ArrowRight}
                   iconPosition="right"
+                  className="flex-1 sm:flex-none text-sm sm:text-base py-2.5 sm:py-3"
                 >
-                  Next Question
+                  Next
                 </Button>
               ) : (
                 <Button
                   onClick={handleCompleteSession}
                   isLoading={isCompleting}
-                  className="bg-green-600 hover:bg-green-700"
+                  className="flex-1 sm:flex-none bg-green-600 hover:bg-green-700 text-sm sm:text-base py-2.5 sm:py-3"
                 >
-                  Complete Practice
+                  Complete
                 </Button>
               )}
             </>

@@ -103,22 +103,22 @@ const ChatbotPage = () => {
   ];
 
   return (
-    <div className="h-[calc(100vh-12rem)] flex flex-col">
+    <div className="h-[calc(100vh-10rem)] sm:h-[calc(100vh-12rem)] flex flex-col">
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="flex items-center justify-between mb-4"
+        className="flex items-center justify-between mb-3 sm:mb-4"
       >
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-r from-primary-500 to-blue-500 flex items-center justify-center">
-            <Bot className="text-white" size={24} />
+        <div className="flex items-center gap-2 sm:gap-3">
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-r from-primary-500 to-blue-500 flex items-center justify-center">
+            <Bot className="text-white" size={20} />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-secondary-800">
+            <h1 className="text-lg sm:text-xl font-bold text-secondary-800">
               {preferredLanguage === 'or' ? 'AI ଶିକ୍ଷକ' : 'AI Tutor'}
             </h1>
-            <p className="text-sm text-secondary-500">
+            <p className="text-xs sm:text-sm text-secondary-500 hidden sm:block">
               Ask me anything about OSSC exams
             </p>
           </div>
@@ -130,8 +130,9 @@ const ChatbotPage = () => {
             size="small"
             onClick={handleClearChat}
             icon={Trash2}
+            className="text-xs sm:text-sm px-2 sm:px-3"
           >
-            Clear
+            <span className="hidden sm:inline">Clear</span>
           </Button>
         )}
       </motion.div>
@@ -139,26 +140,26 @@ const ChatbotPage = () => {
       {/* Chat Container */}
       <Card className="flex-1 flex flex-col overflow-hidden p-0">
         {/* Messages Area */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-3 sm:space-y-4 scroll-mobile">
           {messages.length === 0 ? (
-            <div className="h-full flex flex-col items-center justify-center text-center">
+            <div className="h-full flex flex-col items-center justify-center text-center px-2">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ type: 'spring', damping: 10 }}
-                className="w-20 h-20 rounded-full bg-gradient-to-r from-primary-100 to-blue-100 flex items-center justify-center mb-4"
+                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-r from-primary-100 to-blue-100 flex items-center justify-center mb-3 sm:mb-4"
               >
-                <Bot className="text-primary-600" size={40} />
+                <Bot className="text-primary-600" size={32} />
               </motion.div>
-              <h2 className="text-xl font-bold text-secondary-800 mb-2">
-                {preferredLanguage === 'or' ? 'ନମସ୍କାର! ମୁଁ ଆପଣଙ୍କ AI ଶିକ୍ଷକ' : 'Hello! I\'m your AI Tutor'}
+              <h2 className="text-lg sm:text-xl font-bold text-secondary-800 mb-1 sm:mb-2">
+                {preferredLanguage === 'or' ? 'ନମସ୍କାର!' : 'Hello! I\'m your AI Tutor'}
               </h2>
-              <p className="text-secondary-500 mb-6 max-w-md">
-                I can explain concepts, solve problems, and help you prepare for the OSSC {selectedExam} exam. Ask me anything!
+              <p className="text-xs sm:text-sm text-secondary-500 mb-4 sm:mb-6 max-w-md">
+                Ask me anything about OSSC {selectedExam} exam!
               </p>
               
               {/* Quick Questions */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-lg">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 w-full max-w-lg">
                 {quickQuestions.map((q, index) => (
                   <motion.button
                     key={index}
@@ -166,15 +167,15 @@ const ChatbotPage = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.1 }}
                     onClick={() => handleQuickQuestion(q.text)}
-                    className="p-4 bg-secondary-50 rounded-xl text-left hover:bg-secondary-100 transition-colors group"
+                    className="p-3 sm:p-4 bg-secondary-50 rounded-xl text-left hover:bg-secondary-100 active:bg-secondary-200 transition-colors group"
                   >
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 rounded-lg bg-primary-100 flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                        <q.icon className="text-primary-600" size={16} />
+                    <div className="flex items-center gap-2 sm:gap-3">
+                      <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-primary-100 flex items-center justify-center group-hover:bg-primary-200 transition-colors flex-shrink-0">
+                        <q.icon className="text-primary-600" size={14} />
                       </div>
-                      <div>
-                        <p className="text-xs text-primary-600 font-medium">{q.category}</p>
-                        <p className="text-sm text-secondary-700 line-clamp-1">{q.text}</p>
+                      <div className="min-w-0">
+                        <p className="text-[10px] sm:text-xs text-primary-600 font-medium">{q.category}</p>
+                        <p className="text-xs sm:text-sm text-secondary-700 truncate">{q.text}</p>
                       </div>
                     </div>
                   </motion.button>
@@ -253,29 +254,29 @@ const ChatbotPage = () => {
         </div>
 
         {/* Input Area */}
-        <div className="border-t border-secondary-200 p-4 bg-white">
-          <div className="flex gap-3">
+        <div className="border-t border-secondary-200 p-3 sm:p-4 bg-white safe-area-bottom">
+          <div className="flex gap-2 sm:gap-3">
             <input
               ref={inputRef}
               type="text"
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder={preferredLanguage === 'or' ? 'ଆପଣଙ୍କ ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ...' : 'Type your question...'}
-              className="flex-1 px-4 py-3 border border-secondary-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              placeholder={preferredLanguage === 'or' ? 'ପ୍ରଶ୍ନ ଲେଖନ୍ତୁ...' : 'Type your question...'}
+              className="flex-1 px-3 sm:px-4 py-2.5 sm:py-3 border border-secondary-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm sm:text-base"
               disabled={isLoading}
             />
             <Button
               onClick={handleSendMessage}
               disabled={!inputMessage.trim() || isLoading}
-              className="px-6"
+              className="px-3 sm:px-6 min-w-[48px]"
               icon={isLoading ? Loader2 : Send}
             >
-              {isLoading ? '' : 'Send'}
+              <span className="hidden sm:inline">{isLoading ? '' : 'Send'}</span>
             </Button>
           </div>
-          <p className="text-xs text-secondary-400 mt-2 text-center">
-            AI responses are generated and may not always be accurate. Verify important information.
+          <p className="text-[10px] sm:text-xs text-secondary-400 mt-2 text-center hidden sm:block">
+            AI responses are generated and may not always be accurate.
           </p>
         </div>
       </Card>

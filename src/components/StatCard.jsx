@@ -42,15 +42,15 @@ const StatCard = ({
       animate={{ opacity: 1, y: 0 }}
       className={`card ${className}`}
     >
-      <div className="flex items-start justify-between">
-        <div>
-          <p className="text-sm text-secondary-500 mb-1">{title}</p>
-          <h3 className="text-2xl font-bold text-secondary-800">{value}</h3>
+      <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0 flex-1">
+          <p className="text-xs sm:text-sm text-secondary-500 mb-0.5 sm:mb-1 truncate">{title}</p>
+          <h3 className="text-lg sm:text-2xl font-bold text-secondary-800">{value}</h3>
           {subtitle && (
-            <p className="text-sm text-secondary-500 mt-1">{subtitle}</p>
+            <p className="text-xs sm:text-sm text-secondary-500 mt-1 truncate">{subtitle}</p>
           )}
           {trend && (
-            <div className={`flex items-center gap-1 mt-2 text-sm ${
+            <div className={`flex items-center gap-1 mt-1 sm:mt-2 text-xs sm:text-sm ${
               trend === 'up' ? 'text-green-600' : 
               trend === 'down' ? 'text-red-600' : 
               'text-secondary-500'
@@ -62,8 +62,9 @@ const StatCard = ({
           )}
         </div>
         {Icon && (
-          <div className={`w-12 h-12 rounded-xl ${colorConfig.icon} flex items-center justify-center`}>
-            <Icon size={24} />
+          <div className={`w-9 h-9 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl ${colorConfig.icon} flex items-center justify-center flex-shrink-0`}>
+            <Icon size={18} className="sm:hidden" />
+            <Icon size={24} className="hidden sm:block" />
           </div>
         )}
       </div>

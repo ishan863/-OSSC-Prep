@@ -110,21 +110,23 @@ const Layout = () => {
       </aside>
 
       {/* Mobile Header */}
-      <header className="fixed top-0 left-0 right-0 bg-white border-b border-secondary-200 py-3 px-4 z-50 md:hidden">
+      <header className="fixed top-0 left-0 right-0 bg-white border-b border-secondary-200 py-3 px-3 z-50 md:hidden safe-area-top">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-lg gradient-bg flex items-center justify-center">
               <span className="text-white font-bold text-sm">RI</span>
             </div>
             <div>
-              <h1 className="font-bold text-secondary-800">OSSC Prep</h1>
+              <h1 className="font-bold text-secondary-800 text-sm">OSSC Prep</h1>
+              <p className="text-[10px] text-secondary-500">{selectedExam} Exam</p>
             </div>
           </div>
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="p-2 rounded-lg hover:bg-secondary-100"
+            className="p-2.5 rounded-lg hover:bg-secondary-100 active:bg-secondary-200 transition-colors"
+            aria-label="Toggle menu"
           >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
       </header>
@@ -189,7 +191,7 @@ const Layout = () => {
       </main>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="mobile-nav">
+      <nav className="mobile-nav safe-area-bottom">
         <div className="flex justify-around items-center">
           {navItems.slice(0, 5).map((item) => {
             const Icon = item.icon;
@@ -200,12 +202,12 @@ const Layout = () => {
                 key={item.path}
                 onClick={() => navigate(item.path)}
                 className={`
-                  flex flex-col items-center gap-1 py-1 px-3 rounded-lg
-                  ${active ? 'text-primary-600' : 'text-secondary-500'}
+                  flex flex-col items-center gap-0.5 py-1.5 px-2 rounded-lg min-w-[56px] transition-all
+                  ${active ? 'text-primary-600 bg-primary-50' : 'text-secondary-500 active:bg-secondary-100'}
                 `}
               >
-                <Icon size={20} />
-                <span className="text-xs font-medium">{item.label.split(' ')[0]}</span>
+                <Icon size={22} strokeWidth={active ? 2.5 : 2} />
+                <span className="text-[10px] sm:text-xs font-medium truncate">{item.label.split(' ')[0]}</span>
               </button>
             );
           })}

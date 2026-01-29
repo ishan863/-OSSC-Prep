@@ -18,21 +18,20 @@ const Button = ({
     primary: 'btn-primary',
     secondary: 'btn-secondary',
     outline: 'btn-outline',
-    danger: 'bg-red-600 hover:bg-red-700 text-white font-medium rounded-xl transition-all duration-200 shadow-soft hover:shadow-lg',
-    success: 'bg-green-600 hover:bg-green-700 text-white font-medium rounded-xl transition-all duration-200 shadow-soft hover:shadow-lg',
-    ghost: 'bg-transparent hover:bg-secondary-100 text-secondary-700 font-medium rounded-xl transition-all duration-200'
+    danger: 'bg-red-600 hover:bg-red-700 text-white font-medium rounded-xl transition-all duration-200 shadow-soft hover:shadow-lg active:scale-[0.98]',
+    success: 'bg-green-600 hover:bg-green-700 text-white font-medium rounded-xl transition-all duration-200 shadow-soft hover:shadow-lg active:scale-[0.98]',
+    ghost: 'bg-transparent hover:bg-secondary-100 active:bg-secondary-200 text-secondary-700 font-medium rounded-xl transition-all duration-200'
   };
 
   const sizes = {
-    small: 'py-2 px-4 text-sm',
-    default: 'py-3 px-6',
-    large: 'py-4 px-8 text-lg'
+    small: 'py-2 px-3 text-sm min-h-[40px]',
+    default: 'py-2.5 sm:py-3 px-4 sm:px-6 min-h-[44px] sm:min-h-[48px]',
+    large: 'py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg min-h-[52px]'
   };
 
   return (
     <motion.button
-      whileHover={{ scale: disabled ? 1 : 1.02 }}
-      whileTap={{ scale: disabled ? 1 : 0.98 }}
+      whileTap={{ scale: disabled ? 1 : 0.97 }}
       type={type}
       onClick={onClick}
       disabled={disabled || isLoading}
@@ -41,7 +40,7 @@ const Button = ({
         ${sizes[size]}
         ${fullWidth ? 'w-full' : ''}
         ${disabled || isLoading ? 'opacity-60 cursor-not-allowed' : ''}
-        inline-flex items-center justify-center gap-2
+        inline-flex items-center justify-center gap-1.5 sm:gap-2 touch-manipulation
         ${className}
       `}
     >
@@ -50,15 +49,15 @@ const Button = ({
           <motion.div
             animate={{ rotate: 360 }}
             transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-            className="w-5 h-5 border-2 border-current border-t-transparent rounded-full"
+            className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-current border-t-transparent rounded-full"
           />
-          <span>Loading...</span>
+          <span className="text-sm sm:text-base">Loading...</span>
         </>
       ) : (
         <>
-          {Icon && iconPosition === 'left' && <Icon size={20} />}
+          {Icon && iconPosition === 'left' && <Icon size={18} className="sm:w-5 sm:h-5 flex-shrink-0" />}
           {children}
-          {Icon && iconPosition === 'right' && <Icon size={20} />}
+          {Icon && iconPosition === 'right' && <Icon size={18} className="sm:w-5 sm:h-5 flex-shrink-0" />}
         </>
       )}
     </motion.button>

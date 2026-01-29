@@ -13,11 +13,11 @@ const Modal = ({
   showCloseButton = true
 }) => {
   const sizes = {
-    small: 'max-w-md',
-    default: 'max-w-lg',
-    large: 'max-w-2xl',
-    xl: 'max-w-4xl',
-    full: 'max-w-full mx-4'
+    small: 'max-w-sm sm:max-w-md',
+    default: 'max-w-[calc(100%-2rem)] sm:max-w-lg',
+    large: 'max-w-[calc(100%-2rem)] sm:max-w-2xl',
+    xl: 'max-w-[calc(100%-2rem)] sm:max-w-4xl',
+    full: 'max-w-[calc(100%-1rem)] sm:max-w-full sm:mx-4'
   };
 
   if (!isOpen) return null;
@@ -28,7 +28,7 @@ const Modal = ({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
+        className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-2 sm:p-4 bg-black/50"
         onClick={onClose}
       >
         <motion.div
@@ -36,17 +36,17 @@ const Modal = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
           transition={{ type: 'spring', damping: 25 }}
-          className={`bg-white rounded-2xl shadow-2xl w-full ${sizes[size]} max-h-[90vh] flex flex-col`}
+          className={`bg-white rounded-t-2xl sm:rounded-2xl shadow-2xl w-full ${sizes[size]} max-h-[85vh] sm:max-h-[90vh] flex flex-col safe-area-bottom`}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
           {(title || showCloseButton) && (
-            <div className="flex items-center justify-between p-6 border-b border-secondary-100">
-              <h2 className="text-xl font-bold text-secondary-800">{title}</h2>
+            <div className="flex items-center justify-between p-4 sm:p-6 border-b border-secondary-100">
+              <h2 className="text-lg sm:text-xl font-bold text-secondary-800">{title}</h2>
               {showCloseButton && (
                 <button
                   onClick={onClose}
-                  className="p-2 rounded-lg hover:bg-secondary-100 transition-colors"
+                  className="p-2 rounded-lg hover:bg-secondary-100 active:bg-secondary-200 transition-colors touch-manipulation"
                 >
                   <X size={20} className="text-secondary-500" />
                 </button>
@@ -55,13 +55,13 @@ const Modal = ({
           )}
 
           {/* Content */}
-          <div className="flex-1 overflow-y-auto p-6">
+          <div className="flex-1 overflow-y-auto p-4 sm:p-6 scroll-mobile">
             {children}
           </div>
 
           {/* Footer */}
           {footer && (
-            <div className="p-6 border-t border-secondary-100 flex justify-end gap-3">
+            <div className="p-4 sm:p-6 border-t border-secondary-100 flex flex-col sm:flex-row justify-end gap-2 sm:gap-3">
               {footer}
             </div>
           )}
