@@ -1,29 +1,28 @@
 // OpenRouter API Configuration
 // Updated January 2026 - Verified working FREE models
 
-// API Key - Hardcoded for production reliability
-const API_KEY = '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';
+// NEW API Key - January 30, 2026
+const API_KEY = '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';
 
 export const OPENROUTER_CONFIG = {
   baseUrl: 'https://openrouter.ai/api/v1',
-  apiKey: import.meta.env.VITE_OPENROUTER_API_KEY || API_KEY,
+  apiKey: API_KEY,
   
   // Verified working FREE models (January 2026) - Exact names from OpenRouter
   models: {
-    // Primary model - DeepSeek R1T2 Chimera (best for complex tasks)
-    primary: 'tngtech/deepseek-r1t2-chimera:free',
+    // Primary model - Meta Llama 3.3 (most stable and reliable)
+    primary: 'meta-llama/llama-3.3-70b-instruct:free',
     
     // Fallback models - verified working
     fallback: [
-      'meta-llama/llama-3.3-70b-instruct:free',   // Most stable, multilingual
       'deepseek/deepseek-r1-0528:free',           // Strong reasoning
       'nvidia/nemotron-3-nano-30b-a3b:free',      // Fast responses
       'arcee-ai/trinity-large-preview:free',      // Creative writing
       'tngtech/deepseek-r1t-chimera:free',        // Good alternative
-      'z-ai/glm-4.5-air:free'                     // GLM model
+      'tngtech/deepseek-r1t2-chimera:free'        // Complex tasks
     ],
     
-    // Specific task models
+    // Specific task models - using most reliable
     chatbot: 'meta-llama/llama-3.3-70b-instruct:free',
     explanation: 'meta-llama/llama-3.3-70b-instruct:free',
     translation: 'meta-llama/llama-3.3-70b-instruct:free',

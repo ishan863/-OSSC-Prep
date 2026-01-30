@@ -9,7 +9,8 @@ import {
   Home,
   Loader2,
   Sparkles,
-  Brain
+  Brain,
+  SkipForward
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useQuestionStore } from '../store/questionStore';
@@ -125,6 +126,22 @@ const PracticeSessionPage = () => {
     const prevAnswer = answers[questions[currentIndex - 1]?.id];
     setSelectedOption(prevAnswer?.selectedOption ?? null);
     setShowResult(!!prevAnswer);
+  };
+
+  // Skip current question without answering
+  const handleSkipQuestion = () => {
+    // Record as skipped
+    recordAnswer(currentQuestion.id, -1, false, true); // -1 = skipped
+    
+    const hasNext = nextQuestion();
+    setSelectedOption(null);
+    setShowResult(false);
+
+    if (!hasNext) {
+      handleCompleteSession();
+    } else {
+      toast('Question skipped', { icon: '⏭️' });
+    }
   };
 
   const handleCompleteSession = async () => {
@@ -299,6 +316,18 @@ const PracticeSessionPage = () => {
         </Button>
 
         <div className="flex gap-2 sm:gap-3 order-1 sm:order-2">
+          {/* Skip Button - Always visible when not submitted */}
+          {!showResult && (
+            <Button
+              variant="outline"
+              onClick={handleSkipQuestion}
+              icon={SkipForward}
+              className="text-sm sm:text-base py-2.5 sm:py-3 text-orange-600 border-orange-300 hover:bg-orange-50"
+            >
+              Skip
+            </Button>
+          )}
+          
           {!showResult ? (
             <Button
               onClick={handleSubmitAnswer}

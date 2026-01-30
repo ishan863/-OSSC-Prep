@@ -87,14 +87,15 @@ export const usePracticeStore = create((set, get) => ({
     return session;
   },
 
-  // Record an answer
-  recordAnswer: (questionId, selectedOption, isCorrect, timeSpent = 0) => {
+  // Record an answer (supports skipped questions)
+  recordAnswer: (questionId, selectedOption, isCorrect, skipped = false, timeSpent = 0) => {
     const { answers, attempts } = get();
     
     const newAnswer = {
       questionId,
       selectedOption,
-      isCorrect,
+      isCorrect: skipped ? false : isCorrect,
+      skipped,
       timeSpent,
       answeredAt: new Date().toISOString()
     };

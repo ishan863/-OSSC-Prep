@@ -57,15 +57,39 @@ export const useQuestionStore = create(
         try {
           const { exam, subject, topic, difficulty, count = 10, language = 'en' } = params;
           
-          // Generate questions using AI
-          const generatedQuestions = await generateQuestions({
-            exam,
-            subject,
-            topic,
-            difficulty,
-            count,
-            language
-          });
+          // Generate questions using AI (will fallback internally if API fails)
+          let generatedQuestions = [];
+          try {
+            generatedQuestions = await generateQuestions({
+              exam,
+              subject,
+              topic,
+              difficulty,
+              count,
+              language
+            });
+          } catch (aiError) {
+            console.warn('AI generation failed, questions should be fallback:', aiError);
+          }
+
+          // Ensure we always have questions (use saved ones if generation completely fails)
+          if (!generatedQuestions || generatedQuestions.length === 0) {
+            console.log('📦 No questions from AI, using saved questions...');
+            const { savedQuestions } = get();
+            const matchingSaved = savedQuestions.filter(q => 
+              q.subject === subject || q.exam === exam
+            );
+            
+            if (matchingSaved.length >= count) {
+              generatedQuestions = matchingSaved
+                .sort(() => Math.random() - 0.5)
+                .slice(0, count);
+            } else {
+              // Return error only if no saved questions either
+              set({ isGenerating: false, error: 'No questions available' });
+              throw new Error('No questions available');
+            }
+          }
 
           // Filter out any duplicate questions
           const askedCache = getAskedQuestionsCache();
@@ -74,9 +98,12 @@ export const useQuestionStore = create(
             return !askedCache.includes(hash);
           });
 
+          // Use all questions if filtering removed too many
+          const finalQuestions = uniqueQuestions.length >= 3 ? uniqueQuestions : generatedQuestions;
+
           // Add IDs locally (don't wait for Firestore)
-          const questionsWithIds = uniqueQuestions.map((q, index) => ({
-            id: `q_${Date.now()}_${index}`,
+          const questionsWithIds = finalQuestions.map((q, index) => ({
+            id: q.id || `q_${Date.now()}_${index}`,
             ...q,
             exam,
             subject,
@@ -84,7 +111,7 @@ export const useQuestionStore = create(
             difficulty,
             language,
             createdAt: new Date().toISOString(),
-            source: 'AI-Generated'
+            source: q.source || 'AI-Generated'
           }));
 
           // Save to cache to prevent future repeats
