@@ -1,54 +1,50 @@
 // OpenRouter API Configuration
-// Updated January 2026 - Optimized for speed with parallel model racing
+// Updated January 2026 - Verified working FREE models
+
+// API Key - Hardcoded for production reliability
+const API_KEY = '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';
 
 export const OPENROUTER_CONFIG = {
   baseUrl: 'https://openrouter.ai/api/v1',
-  apiKey: import.meta.env.VITE_OPENROUTER_API_KEY || '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',
+  apiKey: import.meta.env.VITE_OPENROUTER_API_KEY || API_KEY,
   
-  // Verified working FREE models (January 2026)
+  // Verified working FREE models (January 2026) - Exact names from OpenRouter
   models: {
-    // Primary model for question generation - DeepSeek R1T2 Chimera (Best for complex tasks)
+    // Primary model - DeepSeek R1T2 Chimera (best for complex tasks)
     primary: 'tngtech/deepseek-r1t2-chimera:free',
     
-    // Fallback models for reliability - ordered by speed/quality
+    // Fallback models - verified working
     fallback: [
-      'zhipu-ai/glm-4-air:free',              // GLM 4.5 Air - Best for explanations
-      'deepseek/deepseek-r1-0528:free',       // DeepSeek R1 - Strong reasoning
-      'meta-llama/llama-3.3-70b-instruct:free', // Llama 3.3 - Multilingual
-      'google/gemma-3-4b-it:free',            // Gemma 3 - Fast responses
-      'microsoft/phi-4:free',                  // Phi-4 - Efficient
-      'qwen/qwen-2.5-7b-instruct:free'        // Qwen 2.5 - Good quality
+      'meta-llama/llama-3.3-70b-instruct:free',   // Most stable, multilingual
+      'deepseek/deepseek-r1-0528:free',           // Strong reasoning
+      'nvidia/nemotron-3-nano-30b-a3b:free',      // Fast responses
+      'arcee-ai/trinity-large-preview:free',      // Creative writing
+      'tngtech/deepseek-r1t-chimera:free',        // Good alternative
+      'z-ai/glm-4.5-air:free'                     // GLM model
     ],
     
-    // Model for chatbot - DeepSeek R1T2 (Best conversational)
-    chatbot: 'tngtech/deepseek-r1t2-chimera:free',
-    
-    // Model for explanations - GLM 4.5 Air (Clear explanations)
-    explanation: 'zhipu-ai/glm-4-air:free',
-    
-    // Model for translations (English ↔ Odia)
-    translation: 'zhipu-ai/glm-4-air:free',
-    
-    // Fast model for quick responses
-    fast: 'google/gemma-3-4b-it:free'
+    // Specific task models
+    chatbot: 'meta-llama/llama-3.3-70b-instruct:free',
+    explanation: 'meta-llama/llama-3.3-70b-instruct:free',
+    translation: 'meta-llama/llama-3.3-70b-instruct:free',
+    fast: 'nvidia/nemotron-3-nano-30b-a3b:free'
   },
   
   // Parallel request models - Race these for fastest response
   parallelModels: [
-    'tngtech/deepseek-r1t2-chimera:free',
-    'zhipu-ai/glm-4-air:free',
+    'meta-llama/llama-3.3-70b-instruct:free',
     'deepseek/deepseek-r1-0528:free',
-    'meta-llama/llama-3.3-70b-instruct:free'
+    'nvidia/nemotron-3-nano-30b-a3b:free'
   ],
   
-  // Default parameters - Optimized for question generation
+  // Default parameters
   defaultParams: {
     temperature: 0.7,
     max_tokens: 6000,
     top_p: 0.95
   },
   
-  // Rate limiting (requests per minute) - Adjusted for parallel requests
+  // Rate limiting
   rateLimit: {
     requestsPerMinute: 30,
     retryDelay: 1500,

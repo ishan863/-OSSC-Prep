@@ -651,7 +651,7 @@ export const generateDailyTest = async (params) => {
   return allQuestions.sort(() => Math.random() - 0.5).slice(0, questionCount);
 };
 
-// AI Chatbot - Uses DeepSeek R1T2 Chimera for best conversational responses
+// AI Chatbot - Uses Llama 3.3 for best stability
 export const sendChatMessage = async (params) => {
   const { message, examType = 'RI', language = 'en', conversationHistory = [] } = params;
   
@@ -668,7 +668,7 @@ Your role:
 Language: ${language === 'or' ? 'Respond in Odia when appropriate' : 'Respond in English'}`;
 
   try {
-    // Use specific chatbot model
+    // Use Llama 3.3 for stability
     const model = OPENROUTER_CONFIG.models.chatbot;
     
     const response = await axios.post(
@@ -700,25 +700,18 @@ Language: ${language === 'or' ? 'Respond in Odia when appropriate' : 'Respond in
     throw new Error('Empty response');
   } catch (error) {
     console.error('Chatbot error:', error.message);
-    // Try fallback model
-    try {
-      const response = await makeAIRequest([
-        { role: 'system', content: systemPrompt },
-        ...conversationHistory.slice(-5).map(msg => ({
-          role: msg.role,
-          content: msg.content
-        })),
-        { role: 'user', content: message }
-      ], { temperature: 0.7, maxTokens: 1000 });
-      
-      return response;
-    } catch (e) {
-      return 'I apologize, but I\'m temporarily unavailable. Please try again in a moment. In the meantime, you can practice with our question bank!';
-    }
+    // Return helpful fallback message
+    return `I'm here to help you prepare for the OSSC ${examType} exam! While I'm having a brief connection issue, here are some tips:
+
+1. **Focus on key subjects**: Reasoning, English, Math, and Odisha GK
+2. **Practice daily**: Use our question bank regularly
+3. **Review explanations**: Learn from both correct and incorrect answers
+
+Please try your question again in a moment!`;
   }
 };
 
-// Translate text - Uses GLM 4.5 Air for language translation
+// Translate text - Uses Llama 3.3 for language translation
 export const translateText = async (params) => {
   const { text, fromLanguage = 'en', toLanguage = 'or' } = params;
   
@@ -749,7 +742,7 @@ export const translateText = async (params) => {
   }
 };
 
-// Generate explanation - Uses GLM 4.5 Air for clear explanations
+// Generate explanation - Uses Llama 3.3 for clear explanations
 export const generateExplanation = async (params) => {
   const { question, options, correctAnswer, language = 'en' } = params;
   
