@@ -38,6 +38,37 @@ const saveAskedQuestionsCache = (questions) => {
   }
 };
 
+// Emergency fallback questions - ALWAYS works even when everything else fails
+const createEmergencyQuestions = (count, exam, subject, topic, difficulty) => {
+  const emergencyBank = [
+    { question: 'Which river is known as the "Sorrow of Odisha"?', options: ['Mahanadi', 'Brahmani', 'Baitarani', 'Rushikulya'], correctAnswer: 0, explanation: 'Mahanadi is called the Sorrow of Odisha due to frequent floods.' },
+    { question: 'If COMPUTER is coded as RFUVQNPC, how will PRINTER be coded?', options: ['QSJOUFQ', 'SFUOJSQ', 'QSFUOJS', 'OSJUSQF'], correctAnswer: 1, explanation: 'Each letter is shifted by its position in the word and then reversed.' },
+    { question: 'If 40% of a number is 64, what is 75% of that number?', options: ['100', '120', '140', '160'], correctAnswer: 1, explanation: 'If 40% = 64, then 100% = 160. So 75% of 160 = 120.' },
+    { question: 'Choose the correct synonym of "ELOQUENT":', options: ['Silent', 'Articulate', 'Confused', 'Hesitant'], correctAnswer: 1, explanation: 'Eloquent means fluent or persuasive. Articulate is the closest synonym.' },
+    { question: 'Which shortcut key is used to copy selected text?', options: ['Ctrl + V', 'Ctrl + X', 'Ctrl + C', 'Ctrl + P'], correctAnswer: 2, explanation: 'Ctrl + C is the universal shortcut for copying selected content.' },
+    { question: 'The Jagannath Temple at Puri was built by which ruler?', options: ['Anantavarman Chodaganga', 'Narasimhadeva I', 'Kapilendra Deva', 'Mukunda Deva'], correctAnswer: 0, explanation: 'Anantavarman Chodaganga of the Eastern Ganga dynasty built the temple in 12th century.' },
+    { question: 'Find the odd one out: 2, 5, 10, 17, 26, 37, 50, 64', options: ['17', '37', '50', '64'], correctAnswer: 3, explanation: 'The pattern is n² + 1. 64 does not follow this pattern (should be 65).' },
+    { question: 'The ratio of two numbers is 3:4. If their HCF is 5, what is their LCM?', options: ['45', '60', '75', '90'], correctAnswer: 1, explanation: 'Numbers are 15 and 20. LCM = (15 × 20) / 5 = 60.' },
+    { question: 'One who speaks many languages is called:', options: ['Linguist', 'Polyglot', 'Grammarian', 'Orator'], correctAnswer: 1, explanation: 'Polyglot specifically means a person who knows several languages.' },
+    { question: 'What does CPU stand for?', options: ['Central Processing Unit', 'Central Program Unit', 'Computer Processing Unit', 'Central Processor Utility'], correctAnswer: 0, explanation: 'CPU stands for Central Processing Unit, the brain of the computer.' },
+    { question: 'Odisha became a separate state on which date?', options: ['1st April 1936', '26th January 1950', '15th August 1947', '1st November 1956'], correctAnswer: 0, explanation: 'Odisha (then Orissa) became a separate province on 1st April 1936.' },
+    { question: 'Complete the series: 2, 6, 12, 20, 30, ?', options: ['40', '42', '44', '46'], correctAnswer: 1, explanation: 'Pattern: +4, +6, +8, +10, +12. So 30 + 12 = 42.' },
+  ];
+
+  const shuffled = [...emergencyBank].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length)).map((q, idx) => ({
+    id: `emergency_${Date.now()}_${idx}`,
+    ...q,
+    exam,
+    subject,
+    topic,
+    difficulty,
+    language: 'en',
+    source: 'Emergency Fallback',
+    generatedAt: new Date().toISOString()
+  }));
+};
+
 // Questions Store - Manages question generation and storage
 export const useQuestionStore = create(
   persist(
@@ -54,94 +85,82 @@ export const useQuestionStore = create(
       generateNewQuestions: async (params) => {
         set({ isGenerating: true, error: null });
         
+        const { exam, subject, topic, difficulty, count = 10, language = 'en' } = params;
+        
+        let generatedQuestions = [];
+        
         try {
-          const { exam, subject, topic, difficulty, count = 10, language = 'en' } = params;
-          
           // Generate questions using AI (will fallback internally if API fails)
-          let generatedQuestions = [];
-          try {
-            generatedQuestions = await generateQuestions({
-              exam,
-              subject,
-              topic,
-              difficulty,
-              count,
-              language
-            });
-          } catch (aiError) {
-            console.warn('AI generation failed, questions should be fallback:', aiError);
-          }
-
-          // Ensure we always have questions (use saved ones if generation completely fails)
-          if (!generatedQuestions || generatedQuestions.length === 0) {
-            console.log('📦 No questions from AI, using saved questions...');
-            const { savedQuestions } = get();
-            const matchingSaved = savedQuestions.filter(q => 
-              q.subject === subject || q.exam === exam
-            );
-            
-            if (matchingSaved.length >= count) {
-              generatedQuestions = matchingSaved
-                .sort(() => Math.random() - 0.5)
-                .slice(0, count);
-            } else {
-              // Return error only if no saved questions either
-              set({ isGenerating: false, error: 'No questions available' });
-              throw new Error('No questions available');
-            }
-          }
-
-          // Filter out any duplicate questions
-          const askedCache = getAskedQuestionsCache();
-          const uniqueQuestions = generatedQuestions.filter(q => {
-            const hash = q.question.substring(0, 50).toLowerCase();
-            return !askedCache.includes(hash);
-          });
-
-          // Use all questions if filtering removed too many
-          const finalQuestions = uniqueQuestions.length >= 3 ? uniqueQuestions : generatedQuestions;
-
-          // Add IDs locally (don't wait for Firestore)
-          const questionsWithIds = finalQuestions.map((q, index) => ({
-            id: q.id || `q_${Date.now()}_${index}`,
-            ...q,
+          generatedQuestions = await generateQuestions({
             exam,
             subject,
             topic,
             difficulty,
-            language,
-            createdAt: new Date().toISOString(),
-            source: q.source || 'AI-Generated'
-          }));
-
-          // Save to cache to prevent future repeats
-          saveAskedQuestionsCache(questionsWithIds);
-
-          // Save to local storage for offline access
-          const { savedQuestions } = get();
-          const updatedSaved = [...savedQuestions, ...questionsWithIds].slice(-200); // Keep last 200
-
-          set({ 
-            questions: questionsWithIds, 
-            savedQuestions: updatedSaved,
-            currentIndex: 0,
-            currentQuestion: questionsWithIds[0] || null,
-            isGenerating: false 
-          });
-
-          // Save to Firestore in background (non-blocking)
-          questionsWithIds.forEach(q => {
-            addDoc(collection(db, 'questions'), q).catch(e => 
-              console.warn('Firestore save failed:', e)
-            );
+            count,
+            language
           });
           
-          return questionsWithIds;
-        } catch (error) {
-          console.error('Question generation error:', error);
-          set({ isGenerating: false, error: error.message });
-          throw error;
+          console.log(`✅ Got ${generatedQuestions?.length || 0} questions from generateQuestions`);
+        } catch (aiError) {
+          console.warn('generateQuestions threw error:', aiError.message);
         }
+
+        // GUARANTEED: If still no questions, use any saved questions
+        if (!generatedQuestions || generatedQuestions.length === 0) {
+          console.log('📦 Using saved questions as last resort...');
+          const { savedQuestions } = get();
+          
+          if (savedQuestions.length > 0) {
+            generatedQuestions = savedQuestions
+              .sort(() => Math.random() - 0.5)
+              .slice(0, count);
+            console.log(`📦 Using ${generatedQuestions.length} saved questions`);
+          }
+        }
+
+        // FINAL SAFETY: If still no questions, create minimal fallback
+        if (!generatedQuestions || generatedQuestions.length === 0) {
+          console.log('🆘 Creating emergency fallback questions');
+          generatedQuestions = createEmergencyQuestions(count, exam, subject, topic, difficulty);
+        }
+
+        // Process questions
+        const finalQuestions = generatedQuestions.map((q, index) => ({
+          id: q.id || `q_${Date.now()}_${index}`,
+          ...q,
+          exam: q.exam || exam,
+          subject: q.subject || subject,
+          topic: q.topic || topic,
+          difficulty: q.difficulty || difficulty,
+          language: q.language || language,
+          createdAt: q.createdAt || new Date().toISOString(),
+          source: q.source || 'Fallback'
+        }));
+
+        // Save to cache
+        saveAskedQuestionsCache(finalQuestions);
+
+        // Save to local storage for offline access
+        const { savedQuestions } = get();
+        const updatedSaved = [...savedQuestions, ...finalQuestions].slice(-200);
+
+        set({ 
+          questions: finalQuestions, 
+          savedQuestions: updatedSaved,
+          currentIndex: 0,
+          currentQuestion: finalQuestions[0] || null,
+          isGenerating: false,
+          error: null
+        });
+
+        // Save to Firestore in background (non-blocking)
+        finalQuestions.forEach(q => {
+          addDoc(collection(db, 'questions'), q).catch(e => 
+            console.warn('Firestore save failed:', e)
+          );
+        });
+        
+        return finalQuestions;
       },
 
   // Fetch existing questions from Firestore

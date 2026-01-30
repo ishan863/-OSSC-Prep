@@ -347,16 +347,20 @@ export const generateQuestions = async (params, onProgress = null) => {
   const topicInfo = getTopicById(exam, topic);
   const subjectInfo = getSubjectById(exam, subject);
   
+  // ALWAYS prepare fallback questions first as safety net
+  const fallbackQuestions = generateFallbackQuestions(params);
+  console.log(`📦 Prepared ${fallbackQuestions.length} fallback questions as safety net`);
+  
   // Check if we should skip AI (too many failures)
   if (shouldUseFallbackDirectly()) {
     console.log('⚡ Using fallback questions immediately (API issues)');
-    return generateFallbackQuestions(params);
+    return fallbackQuestions;
   }
   
   // Check if API is configured
   if (!isAPIConfigured()) {
     console.log('⚠️ API key not configured, using fallback questions');
-    return generateFallbackQuestions(params);
+    return fallbackQuestions;
   }
   
   const languageInstruction = language === 'or' 
@@ -365,7 +369,12 @@ export const generateQuestions = async (params, onProgress = null) => {
 
   // For large counts (>20), batch the requests
   if (count > 20) {
-    return generateLargeBatch(params, onProgress);
+    try {
+      return await generateLargeBatch(params, onProgress);
+    } catch (e) {
+      console.log('Large batch failed, using fallback');
+      return fallbackQuestions;
+    }
   }
 
   const systemPrompt = `You are an expert OSSC ${exam} exam question generator.
@@ -401,10 +410,10 @@ IMPORTANT: Return ONLY valid JSON in this exact format:
     
     if (questions.length === 0) {
       console.warn('AI returned no questions, using fallback');
-      return generateFallbackQuestions(params);
+      return fallbackQuestions;
     }
     
-    console.log(`✅ Successfully generated ${questions.length} questions`);
+    console.log(`✅ Successfully generated ${questions.length} AI questions`);
     if (onProgress) onProgress(100);
     
     // Validate and clean questions
@@ -441,8 +450,9 @@ IMPORTANT: Return ONLY valid JSON in this exact format:
     });
   } catch (error) {
     console.error('Generate questions error:', error.message);
-    console.log('📦 Using fallback questions...');
-    return generateFallbackQuestions(params);
+    console.log('📦 Returning fallback questions...');
+    // ALWAYS return fallback - never throw
+    return fallbackQuestions;
   }
 };
 
