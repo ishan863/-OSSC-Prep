@@ -1,6 +1,6 @@
 // Components barrel export
 export { default as Layout } from './Layout';
-export { default as LoadingScreen } from './LoadingScreen';
+export { default as LoadingScreen, AIGeneratingLoader } from './LoadingScreen';
 export { default as QuestionCard } from './QuestionCard';
 export { default as Timer } from './Timer';
 export { default as ProgressBar } from './ProgressBar';

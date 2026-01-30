@@ -1,19 +1,22 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ArrowLeft, 
   ArrowRight, 
   CheckCircle,
   RotateCcw,
   Home,
-  Loader2
+  Loader2,
+  Sparkles,
+  Brain
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useQuestionStore } from '../store/questionStore';
 import { usePracticeStore } from '../store/practiceStore';
-import { QuestionCard, Button, ProgressBar, Card, Modal } from '../components';
+import { QuestionCard, Button, ProgressBar, Card, Modal, AIGeneratingLoader } from '../components';
 import { getTopicById, getSubjectById } from '../data/syllabus';
+import { fireConfetti } from '../utils/animations';
 import toast from 'react-hot-toast';
 
 const PracticeSessionPage = () => {
@@ -99,9 +102,10 @@ const PracticeSessionPage = () => {
     setShowResult(true);
 
     if (isCorrect) {
-      toast.success('Correct! 🎉');
+      fireConfetti.success();
+      toast.success('Correct! 🎉', { icon: '✅' });
     } else {
-      toast.error('Incorrect. Check the explanation.');
+      toast.error('Incorrect. Check the explanation.', { icon: '❌' });
     }
   };
 
@@ -197,50 +201,11 @@ const PracticeSessionPage = () => {
 
   if (isGenerating && questions.length === 0) {
     return (
-      <div className="min-h-[60vh] flex items-center justify-center">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="text-center max-w-md w-full px-6"
-        >
-          {/* AI Icon */}
-          <div className="relative mb-6">
-            <div className="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl mx-auto flex items-center justify-center shadow-lg">
-              <Loader2 className="w-10 h-10 text-white animate-spin" />
-            </div>
-            <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-md animate-pulse">
-              <span className="text-white text-xs font-bold">AI</span>
-            </div>
-          </div>
-
-          <h2 className="text-2xl font-bold text-secondary-800 mb-2">
-            Generating Questions...
-          </h2>
-          <p className="text-secondary-500 mb-6">
-            {generationStatus}
-          </p>
-
-          {/* Progress Bar */}
-          <div className="w-full bg-secondary-100 rounded-full h-3 mb-3 overflow-hidden">
-            <motion.div
-              className="h-full bg-gradient-to-r from-primary-500 to-primary-600 rounded-full"
-              initial={{ width: 0 }}
-              animate={{ width: `${generationProgress}%` }}
-              transition={{ duration: 0.5, ease: "easeOut" }}
-            />
-          </div>
-          <p className="text-sm text-secondary-400">
-            {generationProgress}% Complete
-          </p>
-
-          {/* Tips */}
-          <div className="mt-8 p-4 bg-primary-50 rounded-xl border border-primary-100">
-            <p className="text-sm text-primary-700">
-              💡 <strong>Tip:</strong> Questions are generated based on OSSC syllabus for {topicInfo?.name || topic}
-            </p>
-          </div>
-        </motion.div>
-      </div>
+      <AIGeneratingLoader
+        progress={generationProgress}
+        status={generationStatus}
+        topicName={topicInfo?.name || topic}
+      />
     );
   }
 

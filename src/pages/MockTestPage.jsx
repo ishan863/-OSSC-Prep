@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Award, 
   Clock, 
@@ -8,13 +8,17 @@ import {
   History,
   Target,
   AlertTriangle,
-  Loader2
+  Loader2,
+  Sparkles,
+  Brain,
+  Zap
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useMockTestStore } from '../store/mockTestStore';
 import { usePracticeStore } from '../store/practiceStore';
 import { Card, Button, Modal } from '../components';
 import { getSyllabus } from '../data/syllabus';
+import { fireConfetti } from '../utils/animations';
 import toast from 'react-hot-toast';
 
 const MockTestPage = () => {
@@ -26,12 +30,41 @@ const MockTestPage = () => {
   const [showStartModal, setShowStartModal] = useState(false);
   const [previousTests, setPreviousTests] = useState([]);
   const [isLoadingHistory, setIsLoadingHistory] = useState(true);
+  const [generationProgress, setGenerationProgress] = useState(0);
+  const [generationStatus, setGenerationStatus] = useState('');
   
   const syllabus = getSyllabus(selectedExam);
 
   useEffect(() => {
     loadPreviousTests();
   }, [user?.id]);
+
+  // Simulate progress during generation
+  useEffect(() => {
+    if (isLoading) {
+      setGenerationProgress(0);
+      setGenerationStatus('Initializing AI models...');
+      
+      const progressSteps = [
+        { progress: 10, status: 'Connected to AI...', delay: 1000 },
+        { progress: 25, status: 'Generating Reasoning questions...', delay: 3000 },
+        { progress: 40, status: 'Generating Quantitative questions...', delay: 8000 },
+        { progress: 55, status: 'Generating English questions...', delay: 15000 },
+        { progress: 70, status: 'Generating General Knowledge questions...', delay: 22000 },
+        { progress: 85, status: 'Generating Odia Language questions...', delay: 30000 },
+        { progress: 95, status: 'Finalizing mock test...', delay: 40000 },
+      ];
+      
+      const timeouts = progressSteps.map(step => 
+        setTimeout(() => {
+          setGenerationProgress(step.progress);
+          setGenerationStatus(step.status);
+        }, step.delay)
+      );
+      
+      return () => timeouts.forEach(clearTimeout);
+    }
+  }, [isLoading]);
 
   const loadPreviousTests = async () => {
     if (!user?.id) return;
@@ -46,17 +79,25 @@ const MockTestPage = () => {
   };
 
   const handleStartTest = async () => {
+    setShowStartModal(false);
     try {
+      toast.loading('Generating 100 questions...', { id: 'mock-gen' });
+      
       const test = await generateMockTest({
         exam: selectedExam,
         userId: user?.id,
         language: preferredLanguage
       });
       
-      toast.success('Mock test generated! Good luck!');
-      navigate(`/mock-test/${test.id}`);
+      toast.success(`Mock test ready with ${test.questionsData?.length || 100} questions!`, { id: 'mock-gen' });
+      fireConfetti.stars();
+      
+      // Small delay for celebration
+      setTimeout(() => {
+        navigate(`/mock-test/${test.id}`);
+      }, 500);
     } catch (error) {
-      toast.error('Failed to generate mock test. Please try again.');
+      toast.error('Failed to generate mock test. Please try again.', { id: 'mock-gen' });
       console.error('Generate mock test error:', error);
     }
   };

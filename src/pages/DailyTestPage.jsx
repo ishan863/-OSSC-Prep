@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Calendar, 
   Clock, 
@@ -8,12 +8,16 @@ import {
   CheckCircle,
   Target,
   Zap,
-  Loader2
+  Loader2,
+  Sparkles,
+  TrendingUp,
+  Brain
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useMockTestStore } from '../store/mockTestStore';
 import { usePracticeStore } from '../store/practiceStore';
 import { Card, Button } from '../components';
+import { fireConfetti } from '../utils/animations';
 import toast from 'react-hot-toast';
 
 const DailyTestPage = () => {
@@ -85,6 +89,8 @@ const DailyTestPage = () => {
 
   const handleStartTest = async () => {
     try {
+      toast.loading('Generating your personalized daily test...', { id: 'daily-gen' });
+      
       const weakTopics = await getWeakTopics(user?.id);
       
       const test = await generateDailyTest({
@@ -94,10 +100,11 @@ const DailyTestPage = () => {
         weakTopics
       });
       
-      toast.success('Daily test generated! Let\'s go!');
+      toast.success('Daily test ready! Let\'s go! 🚀', { id: 'daily-gen' });
+      fireConfetti.success();
       navigate(`/mock-test/${test.id}`);
     } catch (error) {
-      toast.error('Failed to generate daily test. Please try again.');
+      toast.error('Failed to generate daily test. Please try again.', { id: 'daily-gen' });
       console.error('Generate daily test error:', error);
     }
   };

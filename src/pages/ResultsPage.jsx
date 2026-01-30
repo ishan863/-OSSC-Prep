@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Trophy, 
   Target, 
@@ -13,11 +13,13 @@ import {
   Home,
   Loader2,
   Eye,
-  AlertTriangle
+  AlertTriangle,
+  Sparkles
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { usePracticeStore } from '../store/practiceStore';
 import { Card, Button, QuestionCard, Modal } from '../components';
+import { fireConfetti } from '../utils/animations';
 
 const ResultsPage = () => {
   const { sessionId } = useParams();
@@ -34,6 +36,20 @@ const ResultsPage = () => {
   useEffect(() => {
     loadResults();
   }, [sessionId]);
+
+  // Celebration effect when results load
+  useEffect(() => {
+    if (results && percentage >= 60) {
+      // Delay for dramatic effect
+      setTimeout(() => {
+        if (percentage >= 80) {
+          fireConfetti.celebration();
+        } else if (percentage >= 60) {
+          fireConfetti.stars();
+        }
+      }, 500);
+    }
+  }, [results]);
 
   const loadResults = async () => {
     try {
