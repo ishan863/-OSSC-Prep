@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
@@ -14,10 +14,23 @@ import {
   Moon,
   Bell,
   Shield,
-  HelpCircle
+  HelpCircle,
+  Key,
+  Check,
+  X,
+  Eye,
+  EyeOff,
+  ExternalLink,
+  Loader2,
+  AlertCircle,
+  CheckCircle,
+  Zap,
+  RefreshCw
 } from 'lucide-react';
+import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
-import { Card, Button, Modal } from '../components';
+import { Card, Button, Modal, Input } from '../components';
+import { saveAPIKey, clearAPIKey, OPENROUTER_CONFIG, isAPIConfigured, getOpenRouterHeaders } from '../config/openrouter.config';
 import toast from 'react-hot-toast';
 
 const ProfilePage = () => {
@@ -32,6 +45,124 @@ const ProfilePage = () => {
   
   const [showLogoutModal, setShowLogoutModal] = useState(false);
   const [showLanguageModal, setShowLanguageModal] = useState(false);
+  const [showAPIModal, setShowAPIModal] = useState(false);
+  const [apiKey, setApiKey] = useState('');
+  const [showApiKey, setShowApiKey] = useState(false);
+  const [hasApiKey, setHasApiKey] = useState(false);
+  
+  // API Testing states
+  const [isTestingAPI, setIsTestingAPI] = useState(false);
+  const [apiTestResult, setApiTestResult] = useState(null); // 'success' | 'error' | null
+  const [apiTestMessage, setApiTestMessage] = useState('');
+  const [apiCredits, setApiCredits] = useState(null);
+
+  // Check if API key exists on load
+  useEffect(() => {
+    const storedKey = localStorage.getItem('openrouter_api_key');
+    setHasApiKey(!!storedKey && storedKey.length > 10);
+    if (storedKey) {
+      setApiKey(storedKey);
+    }
+  }, []);
+
+  const handleSaveAPIKey = () => {
+    if (apiKey && apiKey.startsWith('sk-or-') && apiKey.length > 20) {
+      saveAPIKey(apiKey);
+      setHasApiKey(true);
+      setApiTestResult(null);
+      setApiTestMessage('');
+      toast.success('API Key saved! Click "Test API" to verify.');
+    } else {
+      toast.error('Invalid API key. It should start with sk-or-');
+    }
+  };
+
+  const handleClearAPIKey = () => {
+    clearAPIKey();
+    setApiKey('');
+    setHasApiKey(false);
+    setApiTestResult(null);
+    setApiTestMessage('');
+    setApiCredits(null);
+    toast.success('API Key removed');
+  };
+
+  // Test API Key function
+  const testAPIKey = async () => {
+    if (!apiKey || apiKey.length < 20) {
+      toast.error('Please enter an API key first');
+      return;
+    }
+
+    setIsTestingAPI(true);
+    setApiTestResult(null);
+    setApiTestMessage('Testing connection...');
+
+    try {
+      // First, save the key temporarily for testing
+      saveAPIKey(apiKey);
+      
+      // Test with a simple API call
+      const response = await axios.post(
+        `${OPENROUTER_CONFIG.baseUrl}/chat/completions`,
+        {
+          model: 'meta-llama/llama-3.3-70b-instruct:free',
+          messages: [
+            { role: 'user', content: 'Say "API working" in exactly 2 words.' }
+          ],
+          max_tokens: 10,
+          temperature: 0
+        },
+        {
+          headers: getOpenRouterHeaders(),
+          timeout: 30000
+        }
+      );
+
+      if (response.data?.choices?.[0]?.message?.content) {
+        setApiTestResult('success');
+        setApiTestMessage('API key is valid and working!');
+        setHasApiKey(true);
+        
+        // Try to get credits/usage info
+        try {
+          const creditsResponse = await axios.get(
+            'https://openrouter.ai/api/v1/auth/key',
+            { headers: getOpenRouterHeaders() }
+          );
+          if (creditsResponse.data) {
+            setApiCredits(creditsResponse.data);
+          }
+        } catch (e) {
+          // Credits info not available, that's okay
+        }
+        
+        toast.success('✅ API key verified successfully!');
+      } else {
+        throw new Error('Invalid response from API');
+      }
+    } catch (error) {
+      setApiTestResult('error');
+      const status = error.response?.status;
+      const errorMsg = error.response?.data?.error?.message || error.message;
+      
+      if (status === 401) {
+        setApiTestMessage('Invalid API key. Please check and try again.');
+      } else if (status === 402) {
+        setApiTestMessage('API key has no credits. Get a free key from OpenRouter.');
+      } else if (status === 429) {
+        setApiTestMessage('Rate limited. Please wait a moment and try again.');
+      } else if (error.code === 'ECONNABORTED') {
+        setApiTestMessage('Connection timeout. Check your internet connection.');
+      } else {
+        setApiTestMessage(`Error: ${errorMsg}`);
+      }
+      
+      toast.error('API test failed. Check the error message.');
+    } finally {
+      setIsTestingAPI(false);
+    }
+  };
 
   const handleLogout = () => {
     logout();
@@ -64,25 +195,25 @@ const ProfilePage = () => {
       icon: Bell,
       title: 'Notifications',
       subtitle: 'Daily reminders',
-      onClick: () => toast.info('Coming soon!')
+      onClick: () => toast('Coming soon!', { icon: '🔔' })
     },
     {
       icon: Moon,
       title: 'Dark Mode',
       subtitle: 'Coming soon',
-      onClick: () => toast.info('Dark mode coming soon!')
+      onClick: () => toast('Dark mode coming soon!', { icon: '🌙' })
     },
     {
       icon: Shield,
       title: 'Privacy',
       subtitle: 'Manage your data',
-      onClick: () => toast.info('Privacy settings coming soon!')
+      onClick: () => toast('Privacy settings coming soon!', { icon: '🔒' })
     },
     {
       icon: HelpCircle,
       title: 'Help & Support',
       subtitle: 'FAQs and contact',
-      onClick: () => toast.info('Help center coming soon!')
+      onClick: () => toast('Help center coming soon!', { icon: '❓' })
     }
   ];
 
@@ -169,6 +300,58 @@ const ProfilePage = () => {
           <p className="text-sm text-secondary-500">Study Time</p>
         </Card>
       </div>
+
+      {/* AI API Settings - Prominent Card */}
+      <Card className={`border-2 ${hasApiKey ? 'border-green-200 bg-green-50/30' : 'border-primary-200 bg-primary-50/30'}`}>
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex items-start gap-4">
+            <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${hasApiKey ? 'bg-green-100' : 'bg-primary-100'}`}>
+              <Key className={hasApiKey ? 'text-green-600' : 'text-primary-600'} size={24} />
+            </div>
+            <div>
+              <div className="flex items-center gap-2 mb-1">
+                <h3 className="font-bold text-secondary-800">AI API Configuration</h3>
+                {hasApiKey ? (
+                  <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs font-medium rounded-full flex items-center gap-1">
+                    <CheckCircle size={12} /> Connected
+                  </span>
+                ) : (
+                  <span className="px-2 py-0.5 bg-yellow-100 text-yellow-700 text-xs font-medium rounded-full flex items-center gap-1">
+                    <AlertCircle size={12} /> Not Configured
+                  </span>
+                )}
+              </div>
+              <p className="text-secondary-500 text-sm mb-3">
+                {hasApiKey 
+                  ? 'AI features are enabled. You can update or test your API key anytime.'
+                  : 'Add your free OpenRouter API key to enable AI chatbot, explanations & translations.'
+                }
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Button
+                  size="small"
+                  variant={hasApiKey ? 'outline' : 'primary'}
+                  onClick={() => setShowAPIModal(true)}
+                  icon={hasApiKey ? Settings : Key}
+                >
+                  {hasApiKey ? 'Manage API Key' : 'Add API Key'}
+                </Button>
+                {!hasApiKey && (
+                  <a
+                    href="https://openrouter.ai/keys"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 px-3 py-1.5 text-sm text-primary-600 hover:text-primary-700 hover:bg-primary-50 rounded-lg transition-colors"
+                  >
+                    <ExternalLink size={14} />
+                    Get Free Key
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </Card>
 
       {/* Settings */}
       <Card>
@@ -309,6 +492,149 @@ const ProfilePage = () => {
               </div>
             )}
           </button>
+        </div>
+      </Modal>
+
+      {/* API Settings Modal */}
+      <Modal
+        isOpen={showAPIModal}
+        onClose={() => setShowAPIModal(false)}
+        title="AI API Settings"
+      >
+        <div className="space-y-4">
+          {/* Status Banner */}
+          {apiTestResult && (
+            <motion.div
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className={`p-4 rounded-xl flex items-start gap-3 ${
+                apiTestResult === 'success' 
+                  ? 'bg-green-50 border border-green-200' 
+                  : 'bg-red-50 border border-red-200'
+              }`}
+            >
+              {apiTestResult === 'success' ? (
+                <CheckCircle className="text-green-500 flex-shrink-0" size={20} />
+              ) : (
+                <AlertCircle className="text-red-500 flex-shrink-0" size={20} />
+              )}
+              <div>
+                <p className={`font-medium ${apiTestResult === 'success' ? 'text-green-700' : 'text-red-700'}`}>
+                  {apiTestResult === 'success' ? 'API Connected!' : 'Connection Failed'}
+                </p>
+                <p className={`text-sm ${apiTestResult === 'success' ? 'text-green-600' : 'text-red-600'}`}>
+                  {apiTestMessage}
+                </p>
+                {apiCredits && apiTestResult === 'success' && (
+                  <p className="text-sm text-green-600 mt-1">
+                    Usage: ${apiCredits.usage?.toFixed(4) || '0.00'} / Limit: ${apiCredits.limit?.toFixed(2) || 'Unlimited'}
+                  </p>
+                )}
+              </div>
+            </motion.div>
+          )}
+
+          {/* Info Box */}
+          <div className="bg-blue-50 border border-blue-200 rounded-xl p-4">
+            <div className="flex items-start gap-3">
+              <Zap className="text-blue-500 flex-shrink-0 mt-0.5" size={20} />
+              <div className="text-sm text-blue-700">
+                <p className="font-medium mb-1">Why do I need an API key?</p>
+                <p className="text-blue-600">
+                  This enables AI-powered features like the chatbot, question explanations, and Odia translations. 
+                  Your key is stored locally in your browser only.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* API Key Input */}
+          <div className="space-y-2">
+            <label className="text-sm font-medium text-secondary-700">
+              OpenRouter API Key
+            </label>
+            <div className="relative">
+              <input
+                type={showApiKey ? 'text' : 'password'}
+                value={apiKey}
+                onChange={(e) => {
+                  setApiKey(e.target.value);
+                  setApiTestResult(null);
+                }}
+                placeholder="sk-or-v1-..."
+                className="w-full px-4 py-3 pr-10 border border-secondary-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 font-mono text-sm"
+              />
+              <button
+                type="button"
+                onClick={() => setShowApiKey(!showApiKey)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-secondary-400 hover:text-secondary-600"
+              >
+                {showApiKey ? <EyeOff size={20} /> : <Eye size={20} />}
+              </button>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex gap-2">
+            <Button
+              variant="outline"
+              onClick={testAPIKey}
+              disabled={!apiKey || apiKey.length < 20 || isTestingAPI}
+              className="flex-1"
+              icon={isTestingAPI ? Loader2 : RefreshCw}
+            >
+              {isTestingAPI ? 'Testing...' : 'Test API'}
+            </Button>
+            <Button
+              onClick={handleSaveAPIKey}
+              disabled={!apiKey || apiKey.length < 20}
+              className="flex-1"
+              icon={Check}
+            >
+              Save Key
+            </Button>
+          </div>
+
+          {hasApiKey && (
+            <Button
+              variant="ghost"
+              onClick={handleClearAPIKey}
+              className="w-full text-red-500 hover:bg-red-50"
+              icon={X}
+            >
+              Remove API Key
+            </Button>
+          )}
+
+          {/* How to get API key */}
+          <div className="bg-secondary-50 rounded-xl p-4 space-y-3">
+            <p className="font-medium text-secondary-700">How to get your FREE API key:</p>
+            <ol className="text-sm text-secondary-600 space-y-2 list-decimal list-inside">
+              <li>Go to <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">openrouter.ai</a></li>
+              <li>Sign up with Google (free, no credit card)</li>
+              <li>Go to "Keys" section in dashboard</li>
+              <li>Click "Create Key" button</li>
+              <li>Copy the key and paste it above</li>
+            </ol>
+            <a
+              href="https://openrouter.ai/keys"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 text-sm font-medium mt-2"
+            >
+              <ExternalLink size={16} />
+              Open OpenRouter Keys Page
+            </a>
+          </div>
+
+          {/* Close Button */}
+          <Button
+            variant="outline"
+            onClick={() => setShowAPIModal(false)}
+            className="w-full"
+          >
+            Close
+          </Button>
         </div>
       </Modal>
     </div>

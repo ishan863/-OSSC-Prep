@@ -1,0 +1,182 @@
+[
+  {
+    "id": "q_ml1c4dgjbc4d25vfy",
+    "subject": "Odisha GK",
+    "topic": "Odisha History",
+    "subtopic": "Ancient Odisha",
+    "difficulty": "medium",
+    "question": "Who led the 'Tulshi Vihari' movement in Odisha during the Indian independence struggle?",
+    "options": {
+      "A": "Raja Romesh Chandra",
+      "B": "Netaji Subhas Chandra Bose",
+      "C": "Madhusudan Das",
+      "D": "Utkala Gaurava"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tulshi Vihari was a movement led by Raja Romesh Chandra in Odisha during the Indian independence struggle. It was a non-violent movement that aimed to promote patriotism and national awakening among the people of Odisha. The other options are incorrect because Netaji Subhas Chandra Bose was a leader of the Azad Hind Government, Madhusudan Das was a pioneer of modern education in Odisha, and Utkala Gaurava is not a known historical figure.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:27:44.803Z"
+  },
+  {
+    "id": "q_ml1c4rx8r37mt1mrj",
+    "subject": "Odisha GK",
+    "topic": "Odisha History",
+    "subtopic": "Ancient Odisha",
+    "difficulty": "medium",
+    "question": "Which of the following ancient kingdoms was NOT located in present-day Odisha?",
+    "options": {
+      "A": "Kalinga",
+      "B": "Anga",
+      "C": "Vanga",
+      "D": "Magadha"
+    },
+    "correctAnswer": "D",
+    "explanation": "Magadha was located in the Gangetic Plains, mainly present-day Bihar and Jharkhand, not Odisha. While Anga, Vanga, and Kalinga were ancient kingdoms that had territories in Odisha, Magadha did not.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:28:03.548Z"
+  },
+  {
+    "id": "q_ml1c5bsx6xgloxj8u",
+    "subject": "Odisha GK",
+    "topic": "Odisha Geography",
+    "subtopic": "Rivers",
+    "difficulty": "easy",
+    "question": "What is the largest water body in Odisha?",
+    "options": {
+      "A": "Chilika Lake",
+      "B": "Kanjamal Waterfalls",
+      "C": "Simlipal Water Reservoir",
+      "D": "Bhitarkanika Wetlands"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is Chilika Lake, which is the largest water body in Odisha. It is a brackish lake located on the eastern coast of India and has an area of approximately 110 square kilometers. The other options are incorrect because Kanjamal Waterfalls is a waterfall, Simlipal Water Reservoir is a man-made reservoir, and Bhitarkanika Wetlands is a mangrove forest.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:28:29.313Z"
+  },
+  {
+    "id": "q_ml1c5nvi9d5cvp5ja",
+    "subject": "Odisha GK",
+    "topic": "Odisha Geography",
+    "subtopic": "Rivers",
+    "difficulty": "easy",
+    "question": "Which among the following rivers does NOT flow through Odisha?",
+    "options": {
+      "A": "Brahmani River",
+      "B": "Subarnarekha River",
+      "C": "Tapi River",
+      "D": "Mahanadi River"
+    },
+    "correctAnswer": "C",
+    "explanation": "Tapi River does not flow through Odisha. It is a river in Western India and flows into the Arabian Sea.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:28:44.958Z"
+  },
+  {
+    "id": "q_ml1c6536g24eie5w0",
+    "subject": "Odisha GK",
+    "topic": "Odisha Culture & Heritage",
+    "subtopic": "Temples",
+    "difficulty": "easy",
+    "question": "Which of the following festivals is celebrated with great enthusiasm in Odisha?",
+    "options": {
+      "A": "Dussehra",
+      "B": "Makar Sankranti",
+      "C": "Karama Purnima",
+      "D": "Guru Purnima"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is Dussehra. Dussehra, also known as Vijaya Dashami, is a significant festival in Odisha where effigies of Ravana are burnt to mark the victory of Lord Rama over the demon king. It is celebrated with great enthusiasm and fervor across the state.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:29:07.266Z"
+  },
+  {
+    "id": "q_ml1c6luxnlj3ch2fa",
+    "subject": "Odisha GK",
+    "topic": "Odisha Culture & Heritage",
+    "subtopic": "Temples",
+    "difficulty": "easy",
+    "question": "Which temple in Odisha is known as 'Temple of Literature'?",
+    "options": {
+      "A": "Jagannath Temple, Puri",
+      "B": "Lingaraj Temple, Bhubaneswar",
+      "C": "Mukteswara Temple, Khandagiri",
+      "D": "Sun Temple, Konark"
+    },
+    "correctAnswer": "B",
+    "explanation": "Lingaraj Temple in Bhubaneswar is known as the 'Temple of Literature' because it houses the largest library of Odisha called 'Astasahasra Sahasra Patana Grantha Mala' which contains numerous scripts and manuscripts.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:29:29.001Z"
+  },
+  {
+    "id": "q_ml1c74fz8mh8twcuw",
+    "subject": "Odisha GK",
+    "topic": "Odisha Economy",
+    "subtopic": "Industries",
+    "difficulty": "medium",
+    "question": "Which among the following minerals is not a major contributor to Odisha's economy?",
+    "options": {
+      "A": "Iron ore",
+      "B": "Manganese",
+      "C": "Chrome",
+      "D": "Lignite"
+    },
+    "correctAnswer": "D",
+    "explanation": "Although Lignite is a fossil fuel, it does not contribute significantly to Odisha's economy compared to other minerals like Iron ore, Manganese, and Chrome. Odisha is the largest producer of Iron ore in India, which makes up a significant portion of its mineral revenue. Manganese and Chrome are also important contributors to the state's economy. Lignite, being a lower-grade coal, has limited applications and does not have the same economic impact as these other minerals.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:29:53.087Z"
+  },
+  {
+    "id": "q_ml1c7k0gigy8806bn",
+    "subject": "Odisha GK",
+    "topic": "Odisha Economy",
+    "subtopic": "Industries",
+    "difficulty": "medium",
+    "question": "Which one of the following minerals in Odisha has the largest reserves as per the Geological Survey of India?",
+    "options": {
+      "A": "Bauxite",
+      "B": "Coal",
+      "C": "Iron Ore",
+      "D": "Manganese"
+    },
+    "correctAnswer": "C",
+    "explanation": "Odisha is the largest producer of Iron Ore in India. The state has vast reserves of iron ore, particularly in Mayurbhanj and Keonjhar districts. As per the Geological Survey of India, Odisha has about 60% of India's total iron ore reserves.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:30:13.264Z"
+  },
+  {
+    "id": "q_ml1c893wqgfv328n1",
+    "subject": "Odisha GK",
+    "topic": "Odisha Polity & Administration",
+    "subtopic": "Panchayati Raj",
+    "difficulty": "medium",
+    "question": "Which of the following Gram Panchayats is responsible for implementing the Odisha State Government's flagship programme, '5-T' (Transparency, Technology, Timeliness, Tamper-proof and Targeted Delivery)?",
+    "options": {
+      "A": "Gram Panchayat Secretary",
+      "B": "Panchayat Samiti",
+      "C": "Block Development Officer",
+      "D": "Mahanadi Water Project Authority"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B) Panchayat Samiti. The '5-T' programme was launched by the Odisha State Government to ensure transparency and efficiency in the implementation of various development projects across the state. As a part of this initiative, Panchayat Samitis are responsible for overseeing the execution of projects at the block level, making sure that they adhere to the principles of transparency, technology, timeliness, tamper-proof, and targeted delivery. The other options do not fit in with the context of implementing the '5-T' programme.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:30:45.788Z"
+  },
+  {
+    "id": "q_ml1c8nn5xniyqhdym",
+    "subject": "Odisha GK",
+    "topic": "Odisha Polity & Administration",
+    "subtopic": "Panchayati Raj",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a part of the Odisha Panchayati Raj Act, 1994?",
+    "options": {
+      "A": "Zilla Parishad",
+      "B": "Panchayat Samiti",
+      "C": "Gram Panchayat",
+      "D": "Block Development Office"
+    },
+    "correctAnswer": "D",
+    "explanation": "The Block Development Office is not a part of the Odisha Panchayati Raj Act, 1994. It is an administrative unit under the Department of Rural Development and Marketing, Government of Odisha.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:31:04.625Z"
+  }
+]

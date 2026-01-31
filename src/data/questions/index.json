@@ -1,0 +1,36 @@
+{
+  "totalQuestions": 90,
+  "generatedAt": "2026-01-30T20:31:05.149Z",
+  "subjects": [
+    {
+      "name": "Reasoning & Mental Ability",
+      "count": 25,
+      "file": "reasoning___mental_ability.json"
+    },
+    {
+      "name": "Quantitative Aptitude",
+      "count": 25,
+      "file": "quantitative_aptitude.json"
+    },
+    {
+      "name": "English Language",
+      "count": 15,
+      "file": "english_language.json"
+    },
+    {
+      "name": "General Knowledge",
+      "count": 15,
+      "file": "general_knowledge.json"
+    },
+    {
+      "name": "Odisha GK",
+      "count": 10,
+      "file": "odisha_gk.json"
+    }
+  ],
+  "difficultyBreakdown": {
+    "easy": 20,
+    "medium": 60,
+    "hard": 10
+  }
+}

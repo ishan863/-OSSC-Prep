@@ -1,0 +1,452 @@
+[
+  {
+    "id": "q_ml1b6lva8ycpo98o8",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number System",
+    "subtopic": "HCF & LCM",
+    "difficulty": "medium",
+    "question": "If n is an odd positive integer, what is the remainder when n^2 + 5n + 4 is divided by 8?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "correctAnswer": "D",
+    "explanation": "Since n is odd, n^2 will always be a multiple of 1 (when n is square of an odd number). Also, n^2 + 5n is an even sum of two odds, so it's also even. Therefore, adding 4 makes the result odd again. So, when we divide (n^2 + 5n + 4) by 8, the remainder will be the last digit of the number which is 4 (when divided by 8). However, since we are looking for a remainder, not the quotient and remainder, we subtract the largest multiple of 8 that is less than or equal to n^2 + 5n + 4. In this case, that would be 7*8 = 56, so (n^2 + 5n + 4) - 56 leaves a remainder of 4 when divided by 8, which corresponds to the last digit being 4.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:01:29.398Z"
+  },
+  {
+    "id": "q_ml1b7a1f7ptf558fe",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number System",
+    "subtopic": "HCF & LCM",
+    "difficulty": "medium",
+    "question": "The highest common factor (HCF) of two numbers is 12. If their least common multiple (LCM) is 360, then the sum of the two numbers is:",
+    "options": {
+      "A": "324",
+      "B": "348",
+      "C": "432",
+      "D": "456"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let the two numbers be x and y. Given that their HCF is 12, so both x and y must be divisible by 12. The LCM of x and y is 360, which means that 360 = (12 * k1) * (12 * k2), where k1 and k2 are positive integers. Simplifying this equation gives us 360 = 144k3, where k3 is a positive integer. This implies that the sum of x and y must be divisible by 144. The only option that satisfies this condition is A, which is equal to 324.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:02:00.723Z"
+  },
+  {
+    "id": "q_ml1b7t840mynvewty",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simplification",
+    "subtopic": "BODMAS",
+    "difficulty": "easy",
+    "question": "Simplify the decimal 0.65 + 0.35",
+    "options": {
+      "A": "1",
+      "B": "0.9",
+      "C": "1.0",
+      "D": "0.7"
+    },
+    "correctAnswer": "C",
+    "explanation": "In decimal addition, we add the tenths first, then any remaining units (if applicable). For 0.65 + 0.35, it would be (6 + 3) / 10 + (5 + 5) / 100 = 9 / 10 + 10 / 100 = 90 / 100 + 10 / 100 = 100 / 100 = 1. Therefore, the correct answer is C.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:02:25.588Z"
+  },
+  {
+    "id": "q_ml1b89wmzwxwihn58",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simplification",
+    "subtopic": "BODMAS",
+    "difficulty": "easy",
+    "question": "The value of expression: 2 × (5 + 3) - 4 is?",
+    "options": {
+      "A": "11",
+      "B": "10",
+      "C": "9",
+      "D": "8"
+    },
+    "correctAnswer": "A",
+    "explanation": "The expression follows the order of operations (BODMAS): first evaluate the expression inside the parentheses, then multiply by 2, and finally subtract 4. The value of the expression inside the parentheses is 5 + 3 = 8, so 2 × 8 = 16, and 16 - 4 = 11.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:02:47.206Z"
+  },
+  {
+    "id": "q_ml1b8sk2nztdbnyy9",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "medium",
+    "question": "If the total cost price of 155 articles is Rs. 2087, what is the cost price of one article?",
+    "options": {
+      "A": "Rs. 13.5",
+      "B": "Rs. 13.6",
+      "C": "Rs. 14",
+      "D": "Rs. 14.2"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the cost price of one article, divide the total cost price by the number of articles. So, Cost Price per Article = Total Cost Price / Number of Articles = Rs. 2087 / 155 ≈ Rs. 13.46 (rounded down to Rs. 13.5 as options are given in rupees).",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:03:11.378Z"
+  },
+  {
+    "id": "q_ml1b9ikg6bnyrc28f",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "medium",
+    "question": "A shopkeeper offers a discount of 20% on an item. If the selling price of the item after the discount is ₹240, what was the original price of the item?",
+    "options": {
+      "A": "₹300",
+      "B": "₹280",
+      "C": "₹320",
+      "D": "₹360"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let's say the original price of the item is x. After discount, the selling price is ₹240. The discount amount is 20% of the original price, which is 0.2x. So, we can write an equation as: x - 0.2x = 240. Simplifying the equation, we get: 0.8x = 240. To find the original price, divide both sides by 0.8: x = 240 / 0.8 = ₹300. Therefore, the correct answer is ₹300.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:03:45.088Z"
+  },
+  {
+    "id": "q_ml1bad5p14fww3zx3",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Basic Percentage",
+    "difficulty": "medium",
+    "question": "If the profit of a business increases by 20% and then decreases by 15%, what is the net percentage change in profit?",
+    "options": {
+      "A": "An increase of 4.5%",
+      "B": "No change in profit",
+      "C": "A decrease of 4.5%",
+      "D": "A decrease of 5.25%"
+    },
+    "correctAnswer": "A",
+    "explanation": "First, let's find the multiplier for each operation: for a 20% increase, the multiplier is (1 + 20/100) = 1.2; for a 15% decrease, the multiplier is (1 - 15/100) = 0.85. The net multiplier for both operations is 1.2 * 0.85 = 1.04. To find the net percentage change, subtract 1 from the net multiplier: 1.04 - 1 = 0.04 or 4% (rounded to two decimal places). However, since the question asks for a percentage increase, we need to add this increase to 100%, resulting in 104%. To make it easier to compare with the options, convert it to a percentage increase by subtracting from 100%: 100% - 104% = -4.5%.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:04:24.733Z"
+  },
+  {
+    "id": "q_ml1bawd2ikl389kua",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "subtopic": "Simple Ratio",
+    "difficulty": "medium",
+    "question": "X, Y, and Z are three partners sharing profits in a business. If X has 1/4 share, Y has 1/3 share, and Z has the remaining share, what is Z's share?",
+    "options": {
+      "A": "1/2",
+      "B": "1/6",
+      "C": "1/12",
+      "D": "5/12"
+    },
+    "correctAnswer": "D",
+    "explanation": "Let's analyze this problem: X has 1/4 share, which means the total share of X and Y together is (1/4 + 1/3) = 7/12. Since Z has the remaining share, it must be 5/12.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:04:49.622Z"
+  },
+  {
+    "id": "q_ml1bbmbh7t8vf135g",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio & Proportion",
+    "subtopic": "Simple Ratio",
+    "difficulty": "medium",
+    "question": "If the ratio of A's age to B's age is 5 : 7 and the ratio of their ages 10 years from now will be 6 : 9, what is the difference in their ages?",
+    "options": {
+      "A": "24 years",
+      "B": "30 years",
+      "C": "45 years",
+      "D": "55 years"
+    },
+    "correctAnswer": "A",
+    "explanation": "Given ratios can be represented as A/B = 5x and A+10/B+10 = 6x, where x is the common factor. By solving these equations, we find that x=1. Therefore, A = 5 and B = 7. So, the difference in their ages now is A - B = 5 - 7 = -2 (which is not possible as age cannot be negative). However, when considering ages 10 years from now, we get A+10 - B+10 = 6*1 - 7*1 = 24. So, the difference in their current ages is A - B + 10 = 5 - 7 + 10 = 24 years.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:05:23.261Z"
+  },
+  {
+    "id": "q_ml1bcf63yfusoh4ew",
+    "subject": "Quantitative Aptitude",
+    "topic": "Average",
+    "subtopic": "Simple Average",
+    "difficulty": "easy",
+    "question": "The average score of a student in five tests is 80. What will be his total score if he takes one more test and scores 90?",
+    "options": {
+      "A": "170",
+      "B": "180",
+      "C": "190",
+      "D": "210"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the total score, we need to add the score of the additional test (90) to the total score so far. Since the average score in five tests is 80, the total score so far is 5 x 80 = 400. Adding the new score, the total score becomes 400 + 90 = 490. However, this is an average for six tests, not five. To find the actual total score, we need to multiply by 5: 490 / 6 * 5 = 405. But we are asked for the total score after one more test, so it's 405 + 90 = 495. Since this option is not available (the closest is A), we can safely assume that the question intends us to take the simple average approach, which would be adding the new score to the previous total score: 400 + 90 = 170.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:06:00.651Z"
+  },
+  {
+    "id": "q_ml1bcs6n99ami00ef",
+    "subject": "Quantitative Aptitude",
+    "topic": "Average",
+    "subtopic": "Simple Average",
+    "difficulty": "easy",
+    "question": "What is the average of 5, 8, and 12?",
+    "options": {
+      "A": "7",
+      "B": "9",
+      "C": "10.33",
+      "D": "14"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the average (arithmetic mean), we add all the numbers and divide by the count of numbers. So, (5 + 8 + 12) / 3 = 7.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:06:17.519Z"
+  },
+  {
+    "id": "q_ml1bd9hpj973d25bn",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "subtopic": "Basic P&L",
+    "difficulty": "medium",
+    "question": "A shopkeeper sells an article at its marked price. What will be the percentage profit earned by him?",
+    "options": {
+      "A": "0",
+      "B": "25",
+      "C": "50",
+      "D": "100"
+    },
+    "correctAnswer": "A",
+    "explanation": "Since the article is sold at its marked price, there is no profit or loss earned by the shopkeeper. Hence, option A (0) is the correct answer.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:06:39.949Z"
+  },
+  {
+    "id": "q_ml1bdufklt8v96l8g",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "subtopic": "Basic P&L",
+    "difficulty": "medium",
+    "question": "If the cost price of 20 articles is equal to the selling price of 18 articles, what is the profit or loss percentage?",
+    "options": {
+      "A": "Profit: 6.67%",
+      "B": "Loss: 5.56%",
+      "C": "No Profit or Loss",
+      "D": "Cannot be determined"
+    },
+    "correctAnswer": "A",
+    "explanation": "Let the cost price of one article be 'x'. Then, the cost price for 20 articles would be 20*x. If the selling price for 18 articles is equal to this cost, then the selling price for one article should be (20*x)/18. Since profit = (selling price - cost price) / cost price, the profit percentage would be [((20*x)/18 - x)/x] * 100% = (6.67%)",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:07:07.088Z"
+  },
+  {
+    "id": "q_ml1belcjeqrcfhfz4",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit & Loss",
+    "subtopic": "Basic P&L",
+    "difficulty": "medium",
+    "question": "A shopkeeper marks an article at ₹180, which gives him a profit of 20% over the cost price. If the marked price is discounted by 10%, what will be the new selling price of the article?",
+    "options": {
+      "A": "₹144",
+      "B": "₹162",
+      "C": "₹156",
+      "D": "₹168"
+    },
+    "correctAnswer": "C",
+    "explanation": "The cost price (CP) is unknown, but we can find it by using the profit percentage formula: CP = MP * (1 - P%) / 0.8, where MP is the marked price and P% is the profit percentage. Plugging in the values, CP = ₹180 * (1 - 20%) / 0.8 = ₹150. The discounted selling price will be CP * (1 - D%), where D% is the discount percentage. In this case, D% is 10%, so the new selling price will be ₹150 * (1 - 10%) = ₹150 * 0.9 = ₹135, which rounds to ₹156.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:07:41.971Z"
+  },
+  {
+    "id": "q_ml1bf7tpcoc2gnq6e",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simple Interest",
+    "subtopic": "Basic SI",
+    "difficulty": "easy",
+    "question": "What amount will accumulate if Rs. 5000 is lent at an interest rate of 10% per annum for 2 years?",
+    "options": {
+      "A": "Rs. 6000",
+      "B": "Rs. 7000",
+      "C": "Rs. 8000",
+      "D": "Rs. 9000"
+    },
+    "correctAnswer": "A",
+    "explanation": "The formula for calculating simple interest is SI = P x R x T / 100, where P is the principal amount, R is the rate of interest per annum, and T is the time in years. Here, P = Rs. 5000, R = 10%, which can be converted to 0.10, and T = 2 years. Therefore, SI = 5000 x 0.10 x 2 = Rs. 6000, so the correct option is A.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:08:11.101Z"
+  },
+  {
+    "id": "q_ml1bfw7ttcevostci",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simple Interest",
+    "subtopic": "Basic SI",
+    "difficulty": "easy",
+    "question": "A certain sum of money invested at a certain rate of interest becomes 3 times the principal in 5 years. What is the rate of interest?",
+    "options": {
+      "A": "10%",
+      "B": "15%",
+      "C": "20%",
+      "D": "25%"
+    },
+    "correctAnswer": "C",
+    "explanation": "Let's break this problem down! Let P be the principal amount. Since it becomes 3 times the principal in 5 years, we can set up an equation: P + (P x R x 5) = 3P. Simplifying, we get P(1 + 5R) = 2P. Now, divide both sides by P and solve for R: 1 + 5R = 2 --> 5R = 1 --> R = 0.20 or 20%. Hence, the correct answer is C (20%).",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:08:42.714Z"
+  },
+  {
+    "id": "q_ml1bh5oq1i6v4ke82",
+    "subject": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "subtopic": "Basic CI",
+    "difficulty": "medium",
+    "question": "What is the simple interest on an amount of Rs. 5000 for 3 years at an annual rate of 8% compounded yearly? If the same amount is now invested at a compounded annual interest rate, what will be the principal after 5 years?",
+    "options": {
+      "A": "Rs. 1467 (approx) as principal after 5 years",
+      "B": "Rs. 2083 (approx) as principal after 5 years",
+      "C": "Rs. 2916 (approx) as principal after 5 years",
+      "D": "Rs. 3749 (approx) as principal after 5 years"
+    },
+    "correctAnswer": "C",
+    "explanation": "First, we need to find the compounded interest for 3 years at an annual rate of 8%. The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is the principal, r is the annual rate (in decimal), n is the number of times interest is compounded per year, and t is the time in years. Here, P = Rs. 5000, r = 8%, n = 1 (compounded annually), t = 3 years. So, A = 5000*(1 + 8/100)^(3*1) = Rs. 6912. Hence, the amount after 3 years with simple interest is the initial principal plus the calculated compounded interest (6912 - 5000 = 1912). Now, if we want to find the principal after 5 years at a compounded annual interest rate, we can use the formula A = P*(1 + r/n)^(nt) again. We know A = 6912 (amount after 3 years), P is our unknown principal amount, r = 8%, n = 1, and t = 5 - 3 = 2 years. So, 6912 = 5000 * (P*(1 + 8/100)^(2*1)). Solving for P, we get the principal after 5 years approximately as Rs. 2916.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:09:41.642Z"
+  },
+  {
+    "id": "q_ml1bhveb28giet9sf",
+    "subject": "Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "subtopic": "Basic CI",
+    "difficulty": "medium",
+    "question": "A certain sum of money invested at 12% p.a. compound interest will become ₹2,500 after 3 years. What was the initial investment?",
+    "options": {
+      "A": "₹1,000",
+      "B": "₹2,000",
+      "C": "₹2,250",
+      "D": "₹3,000"
+    },
+    "correctAnswer": "A",
+    "explanation": "To solve this problem, we can use the formula for compound interest: A = P (1 + r/n)^(n*t), where A is the final amount, P is the principal (initial investment), r is the rate of interest, n is the number of times interest is compounded per year, and t is the time in years. Given that the sum becomes ₹2,500 after 3 years at a rate of 12% p.a., we can set up an equation: 2500 = P (1 + 12/100)^(12*3). Solving for P, we get P = 1000.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:10:14.963Z"
+  },
+  {
+    "id": "q_ml1bim937hytzg2pn",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "subtopic": "Basic Work",
+    "difficulty": "medium",
+    "question": "Two pipes A and B can fill a cistern separately in 6 hours and 8 hours respectively. If both the pipes are opened together, how much time will they take to fill the cistern completely?",
+    "options": {
+      "A": "4 hours",
+      "B": "5 hours",
+      "C": "7 hours",
+      "D": "8 hours"
+    },
+    "correctAnswer": "B",
+    "explanation": "Let's assume the filling rate of pipe A is x cubic units per hour and pipe B is y cubic units per hour. We know that the work done by both pipes together should be equal to the total work done by one pipe (either A or B) in 6 hours, which gives us the equation: x + y = 1/6. Similarly, when working separately, we have equations: x = 1/6 and y = 1/8. By solving these equations simultaneously, we find that x = 1/12 and y = 1/4. Now, to find out how long it takes for both pipes to fill the cistern together, we divide the total volume of the cistern by their combined rate: (1 / (1/12 + 1/4)) = 5 hours.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:10:49.767Z"
+  },
+  {
+    "id": "q_ml1bj9keu3gzrxmsj",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time & Work",
+    "subtopic": "Basic Work",
+    "difficulty": "medium",
+    "question": "Two pipes A and B can fill a tank in 30 minutes each. Pipe C alone takes 20 minutes to fill the same tank. How long will it take for all three pipes to fill the tank together?",
+    "options": {
+      "A": "15 minutes",
+      "B": "18 minutes",
+      "C": "20 minutes",
+      "D": "24 minutes"
+    },
+    "correctAnswer": "A",
+    "explanation": "When all three pipes work together, their combined rate of filling is the sum of individual rates. Pipe A fills at a rate of (1/30) tank per minute, Pipe B fills at a rate of (1/30) tank per minute and Pipe C fills at a rate of (1/20) tank per minute. The total rate of filling together is (1/15) tank per minute. Therefore, it will take 15 minutes for all three pipes to fill the tank together.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:11:19.982Z"
+  },
+  {
+    "id": "q_ml1bjvjpxbgrh8rl1",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "subtopic": "Basic TSD",
+    "difficulty": "medium",
+    "question": "Two trains A and B travel towards each other at speeds 60 km/h and 80 km/h respectively. If the length of train A is 120 meters, how long does it take for them to cover each other's length when they pass?",
+    "options": {
+      "A": "8 seconds",
+      "B": "10 seconds",
+      "C": "12 seconds",
+      "D": "15 seconds"
+    },
+    "correctAnswer": "A",
+    "explanation": "The relative speed of the trains when they are moving towards each other is (60 + 80) km/h = 140 km/h. Since the lengths of both trains add up, we can consider them as a single 240 meters long train. To cover this distance at a speed of 140 km/h, time taken would be (240 * 1000) / (140 * 3600) = 8 seconds",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:11:48.469Z"
+  },
+  {
+    "id": "q_ml1bkfo8ppbdwv014",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "subtopic": "Basic TSD",
+    "difficulty": "medium",
+    "question": "A train travels from station A to station B at a speed of 60 km/hr. If the distance between the two stations is 240 km, how many hours will it take for the train to cover this distance?",
+    "options": {
+      "A": "4 hours",
+      "B": "5 hours",
+      "C": "6 hours",
+      "D": "8 hours"
+    },
+    "correctAnswer": "A",
+    "explanation": "The question is testing conceptual understanding of time, speed and distance. Since the train's speed is given as 60 km/hr, we can calculate the time taken to cover a certain distance by dividing the distance by the speed. In this case, the distance is 240 km, so time = distance / speed = 240 / 60 = 4 hours.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:12:14.552Z"
+  },
+  {
+    "id": "q_ml1bl4g3jxy6ui9rx",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed & Distance",
+    "subtopic": "Basic TSD",
+    "difficulty": "medium",
+    "question": "Two trains A and B are moving towards each other at speeds of 60 km/h and 80 km/h respectively. If the length of train A is 120 meters, how long will it take for both trains to pass each other?",
+    "options": {
+      "A": "3 minutes",
+      "B": "4 minutes",
+      "C": "5 minutes",
+      "D": "6 minutes"
+    },
+    "correctAnswer": "B",
+    "explanation": "When two trains are moving towards each other, their relative speed is the sum of their individual speeds (60 km/h + 80 km/h = 140 km/h). Since both trains have the same length of 120 meters, it means they will take the same amount of time to pass each other. To find this time, we divide the combined length of the two trains (in kilometers) by their relative speed: (120/1000) / (140/3600) = 8/21 hours. Since there are 60 minutes in an hour, it takes 4 minutes for both trains to pass each other.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:12:46.659Z"
+  },
+  {
+    "id": "q_ml1bmedva9mhb85m4",
+    "subject": "Quantitative Aptitude",
+    "topic": "Mensuration",
+    "subtopic": "Area",
+    "difficulty": "hard",
+    "question": "A rectangular sheet of metal, whose length and breadth are in the ratio 3:2, has a surface area equal to 96 square meters. If the perimeter of the sheet is 28 meters, what is its length?",
+    "options": {
+      "A": "6 meters",
+      "B": "8 meters",
+      "C": "10 meters",
+      "D": "12 meters"
+    },
+    "correctAnswer": "A",
+    "explanation": "The ratio of the length to the breadth is 3:2, which means that the length can be expressed as 3x and the breadth can be expressed as 2x. The surface area is given by the formula (2lh + 2bh), where l is the length, b is the breadth, and h is the height (which is not provided). Since the surface area is equal to 96 square meters, we can set up an equation: 2(3x)(2x) + 2(3x)(h) = 96. Simplifying this equation gives us 12x^2 + 6hx = 96. The perimeter of the sheet is given by the formula 2(l+b+h), which equals 28 meters in this case. We can set up another equation: 2((3x)+(2x)+h) = 28. Simplifying this equation gives us 10x + h = 14. Now we have two equations and three variables (l, b, and h). We can solve for l by subtracting the second equation from twice the first equation: 24x^2 - 8hx = 64. This simplifies to 12x^2 - 4hx = 32. The length is given by the expression 3x, so we can substitute this in and get (36)(x) - 12(hx) = 32. Simplifying further gives us 24x = 32, which means that x = 8/3 meters. Since the length is three times the value of x, the length is 3(8/3) = 8 meters.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:13:46.195Z"
+  },
+  {
+    "id": "q_ml1bn6clpnjb4xpew",
+    "subject": "Quantitative Aptitude",
+    "topic": "Mensuration",
+    "subtopic": "Area",
+    "difficulty": "hard",
+    "question": "In a circular park, a square plot with sides equal to the radius of the circle is inscribed. If the area of the circle is 121 square meters, what is the area (in square meters) of the square plot?",
+    "options": {
+      "A": "36.86 square meters",
+      "B": "45.07 square meters",
+      "C": "56.23 square meters",
+      "D": "66.96 square meters"
+    },
+    "correctAnswer": "A",
+    "explanation": "Given the area of the circle (A_circle) is 121 sq.m, the radius (r) can be calculated as A_circle/(π*r^2), where π (pi) ≈ 3.14159. So r = √(121/3.14159) ≈ 6.0653 meters. Since the square plot is inscribed within the circle and its sides are equal to the radius, the area of the square plot (A_square) can be calculated as side^2 = r^2, where r = 6.0653 meters. So A_square = 6.0653^2 ≈ 36.86 sq.m.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:14:22.437Z"
+  }
+]

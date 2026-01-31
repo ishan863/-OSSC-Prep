@@ -16,6 +16,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { generateQuestions } from '../services/aiService';
+import { getLocalQuestions, getMockTestQuestions, getDailyQuestions, getQuestionStats, resetUsedQuestions } from '../services/localQuestionsService';
 import { useAuthStore } from './authStore';
 
 // Helper to get previously asked question hashes to avoid repeats
@@ -81,7 +82,7 @@ export const useQuestionStore = create(
       isGenerating: false,
       error: null,
 
-      // Generate new questions using AI
+      // Generate new questions - Uses LOCAL pre-generated questions first, falls back to AI
       generateNewQuestions: async (params) => {
         set({ isGenerating: true, error: null });
         
@@ -90,19 +91,43 @@ export const useQuestionStore = create(
         let generatedQuestions = [];
         
         try {
-          // Generate questions using AI (will fallback internally if API fails)
-          generatedQuestions = await generateQuestions({
+          // FIRST: Try local pre-generated questions (Ollama Llama3/Mistral)
+          console.log('📦 Loading from local question bank...');
+          generatedQuestions = getLocalQuestions({
             exam,
             subject,
             topic,
             difficulty,
-            count,
-            language
+            count
           });
           
-          console.log(`✅ Got ${generatedQuestions?.length || 0} questions from generateQuestions`);
-        } catch (aiError) {
-          console.warn('generateQuestions threw error:', aiError.message);
+          if (generatedQuestions && generatedQuestions.length > 0) {
+            console.log(`✅ Got ${generatedQuestions.length} questions from local bank`);
+          }
+        } catch (localError) {
+          console.warn('Local questions failed:', localError.message);
+        }
+        
+        // FALLBACK: If not enough local questions, try AI
+        if (!generatedQuestions || generatedQuestions.length < count) {
+          console.log('🤖 Local questions insufficient, trying AI...');
+          try {
+            const aiQuestions = await generateQuestions({
+              exam,
+              subject,
+              topic,
+              difficulty,
+              count: count - (generatedQuestions?.length || 0),
+              language
+            });
+            
+            if (aiQuestions && aiQuestions.length > 0) {
+              generatedQuestions = [...(generatedQuestions || []), ...aiQuestions];
+              console.log(`✅ Got ${aiQuestions.length} additional questions from AI`);
+            }
+          } catch (aiError) {
+            console.warn('AI questions failed:', aiError.message);
+          }
         }
 
         // GUARANTEED: If still no questions, use any saved questions

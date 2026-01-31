@@ -1,12 +1,43 @@
 // OpenRouter API Configuration
 // Updated January 2026 - Verified working FREE models
+// SECURITY: API key is provided by each user and stored in their browser localStorage
+// Never commit API keys to the repository!
 
-// NEW API Key - January 30, 2026
-const API_KEY = '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';
+// Get API key from localStorage (user-provided only - most secure approach)
+const getStoredAPIKey = () => {
+  if (typeof window !== 'undefined') {
+    return localStorage.getItem('openrouter_api_key') || '';
+  }
+  return '';
+};
+
+// API Key from localStorage only (user must provide their own key)
+const getAPIKey = () => {
+  return getStoredAPIKey();
+};
+
+// Save API key to localStorage
+export const saveAPIKey = (key) => {
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('openrouter_api_key', key);
+    // Update the config
+    OPENROUTER_CONFIG.apiKey = key;
+    return true;
+  }
+  return false;
+};
+
+// Clear API key from localStorage
+export const clearAPIKey = () => {
+  if (typeof window !== 'undefined') {
+    localStorage.removeItem('openrouter_api_key');
+    OPENROUTER_CONFIG.apiKey = '';
+  }
+};
 
 export const OPENROUTER_CONFIG = {
   baseUrl: 'https://openrouter.ai/api/v1',
-  apiKey: API_KEY,
+  apiKey: getAPIKey(),
   
   // Verified working FREE models (January 2026) - Exact names from OpenRouter
   models: {

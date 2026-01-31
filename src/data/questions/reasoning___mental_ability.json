@@ -1,0 +1,452 @@
+[
+  {
+    "id": "q_ml1ar1x6k06a4jz8j",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Analogy",
+    "subtopic": "Word Analogy",
+    "difficulty": "medium",
+    "question": "If 'P' stands for 'Painter', what does 'S' stand for?",
+    "options": {
+      "A": "Sculptor",
+      "B": "Songwriter",
+      "C": "Storyteller",
+      "D": "Surveyor"
+    },
+    "correctAnswer": "A",
+    "explanation": "The analogy is based on the letter 'P' representing a person who paints. Similarly, if we follow the same pattern, 'S' would represent a person who sculpts or makes three-dimensional art. Options B and C are unrelated to the theme of art, while option D is not directly related to the concept of painting.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:49:23.706Z"
+  },
+  {
+    "id": "q_ml1ark27iadgz15r8",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Analogy",
+    "subtopic": "Word Analogy",
+    "difficulty": "medium",
+    "question": "In the given series, choose the next term: FATHER : MOTHER :: DOCTOR : (D) NURSE",
+    "options": {
+      "A": "NURSE",
+      "B": "PATIENT",
+      "C": "HOSPITAL",
+      "D": "NURSE"
+    },
+    "correctAnswer": "A",
+    "explanation": "In the given series, 'FATHER' and 'MOTHER' are related as a male parent and female parent respectively. Similarly, in the second pair, 'DOCTOR' represents a professional who treats patients while 'NURSE' is an assistant to the doctor who also takes care of patients, hence the next term in the series is 'NURSE'.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:49:47.215Z"
+  },
+  {
+    "id": "q_ml1as2zez1hk2ff7q",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Analogy",
+    "subtopic": "Word Analogy",
+    "difficulty": "medium",
+    "question": "In the series: M -> N, O -> P, Q -> R, ? -> S",
+    "options": {
+      "A": "T",
+      "B": "S",
+      "C": "R",
+      "D": "Q"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is T because the analogy is based on an alphabetical sequence, where each letter is incremented by one position. Therefore, M becomes N (M -> N), O becomes P (O -> P), Q becomes R (Q -> R), and so on.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:50:11.738Z"
+  },
+  {
+    "id": "q_ml1asi7q2izd8o3ze",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Series Completion",
+    "subtopic": "Number Series",
+    "difficulty": "medium",
+    "question": "Which option completes the series: 1, 4, 7, 10, 13, ?",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "12",
+      "D": "14"
+    },
+    "correctAnswer": "A",
+    "explanation": "The series follows a pattern where each number is increasing by 3. So, the next number in the series should be 13 + 3 = 16.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:50:31.478Z"
+  },
+  {
+    "id": "q_ml1asyu4dm93mawin",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Series Completion",
+    "subtopic": "Number Series",
+    "difficulty": "medium",
+    "question": "Complete the letter series: W, X, Y, Z, __?",
+    "options": {
+      "A": "AA",
+      "B": "BB",
+      "C": "VV",
+      "D": "WW"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is 'AA' because the series consists of consecutive letters in alphabetical order, with each letter incremented by one. Therefore, the next letter would be 'AA', which is the next logical step in the sequence.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:50:53.020Z"
+  },
+  {
+    "id": "q_ml1atlshystwov465",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Series Completion",
+    "subtopic": "Number Series",
+    "difficulty": "medium",
+    "question": "Which option will complete the series given below?\nABCDEFGHJKLMNOPSTUVWXYZ\n(Each letter is skipped once except for A, E, I, O, U)",
+    "options": {
+      "A": "V",
+      "B": "X",
+      "C": "Y",
+      "D": "W"
+    },
+    "correctAnswer": "A",
+    "explanation": "The given series follows a pattern where each letter is skipped once except for A, E, I, O, U. To identify the next letter in this series: Start with A, skip B and C to reach D, then skip F (which was skipped from A) and G (which was skipped from F), but include H as it wasn't skipped from G. From there, continue skipping J and K, and include L as L wasn't skipped from K. Then skip M, N, P, S, T, U, and V will complete the series as it wasn't skipped from U.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:51:22.769Z"
+  },
+  {
+    "id": "q_ml1au90ue3to4epfi",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Letter Coding",
+    "difficulty": "medium",
+    "question": "In a series, if '9' is replaced by '2', '8' is replaced by '5', then what will be the replacement for '1'?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "7"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is '3' because the pattern of replacement is adding/subtracting 1 from the original number to get the replaced number. Since '9' becomes '2', subtracting 7 from 9 gives 2. Similarly, subtracting 3 from 8 makes 5. Following this pattern, subtracting 1 from 1 will result in 0, but since we can't have a negative value for a single digit, the next smallest possible value is 3.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:51:52.878Z"
+  },
+  {
+    "id": "q_ml1auou2f9qqqdmt3",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Letter Coding",
+    "difficulty": "medium",
+    "question": "Which code represents the original message 'APPLE' in the given code scheme?",
+    "options": {
+      "A": "BLUE",
+      "B": "RED",
+      "C": "GREEN",
+      "D": "YELLOW"
+    },
+    "correctAnswer": "A",
+    "explanation": "The given code scheme is a simple letter substitution where A, B, C, D correspond to different letters. As we can observe, the pattern follows alphabetical order with APPLE being replaced by BLUE (B, L, U, E).",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:52:13.370Z"
+  },
+  {
+    "id": "q_ml1avfbsju9srwv0z",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Letter Coding",
+    "difficulty": "medium",
+    "question": "What is the coded number for 'Three' in the following coding system?",
+    "options": {
+      "A": "100",
+      "B": "101",
+      "C": "111",
+      "D": "300"
+    },
+    "correctAnswer": "C",
+    "explanation": "In this number coding system, each digit corresponds to a word. The first digit represents the position of the word in a sentence, and the second digit represents the grammatical gender of the word (0 for masculine, 1 for feminine). According to this system, 'One' is coded as '10', 'Two' as '11', and 'Three' as '111'. Therefore, the correct answer is 'C: 111'. Option A is incorrect because it represents the wrong position of the word. Options B and D are also incorrect because they do not follow the grammatical gender pattern.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:52:47.704Z"
+  },
+  {
+    "id": "q_ml1avyjhreubc0170",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Blood Relations",
+    "subtopic": "Direct Relations",
+    "difficulty": "medium",
+    "question": "In a family, 'P' is the father of 'Q'. If 'R' is the brother of 'Q', then how 'R' is related to 'P'?",
+    "options": {
+      "A": "Uncle of P",
+      "B": "Grandson of P",
+      "C": "Son of P",
+      "D": "Brother of P"
+    },
+    "correctAnswer": "A",
+    "explanation": "Since 'P' is the father of 'Q', and 'R' is the brother of 'Q', 'R' must be the brother of 'P's son (i.e., 'Q'), making him the uncle of 'P'.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:53:12.605Z"
+  },
+  {
+    "id": "q_ml1awj16xoyslt91d",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Blood Relations",
+    "subtopic": "Direct Relations",
+    "difficulty": "medium",
+    "question": "In a family, there are three generations. A is grandmother's brother's daughter's son. How is A related to her granddaughter?",
+    "options": {
+      "A": "Niece",
+      "B": "Sister",
+      "C": "Father",
+      "D": "Brother"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the relationship between A and her granddaughter, we need to trace back the family tree. A is grandmother's brother's daughter's son, which means A is the niece of the grandmother. Since A's granddaughter is the child of A, A is also the aunt or paternal aunt of her granddaughter.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:53:39.162Z"
+  },
+  {
+    "id": "q_ml1ax20dm5fmgr45x",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Direction & Distance",
+    "subtopic": "Simple Directions",
+    "difficulty": "easy",
+    "question": "In a square plot, a man walks 10 meters towards north and then turns to his right and walks 20 meters. How far is he now from the starting point?",
+    "options": {
+      "A": "30 meters",
+      "B": "15 meters",
+      "C": "Square root of (100 + 400)",
+      "D": "20 meters"
+    },
+    "correctAnswer": "A",
+    "explanation": "The man initially moves 10 meters north, and then turns right which means he starts moving east. He walks 20 meters towards the east. So, the total distance from the starting point is the sum of both distances i.e., 10 + 20 = 30 meters.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:54:03.757Z"
+  },
+  {
+    "id": "q_ml1axp29ds68f1qef",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Direction & Distance",
+    "subtopic": "Simple Directions",
+    "difficulty": "easy",
+    "question": "From point A, if you travel 10 km north and then 8 km east, in which direction should you now head to reach point B, which is 15 km away from point A?",
+    "options": {
+      "A": "North",
+      "B": "East",
+      "C": "South",
+      "D": "West"
+    },
+    "correctAnswer": "C",
+    "explanation": "After traveling 10 km north and then 8 km east, you are now at a point that is 18 km away from point A. To reach point B, which is 15 km away from point A, you need to head in the opposite direction of your current position. This means moving towards the south.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:54:33.633Z"
+  },
+  {
+    "id": "q_ml1aym92uq9p3pv2k",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Ranking & Order",
+    "subtopic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "In a circular arrangement of 9 distinct numbers, the sum of numbers at every second position (starting from the first) is 48. If the sum of all the numbers in the arrangement is 126, what is the value of the number at the fifth position?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "correctAnswer": "A",
+    "explanation": "To find the value of the number at the fifth position, we first need to understand the pattern of sums. Given that the sum of numbers at every second position is 48 and the total sum of all the numbers is 126, it means that the sum of numbers at odd positions (first, third, fifth, seventh, and ninth) is 78. Since there are five odd-numbered positions, each of them will have a sum of 15. So, we can calculate the value of the number at the fifth position by subtracting the sums of numbers at the first, third, seventh, and ninth positions from the total sum of odd positions (78). This gives us: 78 - (48 + Sum of fourth and sixth positions) = 30. Since each of the four positions apart from the fifth has a sum of 15, we can calculate the value of the number at the fifth position by subtracting 60 (sum of four positions) from 30, which gives us 10.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:55:16.646Z"
+  },
+  {
+    "id": "q_ml1az5074pfta7syh",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Ranking & Order",
+    "subtopic": "Linear Arrangement",
+    "difficulty": "medium",
+    "question": "Five people P, Q, R, S, and T are standing in a circular arrangement. P is standing next to Q, and S is standing next to R. Who is standing on the extreme right?",
+    "options": {
+      "A": "T",
+      "B": "S",
+      "C": "Q",
+      "D": "P"
+    },
+    "correctAnswer": "A",
+    "explanation": "Since P is standing next to Q, and S is standing next to R, we can conclude that the arrangement is: P-Q-R-S-T. Therefore, T is standing on the extreme right.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:55:40.951Z"
+  },
+  {
+    "id": "q_ml1aznnra06mb3d5e",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Syllogism",
+    "subtopic": "Basic Syllogism",
+    "difficulty": "hard",
+    "question": "If all plants have flowers, some roses are not plants, then which of the following conclusions can be drawn?",
+    "options": {
+      "A": "Some roses have no flowers",
+      "B": "Not all flowers are roses",
+      "C": "All roses are plants",
+      "D": "Some plants do not have flowers"
+    },
+    "correctAnswer": "A",
+    "explanation": "Given that all plants have flowers and some roses are not plants, it does not mean that all roses are plants. Therefore, it can be concluded that some roses have no flowers (option A) because if they were plants, they would have to have flowers according to the first statement.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:56:05.127Z"
+  },
+  {
+    "id": "q_ml1b06xagfic44qef",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Syllogism",
+    "subtopic": "Basic Syllogism",
+    "difficulty": "hard",
+    "question": "All cars are vehicles, some vehicles are trucks. Which of the following can be logically concluded?",
+    "options": {
+      "A": "All trucks are cars",
+      "B": "Some trucks are not cars",
+      "C": "All vehicles are trucks",
+      "D": "No conclusion can be drawn"
+    },
+    "correctAnswer": "B",
+    "explanation": "The question states that all cars are vehicles, and some vehicles are trucks. This means we can conclude that some trucks are not cars, because the statement only says 'some' vehicles are trucks, not 'all'. The other options cannot be logically concluded from this information.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:56:30.094Z"
+  },
+  {
+    "id": "q_ml1b0u1zxh087bcho",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Venn Diagrams",
+    "subtopic": "Two Elements",
+    "difficulty": "easy",
+    "question": "In the given Venn diagram, if set A has 10 elements, set B has 8 elements, and there are 5 elements common to both sets A and B, how many elements are there in set C?",
+    "options": {
+      "A": "3",
+      "B": "7",
+      "C": "11",
+      "D": "13"
+    },
+    "correctAnswer": "A",
+    "explanation": "The total number of elements in the universe (sets A, B, and C) is 10 + 8 + Common Elements = 26. Since the common elements are already counted, we subtract them from the total to find the sum of elements in sets A and B: 26 - 5 = 21. Set C contains all elements that are neither in set A nor in set B. Therefore, set C has the number of elements in the universe minus the sum of elements in sets A and B plus the common elements (double-counted): 26 - (21 + Common Elements) = 5.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:57:00.071Z"
+  },
+  {
+    "id": "q_ml1b1kq0plfzftfhl",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Venn Diagrams",
+    "subtopic": "Two Elements",
+    "difficulty": "easy",
+    "question": "Three overlapping sets A, B, C have the following Venn diagram: The sets A, B, C are overlapping. Three overlapping sets A, B, C are given. Set A is a subset of set B. What can be concluded about set C?",
+    "options": {
+      "A": "Set C must be equal to set B",
+      "B": "Set C must be a subset of set A",
+      "C": "Set C is an independent set and does not have any relation with sets A and B",
+      "D": "Set C is equal to the difference between set B and set A"
+    },
+    "correctAnswer": "A",
+    "explanation": "Since set A is a subset of set B, it means that everything in set A is also in set B. This means that set C cannot be anything outside of set B, as all elements of set B are either in set A or set C (since they overlap). Therefore, set C must be equal to set B.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:57:34.632Z"
+  },
+  {
+    "id": "q_ml1b2a66tu9sz3uhy",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "hard",
+    "question": "In a meeting, six people A, B, C, D, E, and F sit around a circular table such that each person can see the other five. However, no two people sit opposite each other. If A sits second to the left of D and B is not an immediate neighbor of A or D, who among the following sits third to the right of A?",
+    "options": {
+      "A": "E",
+      "B": "C",
+      "C": "F",
+      "D": "No one"
+    },
+    "correctAnswer": "C",
+    "explanation": "Since A sits second to the left of D, and no two people sit opposite each other, D cannot be sitting on the immediate right of A. Also, B is not an immediate neighbor of A or D. So, let's assume that B sits on A's right side (though we know it's not possible for B to be an immediate neighbor of A). Now, since there are only five other people and each person can see the other five, E must be on A's left side because he is not an immediate neighbor of A or D. Therefore, F, being the remaining person, sits third to the right of A.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:58:07.614Z"
+  },
+  {
+    "id": "q_ml1b37b45ggnf1f5j",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "hard",
+    "question": "Five tasks P, Q, R, S, and T need to be performed in a specific order. The following conditions apply: Task P can start only after task R has finished; task Q cannot start until either task P or task T has finished; task S must start immediately after task R has finished; task T can start only if tasks Q and S have both been completed. What is the correct order in which these five tasks should be performed?",
+    "options": {
+      "A": "R, S, T, Q, P",
+      "B": "P, R, S, Q, T",
+      "C": "T, Q, S, R, P",
+      "D": "Q, S, R, P, T"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct order is indeed R, S, T, Q, P. Here's why: Task R can start first since there are no preconditions for it to begin. Once task R has finished, task S must be performed immediately. After that, task T can start as tasks Q and S have both been completed. Finally, task P can only start after task R has finished, which is now the case. Options B, C, and D are incorrect because they either ignore or contradict the given conditions.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:58:50.560Z"
+  },
+  {
+    "id": "q_ml1b43apa7apuao4f",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "hard",
+    "question": "In a calendar year, there are 13 weeks with exactly 7 days each. However, one week contains an extra day (Monday). How many days does the extra day shift in the week?",
+    "options": {
+      "A": "The extra day shifts to Tuesday",
+      "B": "The extra day shifts to Wednesday",
+      "C": "The extra day shifts to Thursday",
+      "D": "The extra day shifts to Friday"
+    },
+    "correctAnswer": "A",
+    "explanation": "Since there are 13 weeks with 7 days each, there are a total of 91 days in those weeks (13 * 7). The remaining days of the year are accounted for by the additional day in one week. So, if we subtract the total number of days from the total number of days in a calendar year (365), we get the extra day. In a calendar year, there are 365 - 91 = 274 days left after accounting for the weeks with 7 days each. Now, if we add these remaining days to the total number of days in the weeks (91 * 7 = 637), we get a total of 637 + 274 = 911 days which exceeds the total number of days in a year by 56. Since there is only one extra day, this extra day must have shifted from the last week (Sunday to Saturday) and added to Monday of the first week, making the extra day shift to Tuesday.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T19:59:32.017Z"
+  },
+  {
+    "id": "q_ml1b4np02e49dzrzu",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Statement & Conclusions",
+    "subtopic": "Statement-Conclusion",
+    "difficulty": "medium",
+    "question": "Statement: All banks provide loans. Conclusions:",
+    "options": {
+      "A": "Some banks do not provide loans",
+      "B": "All banks provide savings accounts",
+      "C": "No bank provides credit cards",
+      "D": "At least one bank does not provide loans"
+    },
+    "correctAnswer": "D",
+    "explanation": "The statement 'All banks provide loans' implies that every bank has a lending policy. The conclusion 'At least one bank does not provide loans' is a valid assumption because the statement doesn't explicitly state that all banks provide loans, only that they do. Options A and B are incorrect as they contradict the statement, while option C is irrelevant to the topic.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T19:59:58.452Z"
+  },
+  {
+    "id": "q_ml1b59j4jytomycso",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Statement & Conclusions",
+    "subtopic": "Statement-Conclusion",
+    "difficulty": "medium",
+    "question": "Statements: Some books are novels. All novels are thick. Conclusions: (I) Some thick books are novels. (II) Some novels are not thick.",
+    "options": {
+      "A": "(I) Some thick books are novels, (II) Some novels are not thick.",
+      "B": "(I) Some thin books are novels, (II) All novels are thick.",
+      "C": "(I) Some novels are not thick, (II) Some thick books are not novels.",
+      "D": "(I) Some novels are thin, (II) All thick books are novels."
+    },
+    "correctAnswer": "A",
+    "explanation": "The first statement 'Some books are novels' means some novels exist. The second statement 'All novels are thick' means all the novels that exist are thick. Therefore, both statements together imply that some thick books are novels (I) and some novels are not thin (II). Option A is the correct conclusion as it contains both implications of the given statements.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:00:26.752Z"
+  },
+  {
+    "id": "q_ml1b5uhcts83paw8j",
+    "subject": "Reasoning & Mental Ability",
+    "topic": "Statement & Conclusions",
+    "subtopic": "Statement-Conclusion",
+    "difficulty": "medium",
+    "question": "Some books are novels. All novels are stories. Conclusion:",
+    "options": {
+      "A": "All books are stories",
+      "B": "Some stories are novels",
+      "C": "All novels are not books",
+      "D": "All stories are not novels"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct conclusion can be drawn by using the given statements. 'Some books are novels' implies that there is a subset of books that are novels. Then, 'All novels are stories' means that all things that are novels (i.e., part of the subset) are also stories. Therefore, since some books are novels and all novels are stories, it logically follows that all these novel-books are also stories. Hence, all books that are novels are indeed stories, making option A the correct conclusion.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:00:53.904Z"
+  }
+]

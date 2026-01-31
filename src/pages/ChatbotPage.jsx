@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   MessageCircle, 
@@ -10,14 +11,19 @@ import {
   Lightbulb,
   BookOpen,
   HelpCircle,
-  Sparkles
+  Sparkles,
+  Key,
+  Settings,
+  ExternalLink
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useChatbotStore } from '../store/chatbotStore';
 import { Card, Button, Input } from '../components';
+import { isAPIConfigured } from '../config/openrouter.config';
 import toast from 'react-hot-toast';
 
 const ChatbotPage = () => {
+  const navigate = useNavigate();
   const { user, selectedExam, preferredLanguage } = useAuthStore();
   const { 
     messages, 
@@ -30,11 +36,14 @@ const ChatbotPage = () => {
   const [inputMessage, setInputMessage] = useState('');
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+  const [hasAPIKey, setHasAPIKey] = useState(true); // Default true to avoid flash
 
   useEffect(() => {
     if (user?.id) {
       loadChatHistory(user.id);
     }
+    // Check API key status
+    setHasAPIKey(isAPIConfigured());
   }, [user?.id]);
 
   useEffect(() => {
@@ -157,6 +166,46 @@ const ChatbotPage = () => {
               <p className="text-xs sm:text-sm text-secondary-500 mb-4 sm:mb-6 max-w-md">
                 Ask me anything about OSSC {selectedExam} exam!
               </p>
+
+              {/* API Key Warning */}
+              {!hasAPIKey && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="w-full max-w-lg mb-4 p-4 bg-yellow-50 border border-yellow-200 rounded-xl"
+                >
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-yellow-100 flex items-center justify-center flex-shrink-0">
+                      <Key className="text-yellow-600" size={20} />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-yellow-800 mb-1">API Key Required</h3>
+                      <p className="text-sm text-yellow-700 mb-3">
+                        Add your free OpenRouter API key to enable AI chatbot features.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <Button
+                          size="small"
+                          variant="primary"
+                          onClick={() => navigate('/profile')}
+                          icon={Settings}
+                        >
+                          Setup in Profile
+                        </Button>
+                        <a
+                          href="https://openrouter.ai/keys"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 px-3 py-1.5 text-sm text-yellow-700 hover:text-yellow-800 hover:bg-yellow-100 rounded-lg transition-colors"
+                        >
+                          <ExternalLink size={14} />
+                          Get Free Key
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
               
               {/* Quick Questions */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 w-full max-w-lg">

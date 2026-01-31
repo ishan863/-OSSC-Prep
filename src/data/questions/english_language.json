@@ -1,0 +1,272 @@
+[
+  {
+    "id": "q_ml1bnma911akoh4f5",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Tenses",
+    "difficulty": "medium",
+    "question": "The students ________ (to attend/to attend to) their classes regularly.",
+    "options": {
+      "A": "attend",
+      "B": "attend to",
+      "C": "are attending",
+      "D": "were attended"
+    },
+    "correctAnswer": "A",
+    "explanation": "In this sentence, the subject is 'students', and it's a plural noun. The verb 'to attend' should agree with the subject in number. Therefore, the correct choice is 'attend'. Options B, C, and D are incorrect because they change the meaning of the sentence or do not follow subject-verb agreement rules.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:14:43.089Z"
+  },
+  {
+    "id": "q_ml1bo27k7ai2zls0s",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Tenses",
+    "difficulty": "medium",
+    "question": "Which of the following sentences demonstrates a correct subject-verb agreement?",
+    "options": {
+      "A": "The majority of the books are on the table.",
+      "B": "The book's are on the table.",
+      "C": "The book is on the tables.",
+      "D": "Books are on the table."
+    },
+    "correctAnswer": "A",
+    "explanation": "In option A, 'majority' is a collective noun which acts as a singular subject and requires a singular verb ('is'). In options B and D, 'book's' is incorrectly pluralized. Option C is incorrect because 'table' is plural while 'book' is singular.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:15:03.728Z"
+  },
+  {
+    "id": "q_ml1boml1cvbatlxyt",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Tenses",
+    "difficulty": "medium",
+    "question": "The new employees were given a comprehensive training program by the management, which ________ them with the necessary skills to handle complex projects.",
+    "options": {
+      "A": "was giving",
+      "B": "gives",
+      "C": "had given",
+      "D": "is giving"
+    },
+    "correctAnswer": "A",
+    "explanation": "The subject-verb agreement rule states that when the subject is a plural noun, the verb should be in the plural form. In this sentence, 'new employees' is a plural noun and 'were given' is in the past tense, so the correct verb form is the third person singular present perfect continuous 'was giving'. Options B, C, and D do not match the subject-verb agreement because they are either incorrect tenses or forms.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:15:30.133Z"
+  },
+  {
+    "id": "q_ml1bozdpj42ep4g4n",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "easy",
+    "question": "Find the antonym for the word 'Prosperous'.",
+    "options": {
+      "A": "Poor",
+      "B": "Rich",
+      "C": "Wealthy",
+      "D": "Penniless"
+    },
+    "correctAnswer": "A",
+    "explanation": "'Prosperous' means having a successful or thriving condition. 'Poor', in this context, is the antonym as it refers to having little money, possessions, or food.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:15:46.717Z"
+  },
+  {
+    "id": "q_ml1bpklq93ulq1lo2",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "easy",
+    "question": "The phrase 'a piece of cake' means",
+    "options": {
+      "A": "A very difficult task",
+      "B": "Something that is easy to do",
+      "C": "An unpleasant experience",
+      "D": "A great achievement"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer, 'B', means something that is easy to do. This idiom suggests that a task or activity requires little effort and can be accomplished with ease, making it a perfect fit for the phrase 'a piece of cake'. Options A, C, and D are incorrect because they describe scenarios that are opposite of what this idiom implies.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:16:14.222Z"
+  },
+  {
+    "id": "q_ml1bpzd9v898kqz0q",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "easy",
+    "question": "Choose the word that means 'lack' from the following options:",
+    "options": {
+      "A": "Abundance",
+      "B": "Deficiency",
+      "C": "Scarcity",
+      "D": "Excess"
+    },
+    "correctAnswer": "B",
+    "explanation": "The word 'Deficiency' means a lack or shortage, so it is the antonym of 'abundance'. While 'scarcity' and 'lack' are synonyms, 'abundance' and 'excess' are antonyms to 'deficiency'.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:16:33.357Z"
+  },
+  {
+    "id": "q_ml1bqjvhihum31h5z",
+    "subject": "English Language",
+    "topic": "Error Spotting",
+    "subtopic": "Grammatical Errors",
+    "difficulty": "medium",
+    "question": "The manager, who was responsible for the company's financial performance, had never been to a board meeting.",
+    "options": {
+      "A": "had always been to a board meeting",
+      "B": "had never been to a board meeting",
+      "C": "was always responsible for the company's financial performance",
+      "D": "was not responsible for the company's financial performance"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct sentence should read 'The manager, who was responsible for the company's financial performance, had never been to a board meeting.' because it is a description of someone's past experience. The sentence does not imply that the manager has always gone to board meetings, but rather that this is their first time attending one. Options A and D are incorrect as they alter the original meaning of the sentence.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:16:59.933Z"
+  },
+  {
+    "id": "q_ml1br1umqhur5lk6s",
+    "subject": "English Language",
+    "topic": "Error Spotting",
+    "subtopic": "Grammatical Errors",
+    "difficulty": "medium",
+    "question": "Identify the error in the following sentence: 'She don't like apples.'",
+    "options": {
+      "A": "'She doesn't like apples.' (Correct)",
+      "B": "'She do not like apples.'",
+      "C": "'She likes no apples.'",
+      "D": "'She don't like no apples.'"
+    },
+    "correctAnswer": "A",
+    "explanation": "In English, the third person singular form of the verb 'to be' and many other verbs require an -s or -es ending when the subject is he, she, or it. The correct form is 'She doesn't like apples.' as 'does not' is used instead of 'don't'. Options B, C, and D contain errors.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:17:23.230Z"
+  },
+  {
+    "id": "q_ml1brqsrsjql89fuc",
+    "subject": "English Language",
+    "topic": "Error Spotting",
+    "subtopic": "Grammatical Errors",
+    "difficulty": "medium",
+    "question": "The following sentence is not grammatically correct. Identify the error and choose the corrected option.",
+    "options": {
+      "A": "The new employee was very happy with his new job, as well as the people he met there during the first week",
+      "B": "The new employee was very happy with his new job, also the people he met there during the first week",
+      "C": "The new employee was very happy with his new job; as well as the people he met there during the first week",
+      "D": "The new employee was very happy with his new job, since it was a great fit for him and the people he met there during the first week"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is the correct answer because 'also' is used to add an additional point or detail, whereas 'as well as' is used to introduce another element that is similar to the first. The sentence should read: The new employee was very happy with his new job also.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:17:55.563Z"
+  },
+  {
+    "id": "q_ml1bs8ne7p8pj93g1",
+    "subject": "English Language",
+    "topic": "Fill in the Blanks",
+    "subtopic": "Single Blanks",
+    "difficulty": "medium",
+    "question": "Fill in the blanks to form a coherent sentence: 'The cat ______ its _______ when it saw the mouse.'",
+    "options": {
+      "A": "meowed",
+      "B": "mewed",
+      "C": "meeted",
+      "D": "met"
+    },
+    "correctAnswer": "A",
+    "explanation": "In the given context, 'meowed' is the correct word to fill in the first blank as it refers to a sound that a cat makes. The second blank should be filled with 'its', which is a possessive determiner referring to 'cat'. Options B and C are incorrect as 'mewed' does not fit the context of making a sound, while 'met' is incorrect because it means encountering someone or something.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:18:18.698Z"
+  },
+  {
+    "id": "q_ml1bsrqr5erz1fcv8",
+    "subject": "English Language",
+    "topic": "Fill in the Blanks",
+    "subtopic": "Single Blanks",
+    "difficulty": "medium",
+    "question": "The increasing trend in crime rates can be attributed to _______________ lack of _______________ awareness.",
+    "options": {
+      "A": "social, general",
+      "B": "economic, specific",
+      "C": "cultural, overall",
+      "D": "psychological, detailed"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct answer is 'social' and 'general'. The increasing trend in crime rates can be attributed to a lack of general social awareness. This means that there is a need for greater understanding of the social aspects of crime, such as its causes and consequences. Options B, C, and D are incorrect because they do not provide a clear connection between the increasing crime rate and the lack of awareness.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:18:43.444Z"
+  },
+  {
+    "id": "q_ml1bt6cp62rvj3z4t",
+    "subject": "English Language",
+    "topic": "Fill in the Blanks",
+    "subtopic": "Single Blanks",
+    "difficulty": "medium",
+    "question": "Correct the following sentence: 'In ______, a person's actions are often guided by _______'.",
+    "options": {
+      "A": "life, ethics",
+      "B": "lives, ethos",
+      "C": "lifes, ethic",
+      "D": "lifes, ethos"
+    },
+    "correctAnswer": "A",
+    "explanation": "In this sentence, 'life' is a singular noun and should be followed by the singular form of the adjective, which is 'ethics'. The options B, C, and D incorrectly use plural forms.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:19:02.377Z"
+  },
+  {
+    "id": "q_ml1btxy3guad3cxpu",
+    "subject": "English Language",
+    "topic": "Sentence Rearrangement",
+    "subtopic": "Para Jumbles",
+    "difficulty": "hard",
+    "question": "Rearrange the following sentences to form a coherent paragraph:",
+    "options": {
+      "A": "As it was getting dark, I decided to walk back. The road was not very well-lit. It was then that I saw her.",
+      "B": "It was then that I saw her. As it was getting dark, I decided to walk back. The road was not very well-lit.",
+      "C": "The road was not very well-lit. It was then that I saw her. As it was getting dark, I decided to walk back.",
+      "D": "It was a strange encounter. As it was getting dark, I decided to walk back. The road was not very well-lit."
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct order is A because the paragraph describes a situation where the speaker decides to walk back as it gets dark and sees someone on the road. Option A provides a logical sequence of events, whereas options B and C introduce unnecessary jumps in time or space, making them illogical. Option D completely changes the focus from the walk back to an encounter, which is not supported by the given sentences.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:19:38.139Z"
+  },
+  {
+    "id": "q_ml1bv2ajcm6xqgvnd",
+    "subject": "English Language",
+    "topic": "Sentence Rearrangement",
+    "subtopic": "Para Jumbles",
+    "difficulty": "hard",
+    "question": "Rearrange the following sentences to form a coherent paragraph: A. It was the early hours of the morning when I reached the station; B. The train, which was running late, finally arrived at the platform; C. A hush fell over the crowd as the train pulled into the station; D. As we boarded the train, the conductor checked our tickets.",
+    "options": {
+      "A": "A hush fell over the crowd as the train pulled into the station; The train, which was running late, finally arrived at the platform; It was the early hours of the morning when I reached the station; As we boarded the train, the conductor checked our tickets.",
+      "B": "As we boarded the train, the conductor checked our tickets; The train, which was running late, finally arrived at the platform; A hush fell over the crowd as the train pulled into the station; It was the early hours of the morning when I reached the station.",
+      "C": "It was the early hours of the morning when I reached the station; As we boarded the train, the conductor checked our tickets; The train, which was running late, finally arrived at the platform; A hush fell over the crowd as the train pulled into the station.",
+      "D": "The train, which was running late, finally arrived at the platform; It was the early hours of the morning when I reached the station; As we boarded the train, the conductor checked our tickets; A hush fell over the crowd as the train pulled into the station."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A provides a coherent narrative by first describing the time when the speaker reached the station (sentence A), then describing the late arrival of the train (sentence B), followed by the hush that fell over the crowd as the train arrived (sentence C). Only after this does sentence D describe the action of boarding the train and checking tickets. This order presents a clear chronological account of events, making option A the correct answer.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:20:30.427Z"
+  },
+  {
+    "id": "q_ml1bw5rjifqa6b0sj",
+    "subject": "English Language",
+    "topic": "Sentence Rearrangement",
+    "subtopic": "Para Jumbles",
+    "difficulty": "hard",
+    "question": "Rearrange the following six sentences to form a coherent paragraph:",
+    "options": {
+      "A": "The Indian Railways has been in existence since 1853. The first passenger train ran between Mumbai and Thane. India's railway network is one of the largest in Asia. The Railways Act, 1989, was enacted to ensure efficient management. It has become an integral part of Indian economy. The Indian Railways has a vast network of over 67,000 km.",
+      "B": "It has become an integral part of Indian economy. India's railway network is one of the largest in Asia. The first passenger train ran between Mumbai and Thane. The Indian Railways has been in existence since 1853. The Railways Act, 1989, was enacted to ensure efficient management.",
+      "C": "The Railways Act, 1989, was enacted to ensure efficient management. India's railway network is one of the largest in Asia. It has become an integral part of Indian economy. The first passenger train ran between Mumbai and Thane. The Indian Railways has a vast network of over 67,000 km.",
+      "D": "The Indian Railways has been in existence since 1853. India's railway network is one of the largest in Asia. The first passenger train ran between Mumbai and Thane. It has become an integral part of Indian economy. The Railways Act, 1989, was enacted to ensure efficient management."
+    },
+    "correctAnswer": "D",
+    "explanation": "The correct answer is option D because it forms a coherent paragraph that provides a clear narrative about the history and significance of Indian Railways. Options A, B, and C do not form a logical sequence, with abrupt jumps between sentences or irrelevant information.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:21:21.583Z"
+  }
+]

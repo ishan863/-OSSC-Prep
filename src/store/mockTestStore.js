@@ -15,6 +15,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { generateMockTest, generateDailyTest } from '../services/aiService';
+import { getMockTestQuestions, getDailyQuestions, getLocalQuestions } from '../services/localQuestionsService';
 
 // Mock Test Store - Manages mock tests and daily tests
 export const useMockTestStore = create((set, get) => ({
@@ -33,12 +34,34 @@ export const useMockTestStore = create((set, get) => ({
     try {
       const { exam, userId, language = 'en' } = params;
       
-      // Generate 100 questions for mock test
-      const questions = await generateMockTest({
-        exam,
-        language,
-        questionCount: 100
-      });
+      // FIRST: Try local pre-generated questions
+      let questions = [];
+      try {
+        console.log('📦 Loading mock test from local question bank...');
+        questions = getMockTestQuestions(exam, 100);
+        console.log(`✅ Got ${questions.length} questions from local bank`);
+      } catch (localError) {
+        console.warn('Local mock test failed:', localError.message);
+      }
+      
+      // FALLBACK: If not enough local questions, try AI
+      if (!questions || questions.length < 50) {
+        console.log('🤖 Local questions insufficient, trying AI...');
+        try {
+          questions = await generateMockTest({
+            exam,
+            language,
+            questionCount: 100
+          });
+        } catch (aiError) {
+          console.warn('AI mock test failed:', aiError.message);
+        }
+      }
+      
+      // If still no questions, use what we have
+      if (!questions || questions.length === 0) {
+        questions = getLocalQuestions({ exam, count: 100 });
+      }
 
       const testId = `mock_${Date.now()}`;
       
@@ -48,11 +71,11 @@ export const useMockTestStore = create((set, get) => ({
         exam,
         userId,
         language,
-        questionCount: 100,
+        questionCount: questions.length,
         duration: 90, // 90 minutes
         createdAt: new Date().toISOString(),
         status: 'pending',
-        source: 'AI-Generated Mock Test (OSSC Pattern)'
+        source: 'Local Question Bank (Ollama Llama3/Mistral)'
       };
       
       const test = {
@@ -88,13 +111,35 @@ export const useMockTestStore = create((set, get) => ({
     try {
       const { exam, userId, language = 'en', weakTopics = [] } = params;
       
-      // Generate 10 questions for daily test
-      const questions = await generateDailyTest({
-        exam,
-        language,
-        questionCount: 10,
-        weakTopics
-      });
+      // FIRST: Try local pre-generated questions
+      let questions = [];
+      try {
+        console.log('📦 Loading daily test from local question bank...');
+        questions = getDailyQuestions(exam, 10);
+        console.log(`✅ Got ${questions.length} questions from local bank`);
+      } catch (localError) {
+        console.warn('Local daily test failed:', localError.message);
+      }
+      
+      // FALLBACK: If not enough local questions, try AI
+      if (!questions || questions.length < 5) {
+        console.log('🤖 Local questions insufficient, trying AI...');
+        try {
+          questions = await generateDailyTest({
+            exam,
+            language,
+            questionCount: 10,
+            weakTopics
+          });
+        } catch (aiError) {
+          console.warn('AI daily test failed:', aiError.message);
+        }
+      }
+      
+      // If still no questions, use what we have
+      if (!questions || questions.length === 0) {
+        questions = getLocalQuestions({ exam, count: 10 });
+      }
 
       const testId = `daily_${Date.now()}`;
 
@@ -104,12 +149,12 @@ export const useMockTestStore = create((set, get) => ({
         exam,
         userId,
         language,
-        questionCount: 10,
+        questionCount: questions.length,
         duration: 10, // 10 minutes
         createdAt: new Date().toISOString(),
         status: 'pending',
         date: new Date().toISOString().split('T')[0],
-        source: 'AI-Generated Daily Test'
+        source: 'Local Question Bank (Ollama Llama3/Mistral)'
       };
       
       const test = {

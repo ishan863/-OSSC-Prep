@@ -1,13 +1,25 @@
 # 🚀 OSSC Exam Prep - Deployment Guide
 
-## Quick Setup
+## 🔐 API Key Security (IMPORTANT!)
 
-### 1. Get OpenRouter API Key (FREE)
+**This app does NOT require you to set API keys during deployment!**
+
+Each user provides their own OpenRouter API key through the app settings. This is the most secure approach because:
+- No API key in your code = No risk of key getting revoked
+- Each user manages their own key in their browser
+- Keys are stored locally in localStorage (never sent to your servers)
+
+---
+
+## Quick Setup for Users
+
+### How Users Get Their FREE API Key
 1. Go to [https://openrouter.ai](https://openrouter.ai)
 2. Click "Sign up" (use Google for quick signup)
 3. Go to [https://openrouter.ai/keys](https://openrouter.ai/keys)
 4. Click "Create Key"
 5. Copy the key (starts with `sk-or-v1-`)
+6. Paste it in the app: **Profile → AI API Key → Save**
 
 > **Note:** This app uses only FREE models - no credit card required!
 
@@ -26,14 +38,10 @@
 cd ossc-exam-prep
 npm install
 
-# 2. Create .env file
-cp .env.example .env
-
-# 3. Edit .env with your keys
-# VITE_OPENROUTER_API_KEY=sk-or-v1-your-key-here
-
-# 4. Run the app
+# 2. Run the app (no .env file needed!)
 npm run dev
+
+# 3. Enter your API key in the app when prompted
 ```
 
 ---
@@ -55,10 +63,8 @@ npm run dev
    - Go to [vercel.com](https://vercel.com)
    - Click "New Project"
    - Import your GitHub repository
-   - Add Environment Variables:
-     - `VITE_OPENROUTER_API_KEY` = your API key
-     - `VITE_FIREBASE_API_KEY` = your Firebase key
-     - (add all Firebase config variables)
+   - **No API keys needed!** (Users enter their own)
+   - Add Firebase variables if using Firebase
    - Click "Deploy"
 
 ### Option 2: Netlify
@@ -73,9 +79,8 @@ npm run dev
    - Drag the `dist` folder to deploy
    - Or connect GitHub repo
 
-3. **Add Environment Variables**
+3. **Add Firebase Environment Variables (if using Firebase)**
    - Site Settings → Build & Deploy → Environment
-   - Add all `VITE_*` variables
 
 ### Option 3: GitHub Pages
 
@@ -100,15 +105,12 @@ npm run dev
    npm run deploy
    ```
 
-> **Note:** For GitHub Pages, you need to set environment variables in GitHub Secrets and use GitHub Actions for the build.
-
 ---
 
 ## Environment Variables Reference
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `VITE_OPENROUTER_API_KEY` | ✅ Yes | OpenRouter API key for AI features |
 | `VITE_FIREBASE_API_KEY` | ⚪ Optional | Firebase API key |
 | `VITE_FIREBASE_AUTH_DOMAIN` | ⚪ Optional | Firebase auth domain |
 | `VITE_FIREBASE_PROJECT_ID` | ⚪ Optional | Firebase project ID |
@@ -116,16 +118,18 @@ npm run dev
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | ⚪ Optional | Firebase sender ID |
 | `VITE_FIREBASE_APP_ID` | ⚪ Optional | Firebase app ID |
 
+> **Note:** OpenRouter API key is NOT set as environment variable! Each user provides their own key through the app.
+
 ---
 
 ## Security Notes
 
-⚠️ **Important Security Practices:**
+✅ **This app follows best security practices:**
 
-1. **Never commit `.env` file** - It's already in `.gitignore`
-2. **Use environment variables** in production hosting
-3. **Rotate API keys** if accidentally exposed
-4. **Monitor usage** on OpenRouter dashboard
+1. **No API keys in code** - Users provide their own keys
+2. **Keys stored in browser localStorage** - Never sent to your servers
+3. **Never commit API keys** - The `.gitignore` file excludes `.env`
+4. **Each user controls their own key** - Can revoke anytime from OpenRouter
 
 ---
 

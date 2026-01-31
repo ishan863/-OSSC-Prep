@@ -1,0 +1,454 @@
+{
+  "english language": {
+    "one word substitution": {
+      "originalSubject": "English Language",
+      "originalTopic": "One Word Substitution",
+      "count": 47
+    },
+    "sentence correction": {
+      "originalSubject": "English Language",
+      "originalTopic": "Sentence Correction",
+      "count": 32
+    },
+    "vocabulary - synonyms": {
+      "originalSubject": "English Language",
+      "originalTopic": "Vocabulary - Synonyms",
+      "count": 48
+    },
+    "subject-verb agreement": {
+      "originalSubject": "English Language",
+      "originalTopic": "Subject-Verb Agreement",
+      "count": 36
+    },
+    "active-passive voice": {
+      "originalSubject": "English Language",
+      "originalTopic": "Active-Passive Voice",
+      "count": 34
+    },
+    "grammar - parts of speech": {
+      "originalSubject": "English Language",
+      "originalTopic": "Grammar - Parts of Speech",
+      "count": 35
+    },
+    "vocabulary - antonyms": {
+      "originalSubject": "English Language",
+      "originalTopic": "Vocabulary - Antonyms",
+      "count": 47
+    },
+    "error spotting": {
+      "originalSubject": "English Language",
+      "originalTopic": "Error Spotting",
+      "count": 34
+    },
+    "idioms & phrases": {
+      "originalSubject": "English Language",
+      "originalTopic": "Idioms & Phrases",
+      "count": 21
+    },
+    "grammar - tenses": {
+      "originalSubject": "English Language",
+      "originalTopic": "Grammar - Tenses",
+      "count": 48
+    },
+    "reading comprehension": {
+      "originalSubject": "English Language",
+      "originalTopic": "Reading Comprehension",
+      "count": 42
+    },
+    "fill in the blanks": {
+      "originalSubject": "English Language",
+      "originalTopic": "Fill in the Blanks",
+      "count": 48
+    },
+    "direct-indirect speech": {
+      "originalSubject": "English Language",
+      "originalTopic": "Direct-Indirect Speech",
+      "count": 22
+    },
+    "sentence rearrangement": {
+      "originalSubject": "English Language",
+      "originalTopic": "Sentence Rearrangement",
+      "count": 13
+    },
+    "grammar": {
+      "originalSubject": "English Language",
+      "originalTopic": "Grammar",
+      "count": 3
+    },
+    "vocabulary": {
+      "originalSubject": "English Language",
+      "originalTopic": "Vocabulary",
+      "count": 3
+    }
+  },
+  "reasoning & mental ability": {
+    "puzzles": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Puzzles",
+      "count": 56
+    },
+    "odd one out": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Odd One Out",
+      "count": 41
+    },
+    "direction & distance": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Direction & Distance",
+      "count": 31
+    },
+    "analogy": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Analogy",
+      "count": 38
+    },
+    "blood relations": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Blood Relations",
+      "count": 32
+    },
+    "series completion": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Series Completion",
+      "count": 35
+    },
+    "statement & conclusions": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Statement & Conclusions",
+      "count": 41
+    },
+    "non-verbal reasoning": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Non-Verbal Reasoning",
+      "count": 44
+    },
+    "coding-decoding": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Coding-Decoding",
+      "count": 33
+    },
+    "ranking & order": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Ranking & Order",
+      "count": 26
+    },
+    "classification": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Classification",
+      "count": 24
+    },
+    "syllogism": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Syllogism",
+      "count": 32
+    },
+    "venn diagrams": {
+      "originalSubject": "Reasoning & Mental Ability",
+      "originalTopic": "Venn Diagrams",
+      "count": 26
+    }
+  },
+  "quantitative aptitude": {
+    "probability": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Probability",
+      "count": 22
+    },
+    "average": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Average",
+      "count": 35
+    },
+    "compound interest": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Compound Interest",
+      "count": 33
+    },
+    "time speed distance": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Time Speed Distance",
+      "count": 34
+    },
+    "ratio & proportion": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Ratio & Proportion",
+      "count": 31
+    },
+    "data interpretation": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Data Interpretation",
+      "count": 28
+    },
+    "geometry": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Geometry",
+      "count": 38
+    },
+    "mensuration 3d": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Mensuration 3D",
+      "count": 29
+    },
+    "mensuration 2d": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Mensuration 2D",
+      "count": 38
+    },
+    "percentage": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Percentage",
+      "count": 30
+    },
+    "simplification": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Simplification",
+      "count": 14
+    },
+    "time & work": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Time & Work",
+      "count": 26
+    },
+    "simple interest": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Simple Interest",
+      "count": 29
+    },
+    "algebra": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Algebra",
+      "count": 12
+    },
+    "number system": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Number System",
+      "count": 34
+    },
+    "profit & loss": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Profit & Loss",
+      "count": 18
+    },
+    "time, speed & distance": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Time, Speed & Distance",
+      "count": 3
+    },
+    "mensuration": {
+      "originalSubject": "Quantitative Aptitude",
+      "originalTopic": "Mensuration",
+      "count": 2
+    }
+  },
+  "general knowledge": {
+    "indian polity - parliament": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Polity - Parliament",
+      "count": 41
+    },
+    "indian constitution": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Constitution",
+      "count": 30
+    },
+    "indian polity - judiciary": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Polity - Judiciary",
+      "count": 35
+    },
+    "modern indian history": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Modern Indian History",
+      "count": 37
+    },
+    "indian economy - basics": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Economy - Basics",
+      "count": 27
+    },
+    "indian economy - banking": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Economy - Banking",
+      "count": 34
+    },
+    "medieval indian history": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Medieval Indian History",
+      "count": 41
+    },
+    "current affairs": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Current Affairs",
+      "count": 37
+    },
+    "world geography": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "World Geography",
+      "count": 29
+    },
+    "chemistry": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Chemistry",
+      "count": 31
+    },
+    "computer science": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Computer Science",
+      "count": 23
+    },
+    "indian geography - economic": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Geography - Economic",
+      "count": 39
+    },
+    "indian polity - executive": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Polity - Executive",
+      "count": 27
+    },
+    "indian geography - physical": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Geography - Physical",
+      "count": 32
+    },
+    "physics": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Physics",
+      "count": 23
+    },
+    "ancient indian history": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Ancient Indian History",
+      "count": 29
+    },
+    "biology": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Biology",
+      "count": 56
+    },
+    "indian history": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian History",
+      "count": 3
+    },
+    "geography": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Geography",
+      "count": 3
+    },
+    "indian polity": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Polity",
+      "count": 3
+    },
+    "indian economy": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "Indian Economy",
+      "count": 3
+    },
+    "general science": {
+      "originalSubject": "General Knowledge",
+      "originalTopic": "General Science",
+      "count": 3
+    }
+  },
+  "odisha gk": {
+    "modern odisha history": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Modern Odisha History",
+      "count": 29
+    },
+    "odisha culture - dance & art": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Culture - Dance & Art",
+      "count": 23
+    },
+    "odisha culture - temples": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Culture - Temples",
+      "count": 38
+    },
+    "odisha culture - festivals": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Culture - Festivals",
+      "count": 32
+    },
+    "odisha economy": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Economy",
+      "count": 31
+    },
+    "odisha polity": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Polity",
+      "count": 17
+    },
+    "odisha geography": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Geography",
+      "count": 51
+    },
+    "odisha personalities": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Personalities",
+      "count": 21
+    },
+    "medieval odisha history": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Medieval Odisha History",
+      "count": 30
+    },
+    "ancient odisha history": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Ancient Odisha History",
+      "count": 18
+    },
+    "odisha history": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha History",
+      "count": 2
+    },
+    "odisha culture & heritage": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Culture & Heritage",
+      "count": 2
+    },
+    "odisha polity & administration": {
+      "originalSubject": "Odisha GK",
+      "originalTopic": "Odisha Polity & Administration",
+      "count": 2
+    }
+  },
+  "odia language": {
+    "odia grammar - sandhi": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Grammar - Sandhi",
+      "count": 41
+    },
+    "odia literature - modern": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Literature - Modern",
+      "count": 35
+    },
+    "odia grammar - samas": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Grammar - Samas",
+      "count": 25
+    },
+    "odia vocabulary": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Vocabulary",
+      "count": 23
+    },
+    "odia idioms": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Idioms",
+      "count": 36
+    },
+    "odia literature - ancient": {
+      "originalSubject": "Odia Language",
+      "originalTopic": "Odia Literature - Ancient",
+      "count": 15
+    }
+  }
+}

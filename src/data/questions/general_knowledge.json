@@ -1,0 +1,272 @@
+[
+  {
+    "id": "q_ml1bwlccgt9mrcwa5",
+    "subject": "General Knowledge",
+    "topic": "Indian History",
+    "subtopic": "Ancient India",
+    "difficulty": "medium",
+    "question": "Who among the following was not a member of the Indian National Congress during the Non-Cooperation Movement (1920-1922)?",
+    "options": {
+      "A": "Mahatma Gandhi",
+      "B": "Bal Gangadhar Tilak",
+      "C": "Chittaranjan Das",
+      "D": "Lala Lajpat Rai"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bal Gangadhar Tilak was not a member of the Indian National Congress during the Non-Cooperation Movement. He had passed away in October 1920, before the movement began.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:21:41.772Z"
+  },
+  {
+    "id": "q_ml1bx40dso8rvq41d",
+    "subject": "General Knowledge",
+    "topic": "Indian History",
+    "subtopic": "Ancient India",
+    "difficulty": "medium",
+    "question": "Who was the Delhi Sultanate ruler who defeated the Mongols in the Battle of Talikota in 1449?",
+    "options": {
+      "A": "Alauddin Khalji",
+      "B": "Firoz Shah Tughlaq",
+      "C": "Vijaynagar Emperor Kumara Kampana",
+      "D": "Muhammad Shah Tughlaq"
+    },
+    "correctAnswer": "A",
+    "explanation": "Alauddin Khalji was the Delhi Sultanate ruler who defeated the Mongols in the Battle of Talikota in 1449. This battle marked a significant victory for the Delhi Sultanate against the Mongol invasions. The other options are incorrect as they do not relate to this specific event.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:22:05.965Z"
+  },
+  {
+    "id": "q_ml1bxi91nvwnt16wd",
+    "subject": "General Knowledge",
+    "topic": "Indian History",
+    "subtopic": "Ancient India",
+    "difficulty": "medium",
+    "question": "Which among the following was NOT a part of the Mauryan Empire?",
+    "options": {
+      "A": "Magadha",
+      "B": "Malwa",
+      "C": "Kalinga",
+      "D": "Gandhara"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Malwa region was not part of the Mauryan Empire. It was ruled by the Western Satraps during the Mauryan period. While Kalinga, Gandhara, and Magadha were parts of the Mauryan Empire.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:22:24.421Z"
+  },
+  {
+    "id": "q_ml1by3tbbrht4ttju",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Indian Geography",
+    "difficulty": "medium",
+    "question": "What is the primary factor responsible for the formation of mountains?",
+    "options": {
+      "A": "Weathering and erosion",
+      "B": "Tectonic plate movement",
+      "C": "Volcanic activity",
+      "D": "Wind and water currents"
+    },
+    "correctAnswer": "B",
+    "explanation": "The primary factor responsible for the formation of mountains is tectonic plate movement. Tectonic plates are in constant motion, and as they collide or pull apart, the Earth's surface is pushed upwards to form mountains. Weathering and erosion can shape existing mountains, but it does not create them from scratch. Volcanic activity can also lead to the formation of mountains through volcanic arcs, but this is a specific type of mountain-building process. Wind and water currents are important geological agents that shape the landscape, but they do not drive the formation of mountains.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:22:52.367Z"
+  },
+  {
+    "id": "q_ml1bykrcidwmjqwgk",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Indian Geography",
+    "difficulty": "medium",
+    "question": "Which of the following is the largest archipelago in India?",
+    "options": {
+      "A": "Lakshadweep Islands",
+      "B": "Andaman and Nicobar Islands",
+      "C": "Gangetic Delta",
+      "D": "Sunderbans"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Andaman and Nicobar Islands are the largest archipelago in India, consisting of more than 572 islands located in the Bay of Bengal. The Lakshadweep Islands are a group of coral atolls, while the Gangetic Delta and Sunderbans are regions with multiple interconnected rivers and mangrove forests.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:23:14.328Z"
+  },
+  {
+    "id": "q_ml1bz234fyy5ttwou",
+    "subject": "General Knowledge",
+    "topic": "Geography",
+    "subtopic": "Indian Geography",
+    "difficulty": "medium",
+    "question": "The process by which the Earth's plates move away from each other is known as",
+    "options": {
+      "A": "Continental drift",
+      "B": "Sea floor spreading",
+      "C": "Plate convergence",
+      "D": "Plate divergence"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer is B) Sea floor spreading. This process occurs at mid-ocean ridges, where new oceanic crust is created as magma rises to the surface and solidifies. This process is an example of plate divergence, where two plates move away from each other, creating new crust in the process.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:23:36.784Z"
+  },
+  {
+    "id": "q_ml1bzk9zi251movty",
+    "subject": "General Knowledge",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution",
+    "difficulty": "medium",
+    "question": "Which of the following articles in the Indian Constitution specifies that all executive action of the Government of India must find its justification in an existing law?",
+    "options": {
+      "A": "Article 123",
+      "B": "Article 141",
+      "C": "Article 150",
+      "D": "Article 168"
+    },
+    "correctAnswer": "A",
+    "explanation": "Article 123 of the Indian Constitution provides that the President shall have no power to promulgate any ordinance beyond his or her normal powers but in accordance with this Constitution, and the validation of an ordinance so promulgated requires it to be approved by both Houses of Parliament within six weeks. This article ensures that all executive action finds its justification in existing law.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:24:00.359Z"
+  },
+  {
+    "id": "q_ml1c0435yz65ic1ic",
+    "subject": "General Knowledge",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution",
+    "difficulty": "medium",
+    "question": "Which among the following is a Fundamental Right guaranteed under Article 19(1)(a) of the Indian Constitution?",
+    "options": {
+      "A": "Right to Equality",
+      "B": "Right to Freedom of Speech and Expression",
+      "C": "Right to Education",
+      "D": "Right to Property"
+    },
+    "correctAnswer": "B",
+    "explanation": "Article 19(1)(a) of the Indian Constitution guarantees the right to freedom of speech and expression. This fundamental right is essential for democratic functioning, as it allows citizens to express their opinions freely without any fear of persecution or censorship. Options A (Right to Equality), C (Right to Education), and D (Right to Property) are not related to this specific fundamental right.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:24:26.033Z"
+  },
+  {
+    "id": "q_ml1c0o9twq6gecnyj",
+    "subject": "General Knowledge",
+    "topic": "Indian Polity",
+    "subtopic": "Constitution",
+    "difficulty": "medium",
+    "question": "Which of the following provisions in the Indian Constitution ensures the independence of the judiciary?",
+    "options": {
+      "A": "Article 50 - State's duty to raise the level of nutrition and the standard of living and to improve public health",
+      "B": "Article 162 - Composition of state services",
+      "C": "Article 326 - Conduct of Census",
+      "D": "Article 124 - Appointment of Judges of the Supreme Court"
+    },
+    "correctAnswer": "D",
+    "explanation": "Article 124 of the Indian Constitution deals with the appointment of Judges of the Supreme Court and establishes a National Judicial Appointments Commission (NJAC) to ensure the independence of the judiciary. This provision is designed to prevent undue influence on the judiciary by the executive or legislative branches.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:24:52.193Z"
+  },
+  {
+    "id": "q_ml1c17ah1v8ddqs0x",
+    "subject": "General Knowledge",
+    "topic": "Indian Economy",
+    "subtopic": "Banking",
+    "difficulty": "medium",
+    "question": "What is the primary objective of presenting a budget in a country's parliament?",
+    "options": {
+      "A": "To allocate funds for government programs",
+      "B": "To indicate the country's economic policy priorities",
+      "C": "To provide guidance on tax rates and regulations",
+      "D": "To demonstrate the government's financial accountability"
+    },
+    "correctAnswer": "B",
+    "explanation": "The primary objective of presenting a budget in a country's parliament is to indicate the government's economic policy priorities. A budget serves as a tool for policymakers to communicate their vision and goals for the economy, outlining how they plan to allocate resources and achieve specific objectives. While other options may be secondary or related objectives, this one is the primary purpose of presenting a budget.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:25:16.841Z"
+  },
+  {
+    "id": "q_ml1c1lh482toxz0t4",
+    "subject": "General Knowledge",
+    "topic": "Indian Economy",
+    "subtopic": "Banking",
+    "difficulty": "medium",
+    "question": "Which of the following banks was the first to introduce Internet Banking services in India?",
+    "options": {
+      "A": "State Bank of India",
+      "B": "ICICI Bank",
+      "C": "HDFC Bank",
+      "D": "Punjab National Bank"
+    },
+    "correctAnswer": "B",
+    "explanation": "ICICI Bank introduced Internet Banking services in India for the first time on August 18, 2002. This service was named 'i-Flex'. The other banks followed suit afterward.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:25:35.224Z"
+  },
+  {
+    "id": "q_ml1c2c1glem1rey8b",
+    "subject": "General Knowledge",
+    "topic": "Indian Economy",
+    "subtopic": "Banking",
+    "difficulty": "medium",
+    "question": "What is the primary function of the Credit Information Bureau (India) Ltd. (CIBIL)?",
+    "options": {
+      "A": "To provide loans to individuals and businesses",
+      "B": "To maintain a database of credit information on individuals and businesses",
+      "C": "To regulate banking activities in India",
+      "D": "To manage foreign exchange transactions"
+    },
+    "correctAnswer": "B",
+    "explanation": "The Credit Information Bureau (India) Ltd. (CIBIL) is a company that maintains a database of credit information on individuals and businesses. This database provides a comprehensive picture of an individual's or business's credit history, including their repayment patterns, loan defaults, and other financial activities. CIBIL uses this information to provide credit scores, which help lenders make informed decisions about lending. Option A is incorrect because CIBIL does not provide loans itself. Option C is incorrect because while CIBIL provides information on banking activities, its primary function is maintaining a database of credit information. Option D is incorrect because foreign exchange transactions are managed by the Reserve Bank of India (RBI) and not CIBIL.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:26:09.652Z"
+  },
+  {
+    "id": "q_ml1c2ptcw5t2hlar1",
+    "subject": "General Knowledge",
+    "topic": "General Science",
+    "subtopic": "Physics",
+    "difficulty": "easy",
+    "question": "Which of the following is the unit of electric charge?",
+    "options": {
+      "A": "Coulomb (C)",
+      "B": "Volt (V)",
+      "C": "Ohm (Ω)",
+      "D": "Watt (W)"
+    },
+    "correctAnswer": "A",
+    "explanation": "The unit of electric charge is Coulomb (C). Volt (V) is the unit of potential difference, Ohm (Ω) is the unit of electrical resistance, and Watt (W) is the unit of power.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:26:27.504Z"
+  },
+  {
+    "id": "q_ml1c38jw0k27ki8cr",
+    "subject": "General Knowledge",
+    "topic": "General Science",
+    "subtopic": "Physics",
+    "difficulty": "easy",
+    "question": "What is the main function of chlorophyll in plant cells?",
+    "options": {
+      "A": "To synthesize amino acids",
+      "B": "To absorb water from the soil",
+      "C": "To convert sunlight into energy",
+      "D": "To store food for the plant"
+    },
+    "correctAnswer": "C",
+    "explanation": "Chlorophyll is a green pigment present in the chloroplasts of plant cells. Its main function is to absorb light energy from the sun and convert it into chemical energy through photosynthesis, which is essential for the growth and development of plants. Options A, B, and D are incorrect as they describe functions that do not involve the conversion of sunlight into energy.",
+    "model": "llama3:latest",
+    "generatedAt": "2026-01-30T20:26:51.788Z"
+  },
+  {
+    "id": "q_ml1c3q7qqz1mwjhkh",
+    "subject": "General Knowledge",
+    "topic": "General Science",
+    "subtopic": "Physics",
+    "difficulty": "easy",
+    "question": "Which one of the following is not a type of cell wall found in plants?",
+    "options": {
+      "A": "Chemical cell wall",
+      "B": "Thick primary cell wall",
+      "C": "Middle lamella",
+      "D": "Secondary thickened cell wall"
+    },
+    "correctAnswer": "A",
+    "explanation": "In plants, the cell wall is primarily composed of cellulose and other polysaccharides. The options 'Thick primary cell wall', 'Middle lamella', and 'Secondary thickened cell wall' all refer to different types of plant cell walls. However, option A - 'Chemical cell wall' does not exist in plants; it is a type of cell wall found in some bacteria.",
+    "model": "mistral:latest",
+    "generatedAt": "2026-01-30T20:27:14.678Z"
+  }
+]

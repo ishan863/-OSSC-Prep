@@ -1,0 +1,2977 @@
+[
+  {
+    "id": "q_1769844350901_3046",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "What is the result of the Vyanjan Sandhi rule when 'n' is followed by 'ch' in Odia language?",
+    "options": {
+      "A": "ňcha",
+      "B": "ncha",
+      "C": "ņcha",
+      "D": "nja"
+    },
+    "correctAnswer": "C",
+    "explanation": "According to the Vyanjan Sandhi rule in Odia, when 'n' is followed by 'ch', it changes to 'ņ' due to the nasalization of the preceding consonant, resulting in 'ņcha'. This rule is essential in Odia grammar to maintain the language's phonetic and orthographic consistency.",
+    "generatedAt": "2026-01-31T12:55:50.901094"
+  },
+  {
+    "id": "q_1769844350901_4438",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "Which of the following words is an example of 't' changing to 'd' due to Vyanjan Sandhi in Odia?",
+    "options": {
+      "A": "sat + katha = sadkatha",
+      "B": "pat + tha = padtha",
+      "C": "mat + rupa = madrupa",
+      "D": "vat + rita = vadrita"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia language, when 't' is followed by a vowel or a soft consonant, it changes to 'd' according to the Vyanjan Sandhi rule. The correct example of this rule is 'sat + katha = sadkatha', where 't' in 'sat' changes to 'd' when combined with 'katha'.",
+    "generatedAt": "2026-01-31T12:55:50.901094"
+  },
+  {
+    "id": "q_1769844350901_3491",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "What is the outcome of applying the Vyanjan Sandhi rule when 'p' is followed by 't' in Odia?",
+    "options": {
+      "A": "pt remains the same",
+      "B": "p changes to 'b'",
+      "C": "pt changes to 'pt'",
+      "D": "p changes to 'pt'"
+    },
+    "correctAnswer": "B",
+    "explanation": "According to the Vyanjan Sandhi rule in Odia, when 'p' is followed by 't', 'p' changes to 'b' due to the softening of the preceding consonant. This rule is crucial in understanding the phonetic changes that occur in Odia language when words are combined.",
+    "generatedAt": "2026-01-31T12:55:50.901094"
+  },
+  {
+    "id": "q_1769844350901_1313",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "Which of the following is a correct example of Vyanjan Sandhi where 'k' changes to 'g' in Odia language?",
+    "options": {
+      "A": "suk + aruna = sugaruna",
+      "B": "duk + khata = dugkhata",
+      "C": "mak + rita = magrita",
+      "D": "lak + sha = lagsha"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia language, when 'k' is followed by a vowel or a soft consonant, it changes to 'g' according to the Vyanjan Sandhi rule. The correct example of this rule is 'suk + aruna = sugaruna', where 'k' in 'suk' changes to 'g' when combined with 'aruna'. This demonstrates the application of Vyanjan Sandhi in forming compound words.",
+    "generatedAt": "2026-01-31T12:55:50.901094"
+  },
+  {
+    "id": "q_1769844350901_7611",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "What happens to 'm' when it is followed by a vowel in Odia language according to Vyanjan Sandhi rule?",
+    "options": {
+      "A": "m remains the same",
+      "B": "m changes to 'n'",
+      "C": "m changes to 'an'",
+      "D": "m changes to 'am'"
+    },
+    "correctAnswer": "B",
+    "explanation": "According to the Vyanjan Sandhi rule in Odia, when 'm' is followed by a vowel, it changes to 'n' or 'an' depending on the vowel that follows. However, in general, 'm' changes to 'n' before a vowel, which is a fundamental phonetic change in Odia language.",
+    "generatedAt": "2026-01-31T12:55:50.901094"
+  },
+  {
+    "id": "q_1769844456186_2728",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Who is considered the father of Odia nationalism and is often referred to as 'Utkal Gourab'?",
+    "options": {
+      "A": "Gopabandhu Das",
+      "B": "Madhusudan Das",
+      "C": "Fakir Mohan Senapati",
+      "D": "Radhanath Ray"
+    },
+    "correctAnswer": "B",
+    "explanation": "Madhusudan Das is often referred to as 'Utkal Gourab' and is considered the father of Odia nationalism. Gopabandhu Das, on the other hand, was a prominent Odia writer, social reformer, and freedom fighter.",
+    "generatedAt": "2026-01-31T12:57:36.186192"
+  },
+  {
+    "id": "q_1769844456186_7786",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "What was the name of the newspaper founded by Gopabandhu Das in 1919?",
+    "options": {
+      "A": "The Samaj",
+      "B": "The Utkal",
+      "C": "The Odia",
+      "D": "The Indian"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das founded the newspaper 'The Samaj' in 1919, which played a significant role in promoting Odia language and culture.",
+    "generatedAt": "2026-01-31T12:57:36.186192"
+  },
+  {
+    "id": "q_1769844456186_1407",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Which of the following is a notable work of Gopabandhu Das?",
+    "options": {
+      "A": "Dharmapada",
+      "B": "Bandira Atmakatha",
+      "C": "Chha Mana Atha Guntha",
+      "D": "Deula Tola"
+    },
+    "correctAnswer": "B",
+    "explanation": "Bandira Atmakatha is a notable work of Gopabandhu Das, which is an autobiography that provides valuable insights into his life and experiences.",
+    "generatedAt": "2026-01-31T12:57:36.186192"
+  },
+  {
+    "id": "q_1769844456186_8337",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "What was the primary focus of Gopabandhu Das's social reform efforts?",
+    "options": {
+      "A": "Women's education",
+      "B": "Caste system reform",
+      "C": "Rural development and upliftment of the underprivileged",
+      "D": "Environmental conservation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gopabandhu Das's social reform efforts primarily focused on rural development and the upliftment of the underprivileged, with an emphasis on promoting education, healthcare, and economic empowerment.",
+    "generatedAt": "2026-01-31T12:57:36.186192"
+  },
+  {
+    "id": "q_1769844456186_5688",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "In which year did Gopabandhu Das pass away?",
+    "options": {
+      "A": "1925",
+      "B": "1927",
+      "C": "1928",
+      "D": "1930"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gopabandhu Das passed away in 1928, leaving behind a legacy as a prominent Odia writer, social reformer, and freedom fighter.",
+    "generatedAt": "2026-01-31T12:57:36.186192"
+  },
+  {
+    "id": "q_1769844574743_1279",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Tatpurusha Samas 'Raja-Putra' in Odia?",
+    "options": {
+      "A": "Son of the king",
+      "B": "King of the sons",
+      "C": "Putra is the king",
+      "D": "Raja is the putra"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Tatpurusha Samas, the first word 'Raja' qualifies the second word 'Putra', indicating that 'Putra' is the son of the king. This is an example of a possessive relationship between the two words.",
+    "generatedAt": "2026-01-31T12:59:34.743028"
+  },
+  {
+    "id": "q_1769844574743_6677",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "Identify the correct Tatpurusha Samas for 'A person having a lot of money' in Odia.",
+    "options": {
+      "A": "Dhanaika",
+      "B": "Dhanika",
+      "C": "Dhanadhya",
+      "D": "Dhanavantha"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct Tatpurusha Samas for 'A person having a lot of money' in Odia is 'Dhanika'. Here, 'Dhana' (money) qualifies 'Ika' (person), indicating a person who has a lot of money.",
+    "generatedAt": "2026-01-31T12:59:34.743028"
+  },
+  {
+    "id": "q_1769844574743_8369",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "What type of Tatpurusha Samas is 'Bhukta-Bhojana' in Odia?",
+    "options": {
+      "A": "Descriptive Tatpurusha",
+      "B": "Relational Tatpurusha",
+      "C": "Possessive Tatpurusha",
+      "D": "Locative Tatpurusha"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Tatpurusha Samas 'Bhukta-Bhojana' is an example of Possessive Tatpurusha, where the first word 'Bhukta' (eaten) qualifies the second word 'Bhojana' (food), indicating the food that has been eaten.",
+    "generatedAt": "2026-01-31T12:59:34.743028"
+  },
+  {
+    "id": "q_1769844574743_5273",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "Which of the following is NOT an example of Tatpurusha Samas in Odia?",
+    "options": {
+      "A": "Raja-Putra",
+      "B": "Guru-Shishya",
+      "C": "Dhana-Ika",
+      "D": "Bada-Chhatra"
+    },
+    "correctAnswer": "D",
+    "explanation": "The phrase 'Bada-Chhatra' is an example of a Dvandva Samas, not a Tatpurusha Samas. In Dvandva Samas, two or more words are combined to form a single compound word, whereas in Tatpurusha Samas, the first word qualifies the second word.",
+    "generatedAt": "2026-01-31T12:59:34.743028"
+  },
+  {
+    "id": "q_1769844574743_6563",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Tatpurusha Samas 'Griha-Svami' in Odia?",
+    "options": {
+      "A": "The master of the house",
+      "B": "The house of the master",
+      "C": "The master is the house",
+      "D": "The house is the master"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Tatpurusha Samas, the first word 'Griha' (house) qualifies the second word 'Svami' (master), indicating the master of the house. This is an example of a relational Tatpurusha Samas.",
+    "generatedAt": "2026-01-31T12:59:34.743028"
+  },
+  {
+    "id": "q_1769844620432_6362",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ଦୀର୍ଘ' (Dīrgha), which means 'long'?",
+    "options": {
+      "A": "ଚିନ୍ନ",
+      "B": "ଅଳ୍ପ",
+      "C": "ମଧ୍ଯ",
+      "D": "ଅଧିକ"
+    },
+    "correctAnswer": "B",
+    "explanation": "The antonym of 'ଦୀର୍ଘ' (Dīrgha), which means 'long', is 'ଅଳ୍ପ' (Alpa), which means 'short'.",
+    "generatedAt": "2026-01-31T13:00:20.432681"
+  },
+  {
+    "id": "q_1769844620432_1603",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ଶୀତ' (Śīta), which means 'cold'?",
+    "options": {
+      "A": "ଗରମ",
+      "B": "ଶୁଷ୍କ",
+      "C": "ମଧ୍ଯ",
+      "D": "ଅଧିକ"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'ଶୀତ' (Śīta), which means 'cold', is 'ଗରମ' (Garama), which means 'hot'.",
+    "generatedAt": "2026-01-31T13:00:20.432681"
+  },
+  {
+    "id": "q_1769844620432_7405",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ମିତ' (Mita), which means 'less'?",
+    "options": {
+      "A": "ଅଧିକ",
+      "B": "ଅଳ୍ପ",
+      "C": "ମଧ୍ଯ",
+      "D": "ଶୂନ୍ଯ"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'ମିତ' (Mita), which means 'less', is 'ଅଧିକ' (Adhika), which means 'more'.",
+    "generatedAt": "2026-01-31T13:00:20.432681"
+  },
+  {
+    "id": "q_1769844620432_9767",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ଦୁଷ୍ଟ' (Duṣṭa), which means 'wicked'?",
+    "options": {
+      "A": "ଭଦ୍ର",
+      "B": "ଅଶାନ୍ତ",
+      "C": "ମଧ୍ଯ",
+      "D": "ଅଧିକ"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'ଦୁଷ୍ଟ' (Duṣṭa), which means 'wicked', is 'ଭଦ୍ର' (Bhadra), which means 'good' or 'noble'.",
+    "generatedAt": "2026-01-31T13:00:20.432681"
+  },
+  {
+    "id": "q_1769844620432_1042",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ଶାନ୍ତ' (Śānta), which means 'peaceful'?",
+    "options": {
+      "A": "ଅଶାନ୍ତ",
+      "B": "ଉତ୍ତାଳ",
+      "C": "ମଧ୍ଯ",
+      "D": "ଅଧିକ"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'ଶାନ୍ତ' (Śānta), which means 'peaceful', is 'ଅଶାന୍ତ' (Aśānta), which means 'restless' or 'unpeaceful'.",
+    "generatedAt": "2026-01-31T13:00:20.432681"
+  },
+  {
+    "id": "q_1769845275519_7090",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "Which of the following novels by Fakir Mohan Senapati is a scathing critique of feudal society and the oppression of the common people in Odisha?",
+    "options": {
+      "A": "Chha Mana Atha Guntha",
+      "B": "Six Acres and a Third",
+      "C": "Jana Gana Mana",
+      "D": "Sita Bandana"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer is 'B. Six Acres and a Third'. The novel 'Six Acres and a Third' is a satirical critique of the feudal society and the oppression of the common people in Odisha. It is considered one of Senapati's most important works and a classic of modern Odia literature.",
+    "generatedAt": "2026-01-31T13:11:15.519739"
+  },
+  {
+    "id": "q_1769845275519_9785",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "Which of the following themes is NOT a significant aspect of Fakir Mohan Senapati's works?",
+    "options": {
+      "A": "Social reform",
+      "B": "Love and relationships",
+      "C": "Nationalism",
+      "D": "Critique of colonialism"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer is 'B. Love and relationships'. While love and relationships are a common theme in many Odia literary works, they are not a significant aspect of Senapati's writings. His works are more focused on social reform, critique of colonialism, and nationalism.",
+    "generatedAt": "2026-01-31T13:11:15.519739"
+  },
+  {
+    "id": "q_1769845275519_9250",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "Which of the following autobiographical accounts of Fakir Mohan Senapati is considered a rare collection of his personal thoughts and experiences?",
+    "options": {
+      "A": "Abhilaasha",
+      "B": "Abhilaasita",
+      "C": "Amar Katha",
+      "D": "Atmajibani"
+    },
+    "correctAnswer": "D",
+    "explanation": "The correct answer is 'D. Atmajibani'. 'Atmajibani' is considered a rare collection of Senapati's personal thoughts and experiences. Although the text is often difficult to find, it is a unique insight into the life and times of this significant Odia writer.",
+    "generatedAt": "2026-01-31T13:11:15.519739"
+  },
+  {
+    "id": "q_1769845341387_1936",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What happens to the sound of 'અ' when it combines with 'હ'",
+    "options": {
+      "A": "It becomes 'અ' only",
+      "B": "It becomes 'હ' only",
+      "C": "It becomes 'અહ'",
+      "D": "It becomes 'હા'"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Odia, when 'અ' combines with 'હ', it forms 'અહ' in Swar Sandhi. This is a common rule in Odia grammar where vowel + 'હ' results in 'અહ'.",
+    "generatedAt": "2026-01-31T13:12:21.387598"
+  },
+  {
+    "id": "q_1769845341387_5934",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What happens to the sound of 'ઉ' when it combines with 'હ'",
+    "options": {
+      "A": "It becomes 'ઉ' only",
+      "B": "It becomes 'હ' only",
+      "C": "It becomes 'ુહ'",
+      "D": "It becomes 'ૂ'"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Odia, when 'ઉ' combines with 'હ', it forms 'ુહ' in Swar Sandhi. This is a common rule in Odia grammar where diphthong 'ઉ' + 'હ' results in 'ુહ'.",
+    "generatedAt": "2026-01-31T13:12:21.387598"
+  },
+  {
+    "id": "q_1769845341387_4509",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What happens to the sound of 'આ' when it combines with 'હ'",
+    "options": {
+      "A": "It becomes 'આ' only",
+      "B": "It becomes 'હ' only",
+      "C": "It becomes 'અ' only",
+      "D": "It becomes 'આહ'"
+    },
+    "correctAnswer": "D",
+    "explanation": "In Odia, when 'આ' combines with 'હ', it forms 'આહ' in Swar Sandhi. This is a common rule in Odia grammar where vowel 'આ' + 'હ' results in 'આહ'.",
+    "generatedAt": "2026-01-31T13:12:21.387598"
+  },
+  {
+    "id": "q_1769845437405_2588",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "easy",
+    "question": "In the case of Visarga Sandhi in Odia, what happens to the Visarga (ः) when it comes in contact with the vowel 'ā'?",
+    "options": {
+      "A": "Visarga (ः) is replaced with the vowel 'ā'",
+      "B": "Visarga (ः) remains unchanged",
+      "C": "Visarga (ः) gets deleted",
+      "D": "Visarga (ः) changes to 'ઃ'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In the case of Visarga Sandhi in Odia, when the Visarga (ः) comes in contact with the vowel 'ā', it remains unchanged. For example, in the word 'वहाः', the Visarga (ः) remains as it is and doesn't change to any other symbol.",
+    "generatedAt": "2026-01-31T13:13:57.405624"
+  },
+  {
+    "id": "q_1769845437405_3813",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "easy",
+    "question": "What is the effect of Visarga Sandhi when it comes in contact with the vowel 'i'?",
+    "options": {
+      "A": "Visarga (ः) changes to 'ि'",
+      "B": "Visarga (ः) is replaced with the vowel 'i'",
+      "C": "Visarga (ः) gets deleted",
+      "D": "Visarga (ः) remains unchanged"
+    },
+    "correctAnswer": "A",
+    "explanation": "When the Visarga (ः) comes in contact with the vowel 'i', it changes to 'ि'. For example, in the word 'वःि', the Visarga (ः) changes to 'ि' due to Visarga Sandhi.",
+    "generatedAt": "2026-01-31T13:13:57.405624"
+  },
+  {
+    "id": "q_1769845437405_3190",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "easy",
+    "question": "What happens to the Visarga (ः) when it comes in contact with the consonant 'न'?",
+    "options": {
+      "A": "Visarga (ः) changes to 'ॅ'",
+      "B": "Visarga (ः) gets deleted",
+      "C": "Visarga (ः) remains unchanged",
+      "D": "Visarga (ः) changes to 'ण'"
+    },
+    "correctAnswer": "B",
+    "explanation": "When the Visarga (ः) comes in contact with the consonant 'न', it gets deleted. For example, in the word 'वःन', the Visarga (ः) gets deleted due to Visarga Sandhi.",
+    "generatedAt": "2026-01-31T13:13:57.405624"
+  },
+  {
+    "id": "q_1769845473602_6917",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What does the Odia proverb 'Khiaa Khiaa Khiaa, Khiaa kuchhaa khaachhaa' mean?",
+    "options": {
+      "A": "Hard work and patience will pay off",
+      "B": "A little effort can bring great results",
+      "C": "Diligence is the key to success",
+      "D": "Small steps lead to big achievements"
+    },
+    "correctAnswer": "D",
+    "explanation": "This proverb emphasizes the importance of small, consistent efforts leading to significant achievements in life.",
+    "generatedAt": "2026-01-31T13:14:33.602914"
+  },
+  {
+    "id": "q_1769845473602_1613",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What is the meaning of the Odia proverb 'Dhania kharara badaa, khaja khali nahi'?",
+    "options": {
+      "A": "A small gift is better than nothing",
+      "B": "A little kindness can go a long way",
+      "C": "Even small favors can make a big difference",
+      "D": "The value of a gift lies in its generosity, not size"
+    },
+    "correctAnswer": "D",
+    "explanation": "This proverb highlights the significance of the thought and effort put into a gift, rather than its physical size or quantity.",
+    "generatedAt": "2026-01-31T13:14:33.602914"
+  },
+  {
+    "id": "q_1769845473602_6430",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What does the Odia proverb 'Bari bari gadi khaali' mean?",
+    "options": {
+      "A": "An empty vessel makes the loudest sound",
+      "B": "A big house is of no use without people",
+      "C": "A full belly is a happy belly",
+      "D": "An empty room is a waste"
+    },
+    "correctAnswer": "B",
+    "explanation": "This proverb stresses the importance of human connection and company in a large and empty space like a house.",
+    "generatedAt": "2026-01-31T13:14:33.602914"
+  },
+  {
+    "id": "q_1769845479269_9776",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Gopabandhu Das was a prominent figure in the movement for the upliftment of?",
+    "options": {
+      "A": "Weavers",
+      "B": "Rabha Labourers",
+      "C": "Carpenters",
+      "D": "Fishermen"
+    },
+    "correctAnswer": "B",
+    "explanation": "Gopabandhu Das was particularly known for his work in uplifting the Rabha Labourers of Odisha through education and social welfare.",
+    "generatedAt": "2026-01-31T13:14:39.269060"
+  },
+  {
+    "id": "q_1769845479269_2631",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Which Odia novel by Gopabandhu Das is a reflection of the struggles of the common man?",
+    "options": {
+      "A": "Sakala Sanga",
+      "B": "Panchasakha",
+      "C": "Nabakalebar",
+      "D": "Kavi O Kahani"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sakala Sanga is a novel by Gopabandhu Das that portrays the struggles of the common man in the face of social and economic adversity.",
+    "generatedAt": "2026-01-31T13:14:39.269060"
+  },
+  {
+    "id": "q_1769845479269_2637",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Gopabandhu Das was the editor of which Odia journal?",
+    "options": {
+      "A": "Utkal Sahitya",
+      "B": "Utkal Dipika",
+      "C": "Prabhat",
+      "D": "Sakala Sanga"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gopabandhu Das was the editor of Prabhat, a prominent Odia journal that played a significant role in the movement for Odia literature and culture.",
+    "generatedAt": "2026-01-31T13:14:39.269060"
+  },
+  {
+    "id": "q_1769845690240_6431",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "medium",
+    "question": "What does the Odia proverb 'জালারা আলামেে কং ঙেদেলা' mean?",
+    "options": {
+      "A": "A tree does not bear fruits in another's garden",
+      "B": "A tree bears fruits in the time of the owner",
+      "C": "A tree bears fruits on an auspicious day",
+      "D": "A tree bears fruits in the next season"
+    },
+    "correctAnswer": "A",
+    "explanation": "This Odia proverb means 'A tree does not bear fruits in another's garden'. It implies that every individual should strive to achieve their goals on their own and not rely on others for success.",
+    "generatedAt": "2026-01-31T13:18:10.240409"
+  },
+  {
+    "id": "q_1769845690240_1332",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "medium",
+    "question": "What does the Odia proverb 'জহাকং আলামেকেরেলা কং লঙংচেলেলা' mean?",
+    "options": {
+      "A": "The eyes of a blind man do not see the beauty of the flower",
+      "B": "The nose of a deaf man does not smell the fragrance of the flower",
+      "C": "The mind of a fool does not understand the meaning of the proverb",
+      "D": "The tongue of a mute man does not speak the beauty of the flower"
+    },
+    "correctAnswer": "A",
+    "explanation": "This Odia proverb means 'The eyes of a blind man do not see the beauty of the flower'. It implies that someone who does not have the capacity to see or understand something is not able to appreciate its beauty.",
+    "generatedAt": "2026-01-31T13:18:10.240409"
+  },
+  {
+    "id": "q_1769845690240_5367",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "medium",
+    "question": "What does the Odia proverb 'কেলা আলামেে ংকলােেকং' mean?",
+    "options": {
+      "A": "A wise man does not waste time on foolish talk",
+      "B": "A wise man does not engage in unnecessary gossip",
+      "C": "A wise man does not get involved in useless arguments",
+      "D": "A wise man does not waste time on unnecessary activities"
+    },
+    "correctAnswer": "B",
+    "explanation": "This Odia proverb means 'A wise man does not engage in unnecessary gossip'. It advises people to be cautious and not engage in pointless or idle talk that can cause harm or discomfort to others.",
+    "generatedAt": "2026-01-31T13:18:10.240409"
+  },
+  {
+    "id": "q_1769845707838_6504",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What is the meaning of the Odia proverb 'Bhagabata chali kandhei'",
+    "options": {
+      "A": "A person who is wise beyond his years",
+      "B": "A person who has a natural talent for learning",
+      "C": "A person who is known for his intelligence and wit",
+      "D": "A person who is lazy and does not study"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Odia proverb 'Bhagabata chali kandhei' means 'A person who is known for his intelligence and wit'. This proverb suggests that a person who is well-versed in the Bhagabata (the Bhagavata Purana) is intelligent and wise.",
+    "generatedAt": "2026-01-31T13:18:27.838337"
+  },
+  {
+    "id": "q_1769845707838_7532",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What is the meaning of the Odia proverb 'Dhania gela, khata nahi' ?",
+    "options": {
+      "A": "A small amount of salt is not useful",
+      "B": "A small amount of spice does not make the food tasty",
+      "C": "A small amount of money is not useful",
+      "D": "A small amount of work does not benefit anyone"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Dhania gela, khata nahi' means 'A small amount of salt is not useful'. This proverb suggests that even a small amount of something valuable, like salt, is useful and beneficial.",
+    "generatedAt": "2026-01-31T13:18:27.838337"
+  },
+  {
+    "id": "q_1769845707838_7612",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What is the meaning of the Odia proverb 'Mula khali, khali mula' ?",
+    "options": {
+      "A": "A hollow tree is of no use",
+      "B": "A person who is of no use is worthless",
+      "C": "A place that is empty is of no use",
+      "D": "A tree that is hollow is of no use"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Mula khali, khali mula' means 'A hollow tree is of no use'. This proverb suggests that a tree that is hollow and empty is of no use or benefit.",
+    "generatedAt": "2026-01-31T13:18:27.838337"
+  },
+  {
+    "id": "q_1769845731533_8267",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "In Vyanjan Sandhi, what is the process when 'k' and 'a' combine?",
+    "options": {
+      "A": "The 'k' is replaced by 'kh' and forms 'kha'",
+      "B": "The 'k' is replaced by 'kh' and forms 'kh'",
+      "C": "The 'k' is replaced by 'g' and forms 'ga'",
+      "D": "The 'k' is replaced by 'gh' and forms 'gha'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, when 'k' and 'a' combine, the 'k' is replaced by 'kh' and forms 'kh' or 'kh-a'.",
+    "generatedAt": "2026-01-31T13:18:51.533265"
+  },
+  {
+    "id": "q_1769845731533_8764",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "What happens when 'h' and 'a' combine in Vyanjan Sandhi?",
+    "options": {
+      "A": "The 'h' is replaced by 'jh' and forms 'jha'",
+      "B": "The 'h' is replaced by 'kh' and forms 'kha'",
+      "C": "The 'h' is replaced by 'gh' and forms 'gha'",
+      "D": "The 'h' is replaced by 'y' and forms 'ya'"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Vyanjan Sandhi, when 'h' and 'a' combine, the 'h' is replaced by 'gh' and forms 'gha'.",
+    "generatedAt": "2026-01-31T13:18:51.533265"
+  },
+  {
+    "id": "q_1769845731533_4346",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "What is the form when 'p' and 'i' combine in Vyanjan Sandhi?",
+    "options": {
+      "A": "The 'p' is replaced by 'bh' and forms 'bhi'",
+      "B": "The 'p' is replaced by 'ph' and forms 'phi'",
+      "C": "The 'p' is replaced by 'bh' and forms 'bhi'",
+      "D": "The 'p' is replaced by 'ph' and forms 'phi'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, when 'p' and 'i' combine, the 'p' is replaced by 'ph' and forms 'phi'.",
+    "generatedAt": "2026-01-31T13:18:51.533265"
+  },
+  {
+    "id": "q_1769845749437_8840",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "Which of the following Odia proverbs means 'A friend in need is a friend indeed'?",
+    "options": {
+      "A": "Bhala Bhala Bhuli",
+      "B": "Bhuli Bhuli Bhala",
+      "C": "Bhala Bhala Kala",
+      "D": "Bhala Bhala Kala Bhuli"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Bhala Bhala Bhuli' means 'A friend in need is a friend indeed'. This proverb highlights the importance of being a good friend, especially during times of need.",
+    "generatedAt": "2026-01-31T13:19:09.437459"
+  },
+  {
+    "id": "q_1769845749437_6200",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "What does the Odia proverb 'Bhangia Bhangia, Bhala Bhala' mean?",
+    "options": {
+      "A": "A little bit of everything is good",
+      "B": "A friend in need is a friend indeed",
+      "C": "A little bit of everything turns to good",
+      "D": "Everything has its own importance"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Bhangia Bhangia, Bhala Bhala' means 'A little bit of everything is good'. This proverb suggests that a little bit of everything in life is beneficial and can lead to good outcomes.",
+    "generatedAt": "2026-01-31T13:19:09.437459"
+  },
+  {
+    "id": "q_1769845749437_6718",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "easy",
+    "question": "Which of the following Odia proverbs means 'Practice makes a man perfect'?",
+    "options": {
+      "A": "Aara Aara, Kala Kala",
+      "B": "Bhala Bhala Bhuli",
+      "C": "Mukha Dukha",
+      "D": "Jiba Jiba, Kala Kala"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Aara Aara, Kala Kala' means 'Practice makes a man perfect'. This proverb emphasizes the importance of consistent practice in achieving perfection in any skill or activity.",
+    "generatedAt": "2026-01-31T13:19:09.437459"
+  },
+  {
+    "id": "q_1769845815673_5055",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "hard",
+    "question": "Sarala Das, the author of the epic 'Chaitanya Charita', is also known for his translation of which other ancient Odia text?",
+    "options": {
+      "A": "Maha Uddhava Sandhya",
+      "B": "Maha Bhagavata",
+      "C": "Maha Purana",
+      "D": "Maha Bhaktamrta"
+    },
+    "correctAnswer": "A",
+    "explanation": "Maha Uddhava Sandhya is a lesser-known work of Sarala Das, which he translated from Tamil.",
+    "generatedAt": "2026-01-31T13:20:15.673126"
+  },
+  {
+    "id": "q_1769845815673_1608",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "hard",
+    "question": "The style of writing of Sarala Das in his most famous work is primarily characterized by?",
+    "options": {
+      "A": "Kavya style",
+      "B": "Bhasha style",
+      "C": "Simple narrative style",
+      "D": "Rhyming couplets"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sarala Das wrote in the Bhasha style, which is a blend of Odia and Sanskrit, making his writing more poetic and expressive.",
+    "generatedAt": "2026-01-31T13:20:15.673126"
+  },
+  {
+    "id": "q_1769845815673_5699",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "hard",
+    "question": "In Sarala Das' writing, Chaitanya Mahaprabhu is portrayed as?",
+    "options": {
+      "A": "A philosopher",
+      "B": "A devotee",
+      "C": "A saint",
+      "D": "A social reformer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Sarala Das portrayed Chaitanya Mahaprabhu as a saint, emphasizing his divine qualities and the spiritual significance of his teachings.",
+    "generatedAt": "2026-01-31T13:20:15.673126"
+  },
+  {
+    "id": "q_1769845959513_6895",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "When the vowel 'a' and the consonant 'd' come together in Odia, they form a Vyanjan Sandhi. What is the result of this Vyanjan Sandhi?",
+    "options": {
+      "A": "Ada",
+      "B": "Ada",
+      "C": "Adya",
+      "D": "Ada"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when 'a' and 'd' come together, they form a Vyanjan Sandhi. This results in 'a' becoming 'a' + 'd' = 'a' with 'da' sound. Therefore, 'Ada' is the correct answer.",
+    "generatedAt": "2026-01-31T13:22:39.513566"
+  },
+  {
+    "id": "q_1769845959513_3024",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "What is the result of the Vyanjan Sandhi between the consonant 'h' and the vowel 'u'?",
+    "options": {
+      "A": "Hu",
+      "B": "Hua",
+      "C": "Hu",
+      "D": "Hua"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when 'h' and 'u' come together, they form a Vyanjan Sandhi. This results in 'h' becoming 'u' with 'hu' sound. Therefore, 'Hu' is the correct answer.",
+    "generatedAt": "2026-01-31T13:22:39.513566"
+  },
+  {
+    "id": "q_1769845959513_4302",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "medium",
+    "question": "When the consonant 's' and the vowel 'u' come together in Odia, they form a Vyanjan Sandhi. What is the result of this Vyanjan Sandhi?",
+    "options": {
+      "A": "Su",
+      "B": "Su",
+      "C": "Sua",
+      "D": "Su"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when 's' and 'u' come together, they form a Vyanjan Sandhi. This results in 's' becoming 'u' with 'su' sound. Therefore, 'Su' is the correct answer.",
+    "generatedAt": "2026-01-31T13:22:39.513566"
+  },
+  {
+    "id": "q_1769846067533_9660",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "easy",
+    "question": "Identify the correct example of Bahubrihi Samas from the following options:",
+    "options": {
+      "A": "Gurubara",
+      "B": "Gurukula",
+      "C": "Guruputra",
+      "D": "Gurugupta"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bahubrihi Samas is a type of compound word where one word is modified grammatically to indicate a quantity or quality, often with a prefix or suffix. In this case, 'Guruputra' is a Bahubrihi Samas, where 'putra' (son) is modified to indicate the son of a guru.",
+    "generatedAt": "2026-01-31T13:24:27.533957"
+  },
+  {
+    "id": "q_1769846067533_4457",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "easy",
+    "question": "Choose the correct option that demonstrates Bahubrihi Samas:",
+    "options": {
+      "A": "Kalahandibana",
+      "B": "Kalahanidevi",
+      "C": "Kalahanipati",
+      "D": "Kalahaniraja"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bahubrihi Samas is formed by adding a prefix or suffix to one word to indicate a quantity or quality. In this case, 'Kalahanipati' is a Bahubrihi Samas, where 'pati' (lord/master) is added to 'Kalahani' to indicate the lord/master of Kalahani.",
+    "generatedAt": "2026-01-31T13:24:27.533957"
+  },
+  {
+    "id": "q_1769846085820_8971",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "easy",
+    "question": "What is the type of Samas in Odia when a Tatparyasambodhana (Tatparya) word is derived from a Karaka word and added to a Karaka word to form a compound word?",
+    "options": {
+      "A": "Atiprayukti",
+      "B": "Tatpurusha",
+      "C": "Dvitva",
+      "D": "Bahuvrihi"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia grammar, Tatpurusha Samas is a type of compound word that forms when a Tatparyasambodhana word is derived from a Karaka word and added to a Karaka word. For example, 'Gopagop' (Gopa + Gopa). This type of Samas emphasizes the Tatparya of the compound word.",
+    "generatedAt": "2026-01-31T13:24:45.820853"
+  },
+  {
+    "id": "q_1769846085820_4400",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "easy",
+    "question": "Identify the type of Samas when 'Kala' is added to 'Kala' to form a compound word in Odia?",
+    "options": {
+      "A": "Tatpurusha",
+      "B": "Dvitva",
+      "C": "Atiprayukti",
+      "D": "Bahuvrihi"
+    },
+    "correctAnswer": "A",
+    "explanation": "When 'Kala' is added to 'Kala' to form a compound word like 'Kalakala', it is an example of Tatpurusha Samas. In Tatpurusha, a word is repeated to form a compound word, emphasizing the quality or attribute of the word.",
+    "generatedAt": "2026-01-31T13:24:45.820853"
+  },
+  {
+    "id": "q_1769846085820_6203",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "easy",
+    "question": "Which type of Samas is formed when 'Swarupa' and 'Swarupa' are added to form a compound word in Odia?",
+    "options": {
+      "A": "Dvitva",
+      "B": "Tatpurusha",
+      "C": "Atiprayukti",
+      "D": "Bahuvrihi"
+    },
+    "correctAnswer": "B",
+    "explanation": "When 'Swarupa' is repeated and added to form a compound word like 'Swarupaswarupa', it is an example of Tatpurusha Samas. In Tatpurusha, a word is repeated to form a compound word, emphasizing the quality or attribute of the word.",
+    "generatedAt": "2026-01-31T13:24:45.820853"
+  },
+  {
+    "id": "q_1769846140023_6616",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "In Odia, when two vowels having different pitch combine in a word, the process is known as Swar Sandhi. What happens to the vowel 'a' when it combines with 'i' in a word, if the pitch of 'i' is higher than 'a'?",
+    "options": {
+      "A": "The pitch of 'a' will rise to match the pitch of 'i'",
+      "B": "The pitch of 'a' will remain the same and the combination will be written as 'ai'",
+      "C": "The pitch of 'a' will rise to match the pitch of 'i' and the combination will be written as 'ai'",
+      "D": "The pitch of 'a' will fall to the pitch of 'i'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia Swar Sandhi, when two vowels having different pitches combine, the vowel with the lower pitch remains unchanged and the combination is written with two distinct vowels. Hence, when 'a' (lower pitch) combines with 'i' (higher pitch), the pitch of 'a' remains the same and the combination is written as 'ai'.",
+    "generatedAt": "2026-01-31T13:25:40.023684"
+  },
+  {
+    "id": "q_1769846140023_6462",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "Svar Sandhi is an important grammatical process in Odia. What happens to the diphthong 'au' when it combines with another vowel 'e' in a word, resulting in a higher pitch?",
+    "options": {
+      "A": "The diphthong 'au' is replaced by 'ou' and the pitch of 'e' remains the same",
+      "B": "The pitch of 'au' rises to match the pitch of 'e' and the combination is written as 'eu'",
+      "C": "The diphthong 'au' remains unchanged and the combination is written as 'au'e",
+      "D": "The diphthong 'au' is replaced by 'au'e and the pitch of 'e' rises to match the pitch of 'au'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia Swar Sandhi, when a diphthong combines with another vowel, the diphthong's pitch rises to match the pitch of the other vowel. Hence, when 'au' combines with 'e' resulting in a higher pitch, the pitch of 'au' rises to match the pitch of 'e' and the combination is written as 'eu'.",
+    "generatedAt": "2026-01-31T13:25:40.023684"
+  },
+  {
+    "id": "q_1769846140023_7608",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "What is the rule for the sandhi of two vowels 'i' and 'e' when 'i' has a higher pitch than 'e'?",
+    "options": {
+      "A": "The vowel 'e' is written as 'ai' and the pitch of 'i' remains the same",
+      "B": "The vowels 'i' and 'e' are pronounced separately as two distinct vowels",
+      "C": "The combination is written as 'ie'",
+      "D": "The vowel 'i' is written as 'ai' and the pitch of 'e' remains the same"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia Swar Sandhi, when two vowels having different pitches combine, the vowel with the higher pitch changes its form to indicate the change in pitch. Hence, when 'i' (higher pitch) combines with 'e' (lower pitch), the vowel 'e' is written as 'ai' and the pitch of 'i' remains the same.",
+    "generatedAt": "2026-01-31T13:25:40.023684"
+  },
+  {
+    "id": "q_1769846169590_4473",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "medium",
+    "question": "What is the Odia synonym for the English word 'society'?",
+    "options": {
+      "A": "Sangathana",
+      "B": "Samaja",
+      "C": "Samiti",
+      "D": "Sabha"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia, the word 'Samaja' is used to refer to a group of people living in a community or a social organization. It is a more formal term compared to 'Sangathana' or 'Samiti' and is often used in contexts where a more structured organization is implied.",
+    "generatedAt": "2026-01-31T13:26:09.590862"
+  },
+  {
+    "id": "q_1769846169590_2675",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "medium",
+    "question": "Find the Odia synonym for the English word 'beauty'?",
+    "options": {
+      "A": "Sundarata",
+      "B": "Swarajata",
+      "C": "Jyoti",
+      "D": "Jagata"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia word 'Sundarata' is a direct synonym for the English word 'beauty' and refers to the quality of being aesthetically pleasing or attractive. It is a commonly used term in Odia literature and poetry to describe natural beauty or artistic expression.",
+    "generatedAt": "2026-01-31T13:26:09.590862"
+  },
+  {
+    "id": "q_1769846169590_4902",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "medium",
+    "question": "What is the Odia synonym for the English word 'intelligence'?",
+    "options": {
+      "A": "Buddhi",
+      "B": "Chaitanya",
+      "C": "Atma",
+      "D": "Shakti"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, the word 'Buddhi' is used to refer to intelligence or the ability to think critically and make sound judgments. It is a complex term that encompasses various aspects of cognitive function, including reasoning, problem-solving, and decision-making.",
+    "generatedAt": "2026-01-31T13:26:09.590862"
+  },
+  {
+    "id": "q_1769846290546_4663",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "In the context of Swar Sandhi, what is the correct formation of the Sandhi of two consecutive vowels, when the first vowel 'অ' (a) is followed by 'ই' (i)?",
+    "options": {
+      "A": "অই > উ",
+      "B": "অই > ঐ",
+      "C": "অই > ঔ",
+      "D": "অই > ও"
+    },
+    "correctAnswer": "B",
+    "explanation": "When two consecutive vowels come together in Odia, the Sandhi rule applies. In this case, the first vowel is 'অ' (a) and the second vowel is 'ই' (i). According to the Sandhi rule, when 'অ' (a) is followed by 'ই' (i), the Sandhi is formed as 'ঐ' (ai).",
+    "generatedAt": "2026-01-31T13:28:10.546451"
+  },
+  {
+    "id": "q_1769846290546_6817",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "In Odia, what is the result of the Swar Sandhi when 'উ' (u) is followed by 'ই' (i)?",
+    "options": {
+      "A": "উই > উই",
+      "B": "উই > ঊ",
+      "C": "উই > উ",
+      "D": "উই > উই৷"
+    },
+    "correctAnswer": "C",
+    "explanation": "When 'উ' (u) is followed by 'ই' (i), the Sandhi rule states that the first vowel will lose its inherent 'া' and the result will be 'উ' (u). Hence, 'উই' becomes 'উ'.",
+    "generatedAt": "2026-01-31T13:28:10.546451"
+  },
+  {
+    "id": "q_1769846290546_1967",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "What is the outcome of the Swar Sandhi when 'এ' (e) is followed by 'অ' (a)?",
+    "options": {
+      "A": "এঅ > ঐ",
+      "B": "এঅ > এ",
+      "C": "এঅ > ও",
+      "D": "এঅ > এঅ"
+    },
+    "correctAnswer": "C",
+    "explanation": "When 'এ' (e) is followed by 'অ' (a), the Sandhi rule states that the first vowel will take the place of the second vowel. Hence, 'এঅ' becomes 'ও' (o).",
+    "generatedAt": "2026-01-31T13:28:10.546451"
+  },
+  {
+    "id": "q_1769846325636_3520",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Jagannath Das",
+    "difficulty": "medium",
+    "question": "Which of the following works is NOT a notable composition of Jagannath Das?",
+    "options": {
+      "A": "Ananda Bhaan",
+      "B": "Ananda Ramayana",
+      "C": "Mohan Singh Bhaan",
+      "D": "Bhakta Prahlad"
+    },
+    "correctAnswer": "C",
+    "explanation": "Mohan Singh Bhaan is not a notable composition of Jagannath Das. Jagannath Das is known for his contributions to Odia literature, particularly in the genres of Bhakti poetry and plays. His notable works include Ananda Bhaan, Ananda Ramayana, and Bhakta Prahlad.",
+    "generatedAt": "2026-01-31T13:28:45.636170"
+  },
+  {
+    "id": "q_1769846325636_8451",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Jagannath Das",
+    "difficulty": "medium",
+    "question": "Who is the author of the Odia play 'Ananda Bhaan'?",
+    "options": {
+      "A": "Madhu Sudan Rout",
+      "B": "Banamali Das",
+      "C": "Gopabandhu Das",
+      "D": "Jagannath Das"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ananda Bhaan is an Odia play written by Jagannath Das. It is a notable work in the genre of Bhakti poetry and is considered an important contribution to Odia literature.",
+    "generatedAt": "2026-01-31T13:28:45.636170"
+  },
+  {
+    "id": "q_1769846325636_5308",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Jagannath Das",
+    "difficulty": "medium",
+    "question": "In which century did Jagannath Das live?",
+    "options": {
+      "A": "12th century",
+      "B": "13th century",
+      "C": "14th century",
+      "D": "16th century"
+    },
+    "correctAnswer": "D",
+    "explanation": "Jagannath Das is believed to have lived during the 16th century. He was a prominent figure in Odia literature and is known for his contributions to the genre of Bhakti poetry.",
+    "generatedAt": "2026-01-31T13:28:45.636170"
+  },
+  {
+    "id": "q_1769846409583_9281",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "medium",
+    "question": "Sarala Das is known for translating which important Hindu scripture from Sanskrit to Odia?",
+    "options": {
+      "A": "Bhagavata",
+      "B": "Mahabharata",
+      "C": "Ramayana",
+      "D": "Brahmavaivarta Purana"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sarala Das is credited with translating the Mahabharata from Sanskrit to Odia, which is an important Hindu epic. His translation made the epic accessible to Odia-speaking people and had a significant impact on Odia literature.",
+    "generatedAt": "2026-01-31T13:30:09.583501"
+  },
+  {
+    "id": "q_1769846409583_7420",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "medium",
+    "question": "What is the name of the Odia epic written by Sarala Das?",
+    "options": {
+      "A": "Chaitanya Chudamani",
+      "B": "Jagamohana Ramayana",
+      "C": "Bhima Rath",
+      "D": "Dandimunda"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sarala Das wrote the Odia epic Chaitanya Chudamani, which is a biography of Lord Chaitanya, a 15th-century Hindu saint. The epic is considered a masterpiece of Odia literature and is still widely read and studied today.",
+    "generatedAt": "2026-01-31T13:30:09.583501"
+  },
+  {
+    "id": "q_1769846409583_1326",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Sarala Das",
+    "difficulty": "medium",
+    "question": "In which year was Sarala Das born?",
+    "options": {
+      "A": 1417,
+      "B": 1466,
+      "C": 1450,
+      "D": 1500
+    },
+    "correctAnswer": "B",
+    "explanation": "Sarala Das, the Odia saint and writer, is believed to have been born in the year 1466. He is known for his contributions to Odia literature, particularly his translations of Hindu epics like the Mahabharata.",
+    "generatedAt": "2026-01-31T13:30:09.583501"
+  },
+  {
+    "id": "q_1769846499822_3639",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "Fakir Mohan Senapati's novel 'Six Acres and a Third' is a scathing critique of the",
+    "options": {
+      "A": "Social evils of the British colonial rule",
+      "B": "Poverty and ignorance of Odisha's rural population",
+      "C": "Social stratification and caste system in Odisha",
+      "D": "Economic exploitation of farmers by moneylenders"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fakir Mohan Senapati's novel 'Six Acres and a Third' is a significant work of Odia literature that critiques the social evils of the British colonial rule in India. The novel portrays the harsh realities of colonial rule and its impact on the lives of ordinary people.",
+    "generatedAt": "2026-01-31T13:31:39.822442"
+  },
+  {
+    "id": "q_1769846499822_5142",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "In the context of Fakir Mohan Senapati's work, what is the significance of the character Gobardhan?",
+    "options": {
+      "A": "Gobardhan represents the struggle of the common man against the British colonial rule",
+      "B": "Gobardhan symbolizes the corruption and decadence of the Indian society",
+      "C": "Gobardhan is a representation of the futility of resistance against the colonial powers",
+      "D": "Gobardhan is a symbol of the emerging nationalism in Odisha"
+    },
+    "correctAnswer": "A",
+    "explanation": "The character Gobardhan in Fakir Mohan Senapati's work represents the struggle of the common man against the British colonial rule. Gobardhan is a symbol of the ordinary people's resistance against the injustices and brutalities of the colonial powers.",
+    "generatedAt": "2026-01-31T13:31:39.822442"
+  },
+  {
+    "id": "q_1769846499822_8056",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "Which of the following best describes the literary device used by Fakir Mohan Senapati in his novel 'Six Acres and a Third'?",
+    "options": {
+      "A": "Allegory",
+      "B": "Satire",
+      "C": "Symbolism",
+      "D": "Realism"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fakir Mohan Senapati used satire as a literary device in his novel 'Six Acres and a Third'. The novel uses humor and irony to critique the social evils and the oppressive nature of the British colonial rule. Senapati's satire is a powerful tool to expose the injustices and to bring about social change.",
+    "generatedAt": "2026-01-31T13:31:39.822442"
+  },
+  {
+    "id": "q_1769846955813_1062",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "easy",
+    "question": "Who is the writer of the Odia novel 'Maa Birajmayee'?",
+    "options": {
+      "A": "Fakir Mohan Senapati",
+      "B": "Madhusudan Rao",
+      "C": "Kaliprashanna Pattanayak",
+      "D": "Godabarish Mohapatra"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fakir Mohan Senapati was a renowned Odia writer known for his novel 'Maa Birajmayee', which is considered a masterpiece of modern Odia literature.",
+    "generatedAt": "2026-01-31T13:39:15.813650"
+  },
+  {
+    "id": "q_1769846955813_5140",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "easy",
+    "question": "Which of the following novels written by Fakir Mohan Senapati is a satire on the social evils of his time?",
+    "options": {
+      "A": "Chha Mana Atha Guna",
+      "B": "Maa Birajmayee",
+      "C": "Sei Jela Raja",
+      "D": "Jagabandhu"
+    },
+    "correctAnswer": "A",
+    "explanation": "The novel 'Chha Mana Atha Guna' is a satire on the social evils of Fakir Mohan Senapati's time, depicting the lives of people living in a village.",
+    "generatedAt": "2026-01-31T13:39:15.813650"
+  },
+  {
+    "id": "q_1769846955813_8979",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "easy",
+    "question": "In which year was Fakir Mohan Senapati born?",
+    "options": {
+      "A": "1843",
+      "B": "1863",
+      "C": "1850",
+      "D": "1857"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fakir Mohan Senapati, the renowned Odia writer, was born in 1843 at Remuna in Mayurbhanj district of Odisha.",
+    "generatedAt": "2026-01-31T13:39:15.813650"
+  },
+  {
+    "id": "q_1769847027686_4217",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What is the rule of sandhi 'a' and 'e' in Odia?",
+    "options": {
+      "A": "Both 'a' and 'e' get changed to 'ai' when combined",
+      "B": "Both 'a' and 'e' get changed to 'o' when combined",
+      "C": "'a' gets changed to 'o' and 'e' gets changed to 'e' when combined",
+      "D": "'a' gets changed to 'a' and 'e' gets changed to 'e' when combined"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when 'a' and 'e' come together, they follow the rule of sandhi and get changed to 'ai'. For example, 'dara' and 'tere' become 'dairai' when combined.",
+    "generatedAt": "2026-01-31T13:40:27.686417"
+  },
+  {
+    "id": "q_1769847027686_4020",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What happens to 'a' when it comes before a consonant?",
+    "options": {
+      "A": "'a' gets changed to 'a' when it comes before a consonant",
+      "B": "'a' gets changed to 'o' when it comes before a consonant",
+      "C": "'a' gets changed to 'e' when it comes before a consonant",
+      "D": "'a' gets changed to 'ai' when it comes before a consonant"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when 'a' comes before a consonant, it does not undergo any change and remains as 'a'.",
+    "generatedAt": "2026-01-31T13:40:27.686417"
+  },
+  {
+    "id": "q_1769847027686_5960",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "easy",
+    "question": "What is the result of combining 'i' and 'e' in Odia?",
+    "options": {
+      "A": "Both 'i' and 'e' get changed to 'ai' when combined",
+      "B": "Both 'i' and 'e' get changed to 'o' when combined",
+      "C": "'i' gets changed to 'o' and 'e' gets changed to 'e' when combined",
+      "D": "'i' gets changed to 'e' and 'e' gets changed to 'i' when combined"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia, when 'i' and 'e' come together, they follow the rule of sandhi and get changed to 'o'. For example, 'tiri' and 'tere' become 'toro' when combined.",
+    "generatedAt": "2026-01-31T13:40:27.686417"
+  },
+  {
+    "id": "q_1769847069673_9319",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Dhan bhitara khata' mean?",
+    "options": {
+      "A": "To keep money safely",
+      "B": "To save money for future",
+      "C": "To spend money carelessly",
+      "D": "To earn money quickly"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Dhan bhitara khata' is derived from the phrase 'Dhan bhitara' meaning 'safe money' or 'safely kept money', and 'khata' meaning 'account'. The idiom means to keep money safely or securely.",
+    "generatedAt": "2026-01-31T13:41:09.673984"
+  },
+  {
+    "id": "q_1769847069673_2692",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Ghar doura ghumti gati' mean?",
+    "options": {
+      "A": "To be in a hurry to reach home",
+      "B": "To walk quickly",
+      "C": "To go to a place in a hurry",
+      "D": "To be in a rush to complete a task"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Ghar doura ghumti gati' is derived from the phrase 'Ghar doura' meaning 'near home' and 'ghumti gati' meaning 'wandering or going'. The idiom means being in a hurry to reach home.",
+    "generatedAt": "2026-01-31T13:41:09.673984"
+  },
+  {
+    "id": "q_1769847069673_2160",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Kalabhairav bada danda' mean?",
+    "options": {
+      "A": "A great punishment",
+      "B": "A great reward",
+      "C": "A great danger",
+      "D": "A great responsibility"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Kalabhairav bada danda' is derived from the name 'Kalabhairav' which is a form of Lord Shiva and is considered to be a fierce and powerful god. 'Bada danda' means 'great punishment'. The idiom means a great punishment or a severe consequence.",
+    "generatedAt": "2026-01-31T13:41:09.673984"
+  },
+  {
+    "id": "q_1769847177718_8448",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "Find the antonym of the word 'Bhitra' in Odia, which means 'inside' or 'within'.",
+    "options": {
+      "A": "Bahira",
+      "B": "Bahara",
+      "C": "Bahirakshara",
+      "D": "Bahira"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Bhitra' means 'inside' or 'within'. Its antonym would be something that means 'outside'. In Odia, 'Bahira' means 'outside', hence it is the correct antonym of 'Bhitra'.",
+    "generatedAt": "2026-01-31T13:42:57.718643"
+  },
+  {
+    "id": "q_1769847177718_5815",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "Identify the antonym of the word 'Bharosa' in Odia, which means 'doubt' or 'uncertainty'.",
+    "options": {
+      "A": "Vishwas",
+      "B": "Aatmavinigrah",
+      "C": "Bharosa",
+      "D": "Shanka"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Bharosa' means 'doubt' or 'uncertainty'. Its antonym would be something that means 'faith' or 'confidence'. In Odia, 'Vishwas' means 'faith' or 'confidence', hence it is the correct antonym of 'Bharosa'.",
+    "generatedAt": "2026-01-31T13:42:57.718643"
+  },
+  {
+    "id": "q_1769847177718_2821",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "Find the antonym of the word 'Aapana' in Odia, which means 'self' or 'oneself'.",
+    "options": {
+      "A": "Jana",
+      "B": "Aapana",
+      "C": "Anyanya",
+      "D": "Paraspar"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Aapana' means 'self' or 'oneself'. Its antonym would be something that means 'other' or 'someone else'. In Odia, 'Jana' refers to 'other' or 'someone else', hence it is the correct antonym of 'Aapana'.",
+    "generatedAt": "2026-01-31T13:42:57.718643"
+  },
+  {
+    "id": "q_1769847219645_1398",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of the word 'Bhul' in Odia?",
+    "options": {
+      "A": "Yad",
+      "B": "Janni",
+      "C": "Sakshya",
+      "D": "Katha"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Bhul' means 'forget' in Odia. Its antonym is 'Yad', which means 'remember'.",
+    "generatedAt": "2026-01-31T13:43:39.645961"
+  },
+  {
+    "id": "q_1769847219645_4503",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of the word 'Karu' in Odia?",
+    "options": {
+      "A": "Acha",
+      "B": "Bura",
+      "C": "Jhala",
+      "D": "Sahaj"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Karu' means 'bad' in Odia. Its antonym is 'Acha', which means 'good'.",
+    "generatedAt": "2026-01-31T13:43:39.645961"
+  },
+  {
+    "id": "q_1769847219645_5693",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "easy",
+    "question": "What is the antonym of the word 'Dhairya' in Odia?",
+    "options": {
+      "A": "Aaghaat",
+      "B": "Sahaj",
+      "C": "Jhala",
+      "D": "Nirbhar"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Dhairya' means 'patience' in Odia. Its antonym is 'Aaghaat', which means 'impatience'.",
+    "generatedAt": "2026-01-31T13:43:39.645961"
+  },
+  {
+    "id": "q_1769847297747_2556",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom \"Tupana Kala Deha\"?",
+    "options": {
+      "A": "A person who is very brave and strong.",
+      "B": "A person who is very clever and witty.",
+      "C": "A person who is very weak and timid.",
+      "D": "A person who is very lazy and inactive."
+    },
+    "correctAnswer": "C",
+    "explanation": "The idiom \"Tupana Kala Deha\" means a person who is very weak and timid. The word \"Tupana\" in Odia means weakness, while \"Kala Deha\" means body or a person. So, when combined, the idiom refers to a person who is physically weak or timid.",
+    "generatedAt": "2026-01-31T13:44:57.747860"
+  },
+  {
+    "id": "q_1769847297747_5369",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom \"Bhala Dhire Dhire Bhala\"?",
+    "options": {
+      "A": "A slow and steady approach is the best.",
+      "B": "Haste makes waste.",
+      "C": "A person who is slow and lazy is the best.",
+      "D": "A person who is fast and quick is the best."
+    },
+    "correctAnswer": "A",
+    "explanation": "The idiom \"Bhala Dhire Dhire Bhala\" means a slow and steady approach is the best. The phrase is often used to convey the idea that patience and persistence are more important than speed or efficiency.",
+    "generatedAt": "2026-01-31T13:44:57.747860"
+  },
+  {
+    "id": "q_1769847297747_4565",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom \"Nana Bhai Bhai\"?",
+    "options": {
+      "A": "Brothers are the best friends.",
+      "B": "All are equal.",
+      "C": "Everyone is a friend to each other.",
+      "D": "Family is more important than friends."
+    },
+    "correctAnswer": "B",
+    "explanation": "The idiom \"Nana Bhai Bhai\" means all are equal. The phrase is often used to convey the idea that everyone is equal and should be treated with respect and dignity, regardless of their social status or position.",
+    "generatedAt": "2026-01-31T13:44:57.747860"
+  },
+  {
+    "id": "q_1769847328124_1744",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "hard",
+    "question": "Gopabandhu Das is known to have written a famous Odia novel titled 'Sarala Chandi', but what is the title of his autobiography?",
+    "options": {
+      "A": "Sakala Jagat",
+      "B": "Gopabandhu Charita",
+      "C": "Sarala Chandi",
+      "D": "Krushnachuda Charita"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das' autobiography is titled 'Sakala Jagat'. While he is known for his novel 'Sarala Chandi', which is an adaptation of the Hindu epic 'Chandi', the correct title of his autobiography is 'Sakala Jagat'.",
+    "generatedAt": "2026-01-31T13:45:28.124984"
+  },
+  {
+    "id": "q_1769847328124_1834",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "hard",
+    "question": "In the context of Gopabandhu Das' literary works, what is the significance of the novel 'Panchasakha'?",
+    "options": {
+      "A": "It is based on a mythological theme",
+      "B": "It is a fictional story based on real-life social issues",
+      "C": "It is a poetic representation of his travels",
+      "D": "It is an autobiography of one of his friends"
+    },
+    "correctAnswer": "B",
+    "explanation": "The novel 'Panchasakha' is significant in the context of Gopabandhu Das' literary works as it is a fictional story based on real-life social issues. The novel portrays the struggles of the common man and the influence of social reformers on their lives.",
+    "generatedAt": "2026-01-31T13:45:28.124984"
+  },
+  {
+    "id": "q_1769847328124_3177",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "hard",
+    "question": "Which of the following statements is true about Gopabandhu Das' literary contributions?",
+    "options": {
+      "A": "He was a pioneer of Odia science fiction literature",
+      "B": "He was the first Odia writer to get a PhD",
+      "C": "He was a pioneer of Odia social reform literature",
+      "D": "He was a pioneer of Odia children's literature"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gopabandhu Das was a pioneer of Odia social reform literature. His works, including novels and essays, focused on social issues such as women's rights, education, and social justice. He played a significant role in promoting social reform through his literature.",
+    "generatedAt": "2026-01-31T13:45:28.124984"
+  },
+  {
+    "id": "q_1769847340122_9554",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "Which of the following is a major theme in Fakir Mohan Senapati's novel 'Six Acres and a Third'?",
+    "options": {
+      "A": "The struggle of poor peasants against the oppression of the Zamindars",
+      "B": "The impact of colonialism on Odisha's culture",
+      "C": "The importance of education in social reform",
+      "D": "The role of women in Odia society"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fakir Mohan Senapati's novel 'Six Acres and a Third' is a critique of the Zamindari system and the exploitation of poor peasants. The theme of the struggle between the poor peasants and the oppressive Zamindars is a central idea in the novel. This makes option A the correct choice.",
+    "generatedAt": "2026-01-31T13:45:40.123921"
+  },
+  {
+    "id": "q_1769847340123_2876",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "In which of the following ways is Fakir Mohan Senapati's writing style different from traditional Odia writing?",
+    "options": {
+      "A": "He used simpler language to make literature accessible to a wider audience",
+      "B": "He used complex metaphors to convey deeper meanings",
+      "C": "He wrote in a more formal tone to show respect for the reader",
+      "D": "He used a mix of Odia and other languages to create a unique style"
+    },
+    "correctAnswer": "A",
+    "explanation": "Fakir Mohan Senapati is known for his simple and accessible writing style. Unlike traditional Odia writing, which was often complex and difficult to understand, Senapati's writing is clear and concise. This made his literature more accessible to a wider audience. Option A is the correct choice because it accurately reflects Senapati's writing style.",
+    "generatedAt": "2026-01-31T13:45:40.123921"
+  },
+  {
+    "id": "q_1769847340123_8926",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "hard",
+    "question": "Which of the following is a characteristic of the protagonist in Fakir Mohan Senapati's short story 'The Challenged God'?",
+    "options": {
+      "A": "He is a devout and pious person who believes in the power of God",
+      "B": "He is a rational and skeptical person who questions the existence of God",
+      "C": "He is a cruel and oppressive person who takes advantage of his power",
+      "D": "He is a helpless and powerless person who relies on others"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Fakir Mohan Senapati's short story 'The Challenged God', the protagonist is a rational and skeptical person who questions the existence of God. He is a character who challenges the conventional beliefs and values of his society. This makes option B the correct choice.",
+    "generatedAt": "2026-01-31T13:45:40.123921"
+  },
+  {
+    "id": "q_1769847351803_4631",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "Which of the following Odia idioms means 'to deceive'?",
+    "options": {
+      "A": "Bhala kuchha boli",
+      "B": "Dhoka kahi",
+      "C": "Durlabha kala",
+      "D": "Gara Gati"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct answer is 'Dhoka kahi' because 'Dhoka' means 'deception' or 'cheating' and 'kahi' is a suffix indicating an idiom or an expression. In Odia, the phrase \"Dhoka kahi\" is used to describe someone who is deceiving others.",
+    "generatedAt": "2026-01-31T13:45:51.803252"
+  },
+  {
+    "id": "q_1769847351803_3173",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "What does the Odia idiom 'Ama Jibana' mean?",
+    "options": {
+      "A": "My life is over",
+      "B": "My life is easy",
+      "C": "My life is in danger",
+      "D": "My life is complete"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct answer is 'My life is in danger' because 'Ama Jibana' is a common Odia idiom that means 'my life is at risk' or 'my life is in danger'.",
+    "generatedAt": "2026-01-31T13:45:51.803252"
+  },
+  {
+    "id": "q_1769847351803_4883",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "Which of the following Odia idioms means 'a clever trick'?",
+    "options": {
+      "A": "Gara Gati",
+      "B": "Kala Kala Bala",
+      "C": "Durlabha Kala",
+      "D": "Katha Kathi Kala"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct answer is 'Durlabha Kala' because 'Durlabha' means 'rare' or 'difficult to achieve' and 'Kala' means 'skill' or 'art'. In Odia, the phrase \"Durlabha Kala\" is used to describe a clever trick or a skillful feat.",
+    "generatedAt": "2026-01-31T13:45:51.803252"
+  },
+  {
+    "id": "q_1769847376030_7352",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What does the Odia proverb 'Rahigala raha, gela bata' signify?",
+    "options": {
+      "A": "The absence of a friend makes him more dear.",
+      "B": "A man is known by the company he keeps.",
+      "C": "A bird does not leave its nest without any warning.",
+      "D": "A person is not known by his absence."
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Rahigala raha, gela bata' translates to 'He who stays away, his coming is announced.' It signifies that when someone who is absent is about to return, it is announced in advance, and that absence makes the heart grow fonder.",
+    "generatedAt": "2026-01-31T13:46:16.030769"
+  },
+  {
+    "id": "q_1769847376030_6909",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What does the Odia proverb 'Muli kati ghata, kati nauli ghana' signify?",
+    "options": {
+      "A": "A small bundle may weigh heavily.",
+      "B": "A big bundle may not weigh as much as expected.",
+      "C": "The heavier the load, the more you get paid.",
+      "D": "The smaller the load, the more you get paid."
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Muli kati ghata, kati nauli ghana' translates to 'A small bundle may weigh heavily.' It signifies that even a small amount of something can have a significant impact or burden.",
+    "generatedAt": "2026-01-31T13:46:16.030769"
+  },
+  {
+    "id": "q_1769847376030_4702",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What does the Odia proverb 'Bhitara ghana ghara, bahira khali ghara' signify?",
+    "options": {
+      "A": "The inner house may be full, while the outer house remains empty.",
+      "B": "The outer house may be full, while the inner house remains empty.",
+      "C": "The wealth inside may not be visible outside.",
+      "D": "The wealth outside may not be visible inside."
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia proverb 'Bhitara ghana ghara, bahira khali ghara' translates to 'The inner house may be full, while the outer house remains empty.' It signifies that one's inner self may be rich and content, while their outward appearance may be empty or unimpressive.",
+    "generatedAt": "2026-01-31T13:46:16.030769"
+  },
+  {
+    "id": "q_1769847381802_9819",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "hard",
+    "question": "Which of the following works of Balaram Das is known for its devotional composition and philosophical depth, and is considered a masterpiece of Odia literature?",
+    "options": {
+      "A": "Chaitanya Charita",
+      "B": "Dasa Bhasa",
+      "C": "Dvitiya Dasabata",
+      "D": "Chaitanya Mahaprabhu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Chaitanya Charita is a biographical work written by Balaram Das, which narrates the life of Chaitanya Mahaprabhu. It is a devotional composition that showcases Balaram Das' poetic skills and philosophical depth.",
+    "generatedAt": "2026-01-31T13:46:21.802101"
+  },
+  {
+    "id": "q_1769847381802_7805",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "hard",
+    "question": "Balaram Das' works are characterized by a blend of Odia and Sanskrit languages. Which of the following is an example of his writing style that combines Odia and Sanskrit?",
+    "options": {
+      "A": "Use of Odia metaphors with Sanskrit phrases",
+      "B": "Incorporation of Sanskrit shlokas into Odia poetry",
+      "C": "Employment of Odia grammar with Sanskrit vocabulary",
+      "D": "Use of Sanskrit compound words in Odia context"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balaram Das' works often feature Sanskrit shlokas incorporated into Odia poetry, showcasing his unique writing style that combines the two languages.",
+    "generatedAt": "2026-01-31T13:46:21.803095"
+  },
+  {
+    "id": "q_1769847381803_3418",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "hard",
+    "question": "Balaram Das was a contemporary of which Odia poet-saint who also contributed significantly to Odia literature?",
+    "options": {
+      "A": "Jaydev",
+      "B": "Upendra Bhanja",
+      "C": "Ananta Das",
+      "D": "Kabir Das"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balaram Das lived during the same period as Upendra Bhanja, another prominent Odia poet-saint known for his contributions to Odia literature.",
+    "generatedAt": "2026-01-31T13:46:21.803095"
+  },
+  {
+    "id": "q_1769847718055_8612",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "In Odia, what is the sandhi form of the words 'Ama' and 'Kahin'?",
+    "options": {
+      "A": "Ama Kahin",
+      "B": "Amaka Kahina",
+      "C": "Amaka Kahin",
+      "D": "Kahin Ama"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Vyanjan Sandhi, when two words end with 'A' and the next word starts with 'H', 'K', 'J' or 'Ch', the sandhi form is obtained by replacing 'A' with 'Ah'. In this case, the words 'Ama' and 'Kahin' undergo Vyanjan Sandhi, resulting in the sandhi form 'Ama Kahin'.",
+    "generatedAt": "2026-01-31T13:51:58.055292"
+  },
+  {
+    "id": "q_1769847718055_2306",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "The word 'Ama' is combined with 'Jaga' using Vyanjan Sandhi. What is the resulting sandhi form?",
+    "options": {
+      "A": "Ama Jag",
+      "B": "Amaja Jag",
+      "C": "Amaja Jagara",
+      "D": "Jaga Ama"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, when two words end with 'A' and the next word starts with 'J', the sandhi form is obtained by replacing 'A' with 'Aj'. In this case, the words 'Ama' and 'Jaga' undergo Vyanjan Sandhi, resulting in the sandhi form 'Amaja Jag'.",
+    "generatedAt": "2026-01-31T13:51:58.055292"
+  },
+  {
+    "id": "q_1769847718055_9140",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "What is the sandhi form when the word 'Ama' is combined with 'Hota' using Vyanjan Sandhi?",
+    "options": {
+      "A": "Ama Hot",
+      "B": "Amaha Hoti",
+      "C": "Amaha Hota",
+      "D": "Hota Ama"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, when two words end with 'A' and the next word starts with 'H', the sandhi form is obtained by replacing 'A' with 'Ah'. In this case, the word 'Ama' undergoes Vyanjan Sandhi, resulting in the sandhi form 'Amaha'. The next word 'Hota' also undergoes sandhi, resulting in 'Amaha Hoti'.",
+    "generatedAt": "2026-01-31T13:51:58.055292"
+  },
+  {
+    "id": "q_1769847976110_8265",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": " Identify the correct Tatpurusha samas for the verb 'khai' - 'da'",
+    "options": {
+      "A": "khaida",
+      "B": "khaida",
+      "C": "khaida",
+      "D": "khaida"
+    },
+    "correctAnswer": "D",
+    "explanation": "In Tatpurusha samas, the verb 'khai' - 'da' is formed by adding '-da' to the verb 'khai'. The correct form is 'khaida' but here we are looking for the correct tatpurusha samas and the answer choice is 'khaida' and 'khaida' is incorrect. Since 'khaida' (A, B, C) are repeated and wrong, D seems to be the only option left.",
+    "generatedAt": "2026-01-31T13:56:16.110686"
+  },
+  {
+    "id": "q_1769847976110_2859",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": "The following sentences use Tatpurusha samas, identify the correct one - a) 'kalahi nahi chalichi', b) 'kalahi nahi chalichi', c) 'kalakalei nahi chalichi', d) 'kalakalei nahi chalichi'",
+    "options": {
+      "A": "a) kalahi nahi chalichi",
+      "B": "b) kalahi nahi chalichi",
+      "C": "c) kalakalei nahi chalichi",
+      "D": "d) kalakalei nahi chalichi"
+    },
+    "correctAnswer": "D",
+    "explanation": "The correct Tatpurusha samas is 'kalakalei nahi chalichi', which means 'not functioning properly' or 'not working properly'. 'kalahi' is the verb 'kale' in Tatpurusha samas with the genitive ending 'i'.",
+    "generatedAt": "2026-01-31T13:56:16.110686"
+  },
+  {
+    "id": "q_1769847976110_8747",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "hard",
+    "question": " Identify the meaning of the word 'gharbhaka' formed by Tatpurusha samas ",
+    "options": {
+      "A": "one who is in the womb",
+      "B": "one who gives birth",
+      "C": "one who brings child to the world",
+      "D": "a mother"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'gharbhaka' is formed by the Tatpurusha samas of the verb 'gharbh' - 'ka'. 'gharbh' means 'in the womb' and 'ka' is a suffix used in Tatpurusha samas. Therefore, 'gharbhaka' means 'one who is in the womb' or 'a pregnant woman'.",
+    "generatedAt": "2026-01-31T13:56:16.110686"
+  },
+  {
+    "id": "q_1769848017714_9811",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "hard",
+    "question": "The word 'Kahinika' can be substituted by which one of the following words?",
+    "options": {
+      "A": "Slightly",
+      "B": "A Little",
+      "C": "Somewhat",
+      "D": "Moderately"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Kahinika' is derived from the Odia word 'kahinu' which means to be a little or slightly. Hence, the correct substitution is 'Slightly'.",
+    "generatedAt": "2026-01-31T13:56:57.714632"
+  },
+  {
+    "id": "q_1769848017714_4776",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "hard",
+    "question": "Which word is the synonym of 'Rachanatmak' in Odia?",
+    "options": {
+      "A": "Creative",
+      "B": "Imaginative",
+      "C": "Artistic",
+      "D": "Innovative"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Rachanatmak' in Odia means creative. Hence, it can be substituted by the word 'Creative'.",
+    "generatedAt": "2026-01-31T13:56:57.714632"
+  },
+  {
+    "id": "q_1769848017714_5494",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "One Word Substitution",
+    "difficulty": "hard",
+    "question": "The word 'Aparihinita' can be replaced by which one of the following words?",
+    "options": {
+      "A": "Unlimited",
+      "B": "Unrestricted",
+      "C": "Unlimited or Unrestricted",
+      "D": "Unlimited, Unrestricted or Unlimited"
+    },
+    "correctAnswer": "A",
+    "explanation": "The word 'Aparihinita' in Odia means unlimited or without any limit. Therefore, the correct substitution is 'Unlimited'.",
+    "generatedAt": "2026-01-31T13:56:57.714632"
+  },
+  {
+    "id": "q_1769848149862_8358",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'ভাল' (Bhala)?",
+    "options": {
+      "A": "মন্দ",
+      "B": "কঠিন",
+      "C": "সুন্দর",
+      "D": "প্রশংসনীয়"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'ভাল' (Bhala), which means 'good', is 'মন্দ' (Manda), which means 'bad'.",
+    "generatedAt": "2026-01-31T13:59:09.862697"
+  },
+  {
+    "id": "q_1769848149862_1734",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'অভাব' (Abhāba)?",
+    "options": {
+      "A": "আসল",
+      "B": "বিপদ",
+      "C": "কঠিন",
+      "D": "বিঘ্নিত"
+    },
+    "correctAnswer": "A",
+    "explanation": "The antonym of 'অভাব' (Abhāba), which means 'deficiency' or 'lack', is 'আসল' (Āsala), which means 'sufficiency' or 'availability'.",
+    "generatedAt": "2026-01-31T13:59:09.862697"
+  },
+  {
+    "id": "q_1769848149862_3165",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Antonyms",
+    "difficulty": "medium",
+    "question": "What is the antonym of the Odia word 'অনুমোদন' (Anumōdana)?",
+    "options": {
+      "A": "অনুমতি",
+      "B": "ব্যতিরেক",
+      "C": "সম্মতি",
+      "D": "প্রত্যাখ্যান"
+    },
+    "correctAnswer": "D",
+    "explanation": "The antonym of 'অনুমোদন' (Anumōdana), which means 'approval', is 'প্রত্যাখ্যান' (Pratyākhyan), which means 'rejection'.",
+    "generatedAt": "2026-01-31T13:59:09.862697"
+  },
+  {
+    "id": "q_1769848454747_4973",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Dwandwa",
+    "difficulty": "medium",
+    "question": "Dwandwa samas is a type of compound word in Odia where two words with same meaning are joined together. Identify the correct Dwandwa samas for the word 'jagata'",
+    "options": {
+      "A": "jagata - jagata",
+      "B": "jagata - jagatara",
+      "C": "jagata - jagatare",
+      "D": "jagata - jaga"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct Dwandwa samas for 'jagata' is 'jagata - jagatara'. This is because 'jagata' means 'world' and 'jagatara' also means 'world' or 'universe', making it a suitable replacement in the Dwandwa samas.",
+    "generatedAt": "2026-01-31T14:04:14.747705"
+  },
+  {
+    "id": "q_1769848454747_6794",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Dwandwa",
+    "difficulty": "medium",
+    "question": "In Odia, 'Dharmadhyaksha' is a Dwandwa samas for the word. Identify the correct meaning of 'Dharmadhyaksha' from the given options",
+    "options": {
+      "A": "Dharmadhyaksha - leader of the world",
+      "B": "Dharmadhyaksha - head of the religion",
+      "C": "Dharmadhyaksha - chief of the universe",
+      "D": "Dharmadhyaksha - ruler of the universe"
+    },
+    "correctAnswer": "B",
+    "explanation": "The correct meaning of 'Dharmadhyaksha' is 'head of the religion'. This is because 'Dharmadhyaksha' is a compound word in Odia where 'Dharmadhyaksha' means 'head of the religion' and it is a suitable replacement in the Dwandwa samas.",
+    "generatedAt": "2026-01-31T14:04:14.747705"
+  },
+  {
+    "id": "q_1769848454747_5523",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Dwandwa",
+    "difficulty": "medium",
+    "question": "For the word 'Bhulabhul', identify the type of Dwandwa samas",
+    "options": {
+      "A": "Dwandwa samas",
+      "B": "Utkarsa samas",
+      "C": "Bibhakti samas",
+      "D": "Sambaddha samas"
+    },
+    "correctAnswer": "B",
+    "explanation": "The word 'Bhulabhul' is an example of Utkarsa samas in Odia. Utkarsa samas is a type of compound word in Odia where two words with same or similar meaning are joined together with the help of a conjunctive particle like 'abhul', 'abhul', etc. In this case, 'Bhulabhul' means 'confused' or 'perplexed' and it is a suitable example of Utkarsa samas.",
+    "generatedAt": "2026-01-31T14:04:14.747705"
+  },
+  {
+    "id": "q_1769848757808_2725",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "Which of the following novels by Fakir Mohan Senapati is a critique of the zamindari system in Odisha?",
+    "options": {
+      "A": "Chha Mana Atha Guntha",
+      "B": "Six Acres and a Third",
+      "C": "Sabuj Patra",
+      "D": "Bharabent"
+    },
+    "correctAnswer": "B",
+    "explanation": "The novel 'Bharabent' is often translated to 'Six Acres and a Third' which is a critique of the zamindari system in Odisha. The novel is a satirical critique of the social and economic conditions of Odisha under British rule.",
+    "generatedAt": "2026-01-31T14:09:17.808951"
+  },
+  {
+    "id": "q_1769848757808_9882",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "Fakir Mohan Senapati's works are characterized by",
+    "options": {
+      "A": "Romanticism",
+      "B": "Realism",
+      "C": "Symbolism",
+      "D": "Modernism"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fakir Mohan Senapati's works are characterized by realism. His novels and short stories are considered some of the first examples of realist literature in Odia. He drew inspiration from the lives of ordinary people and critiqued the social and economic conditions of Odisha.",
+    "generatedAt": "2026-01-31T14:09:17.808951"
+  },
+  {
+    "id": "q_1769848757808_3093",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Fakir Mohan Senapati",
+    "difficulty": "medium",
+    "question": "In Fakir Mohan Senapati's novel 'Chha Mana Atha Guntha', the main character Jhantonara is a symbol of",
+    "options": {
+      "A": "Suffering of rural women",
+      "B": "Caste oppression",
+      "C": "Land reform",
+      "D": "British colonialism"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Fakir Mohan Senapati's novel 'Chha Mana Atha Guntha', the main character Jhantonara is a symbol of the suffering of rural women. She is a strong and determined woman who fights against the injustices faced by her community.",
+    "generatedAt": "2026-01-31T14:09:17.808951"
+  },
+  {
+    "id": "q_1769849544503_1690",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "In Vyanjan Sandhi, what is the outcome when 'ਇ' (i) is added to 'ਹ' (ha)?",
+    "options": {
+      "A": "ਈ",
+      "B": "ਹੀ",
+      "C": "ਇਹ",
+      "D": "ਹੈ"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Vyanjan Sandhi, when 'ਇ' (i) is added to 'ਹ' (ha), it becomes 'ਈ' (ī). This is because 'ਇ' (i) and 'ਹ' (ha) combine to form 'ਈ' (ī) as per the rules of Vyanjan Sandhi.",
+    "generatedAt": "2026-01-31T14:22:24.503003"
+  },
+  {
+    "id": "q_1769849544503_6218",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "What is the outcome when 'ਅ' (a) is added to 'ਲ' (la)?",
+    "options": {
+      "A": "ਅਲ",
+      "B": "ਲਾ",
+      "C": "ਅਲਾ",
+      "D": "ਲਿ"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Vyanjan Sandhi, when 'ਅ' (a) is added to 'ਲ' (la), it becomes 'ਅਲਾ' (alā). This is because 'ਅ' (a) and 'ਲ' (la) combine to form 'ਅਲਾ' (alā) as per the rules of Vyanjan Sandhi.",
+    "generatedAt": "2026-01-31T14:22:24.503003"
+  },
+  {
+    "id": "q_1769849544503_2637",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "hard",
+    "question": "What is the outcome when 'ਉ' (u) is added to 'ਕ' (ka)?",
+    "options": {
+      "A": "ਉਕ",
+      "B": "ਕੁ",
+      "C": "ਉਕ",
+      "D": "ਕੂ"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Vyanjan Sandhi, when 'ਉ' (u) is added to 'ਕ' (ka), it becomes 'ਉਕ' (uk). This is because 'ਉ' (u) and 'ਕ' (ka) combine to form 'ਉਕ' (uk) as per the rules of Vyanjan Sandhi.",
+    "generatedAt": "2026-01-31T14:22:24.503003"
+  },
+  {
+    "id": "q_1769850577459_6841",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "What is the rule of Vyanjan Sandhi in Odia grammar when the words 'mara' and 'ka' are combined?",
+    "options": {
+      "A": "mara ka",
+      "B": "maraka",
+      "C": "maraka",
+      "D": "marakaa"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, the words 'mara' and 'ka' are combined to form 'maraka'. This is an example of Virama Sandhi where a consonant is dropped when two words are combined.",
+    "generatedAt": "2026-01-31T14:39:37.459836"
+  },
+  {
+    "id": "q_1769850577459_8397",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "What is the result of Vyanjan Sandhi when the words 'dhana' and 'ka' are combined?",
+    "options": {
+      "A": "dhana ka",
+      "B": "dhanaka",
+      "C": "dhankaa",
+      "D": "dhankaa"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Vyanjan Sandhi, the words 'dhana' and 'ka' are combined to form 'dhanaka'. This is an example of Virama Sandhi where a consonant is dropped when two words are combined.",
+    "generatedAt": "2026-01-31T14:39:37.459836"
+  },
+  {
+    "id": "q_1769850577459_8884",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Vyanjan Sandhi",
+    "difficulty": "easy",
+    "question": "What is the result of Vyanjan Sandhi when the words 'ru' and 'chha' are combined?",
+    "options": {
+      "A": "ru chha",
+      "B": "rucha",
+      "C": "ruccha",
+      "D": "ruccha"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Vyanjan Sandhi, the words 'ru' and 'chha' are combined to form 'ruccha'. This is an example of Virama Sandhi where a consonant is dropped when two words are combined.",
+    "generatedAt": "2026-01-31T14:39:37.459836"
+  },
+  {
+    "id": "q_1769851757148_9862",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "Who was the editor of the newspaper 'Sandhya' which played a significant role in Odia language and literature during the period of Gopabandhu Das?",
+    "options": {
+      "A": "Gopabandhu Das",
+      "B": "Madal Das",
+      "C": "Krishna Chandra Gajapati",
+      "D": "Bhagirathi Mohanty"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das was an Odia social reformer, writer, and journalist. He was also the editor of the newspaper 'Sandhya', which was a significant Odia language newspaper during his period.",
+    "generatedAt": "2026-01-31T14:59:17.148857"
+  },
+  {
+    "id": "q_1769851757148_4518",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "What was the main theme of Gopabandhu Das's work 'Amar Khata'?",
+    "options": {
+      "A": "Social Reform",
+      "B": "Revolution and Nationalism",
+      "C": "Love Story",
+      "D": "Spirituality and Philosophy"
+    },
+    "correctAnswer": "A",
+    "explanation": "Amar Khata, a novel written by Gopabandhu Das, revolves around the theme of social reform. The novel emphasizes the need for social change and highlights the problems faced by the society at that time.",
+    "generatedAt": "2026-01-31T14:59:17.148857"
+  },
+  {
+    "id": "q_1769851757148_9459",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "In which year did Gopabandhu Das start his literary career?",
+    "options": {
+      "A": 1868,
+      "B": 1888,
+      "C": 1898,
+      "D": 1900
+    },
+    "correctAnswer": "B",
+    "explanation": "Gopabandhu Das started his literary career in 1888. He was a prolific writer and published several books and articles in his lifetime.",
+    "generatedAt": "2026-01-31T14:59:17.148857"
+  },
+  {
+    "id": "q_1769851956110_4389",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "Who is the author of the famous Odia novel 'Sakala Sahitya'?",
+    "options": {
+      "A": "Gopabandhu Das",
+      "B": "Pramatt Chandra Behera",
+      "C": "Madhu Sudan Rath",
+      "D": "Bibudhendu Dash"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das is the author of the famous Odia novel 'Sakala Sahitya', which is a collection of short stories. He was a prominent Odia writer, journalist, and social reformer who played a key role in the struggle for Indian independence.",
+    "generatedAt": "2026-01-31T15:02:36.110779"
+  },
+  {
+    "id": "q_1769851956110_9935",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "What is the name of the Odia literary magazine founded by Gopabandhu Das?",
+    "options": {
+      "A": "Utkal Dipika",
+      "B": "Sakala Sahitya",
+      "C": "Odisha",
+      "D": "Sandhya"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das founded the Odia literary magazine 'Utkal Dipika', which was a significant platform for Odia writers and intellectuals to express their views and ideas. The magazine played a crucial role in promoting Odia literature and culture.",
+    "generatedAt": "2026-01-31T15:02:36.110779"
+  },
+  {
+    "id": "q_1769851956110_2013",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "easy",
+    "question": "What is the main theme of Gopabandhu Das's Odia novel 'Anath Biddar Odia'?",
+    "options": {
+      "A": "Social reform and education",
+      "B": "Love and romance",
+      "C": "War and patriotism",
+      "D": "Religion and spirituality"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gopabandhu Das's novel 'Anath Biddar Odia' deals with the themes of social reform and education. The novel highlights the importance of education in bringing about social change and empowering marginalized communities. It is a significant work of Odia literature that reflects Gopabandhu Das's commitment to social reform and justice.",
+    "generatedAt": "2026-01-31T15:02:36.110779"
+  },
+  {
+    "id": "q_1769852647895_5587",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Pani Bhitara Bhumi' mean?",
+    "options": {
+      "A": "A place with lots of water",
+      "B": "A place that is always dry",
+      "C": "Land that is underwater",
+      "D": "A place with fertile soil"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Pani Bhitara Bhumi' literally translates to 'Water-filled land' or 'land with lots of water'. This idiom is used to describe a place or area that is always wet or has excess water.",
+    "generatedAt": "2026-01-31T15:14:07.895232"
+  },
+  {
+    "id": "q_1769852647895_2021",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Bhitara Bhuli' mean?",
+    "options": {
+      "A": "To forget something important",
+      "B": "To remember something easily",
+      "C": "To forget something repeatedly",
+      "D": "To remember something in a dream"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Bhitara Bhuli' literally translates to 'to forget inside', meaning to forget something from the inside or to forget something important. This idiom is used to describe a situation where someone forgets something important or crucial.",
+    "generatedAt": "2026-01-31T15:14:07.895232"
+  },
+  {
+    "id": "q_1769852647895_9452",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "easy",
+    "question": "What does the Odia idiom 'Bhitara Dharana' mean?",
+    "options": {
+      "A": "To take a firm decision",
+      "B": "To hold something tightly",
+      "C": "To remember something firmly",
+      "D": "To forget something easily"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Odia idiom 'Bhitara Dharana' literally translates to 'to hold from inside', meaning to remember something firmly. This idiom is used to describe a situation where someone remembers something clearly or firmly.",
+    "generatedAt": "2026-01-31T15:14:07.895232"
+  },
+  {
+    "id": "q_1769853096604_5364",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "When the vowels 'ਇ' and 'ਅ' come together in Odia, what is the resulting sandhi rule and its effect on pronunciation?",
+    "options": {
+      "A": "It is known as 'Svarasandhi' where 'ਅ' gets elided",
+      "B": "It is known as 'Svarasandhi' where 'ਇ' gets elided",
+      "C": "It is known as 'Vyanjanasandhi' where 'ਅ' gets transformed into 'ਇ'",
+      "D": "It is known as 'Svarasandhi' where both 'ਇ' and 'ਅ' get merged and pronounced as 'ਇ'"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when vowels 'ਇ' and 'ਅ' come together, the sandhi rule is known as 'Svarasandhi'. According to this rule, the vowel 'ਅ' gets elided, and the resulting pronunciation is that of 'ਇ' only.",
+    "generatedAt": "2026-01-31T15:21:36.604665"
+  },
+  {
+    "id": "q_1769853096604_5254",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "When the vowels 'ਉ' and 'ਅ' come together in Odia, which of the following rules applies?",
+    "options": {
+      "A": "Svarasandhi where 'ਅ' gets elided and 'ਉ' remains unchanged",
+      "B": "Svarasandhi where 'ਉ' gets elided and 'ਅ' remains unchanged",
+      "C": "Vyanjanasandhi where 'ਅ' gets transformed into 'ਉ'",
+      "D": "Svarasandhi where both 'ਉ' and 'ਅ' get merged and pronounced as 'ਉ'"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Odia, when vowels 'ਉ' and 'ਅ' come together, the sandhi rule is known as 'Svarasandhi'. According to this rule, the vowel 'ਉ' remains unchanged, and the vowel 'ਅ' gets elided.",
+    "generatedAt": "2026-01-31T15:21:36.604665"
+  },
+  {
+    "id": "q_1769853096604_2984",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Swar Sandhi",
+    "difficulty": "hard",
+    "question": "If the vowels 'ਏ' and 'ਅ' meet in a compound word, then which of the following rules applies?",
+    "options": {
+      "A": "Svarasandhi where 'ਅ' gets elided and 'ਏ' remains unchanged",
+      "B": "Svarasandhi where 'ਏ' gets elided and 'ਅ' remains unchanged",
+      "C": "Vyanjanasandhi where 'ਏ' gets transformed into 'ਅ'",
+      "D": "Svarasandhi where both 'ਏ' and 'ਅ' get merged and pronounced as 'ਏ'"
+    },
+    "correctAnswer": "A",
+    "explanation": "In Odia, when vowels 'ਏ' and 'ਅ' meet in a compound word, the sandhi rule is known as 'Svarasandhi'. According to this rule, the vowel 'ਅ' gets elided, and the resulting pronunciation is that of 'ਏ' only.",
+    "generatedAt": "2026-01-31T15:21:36.604665"
+  },
+  {
+    "id": "q_1769853940649_6561",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "hard",
+    "question": "बहुब्रीहि सामस्या (Bahubrihi Samas) में मुख्य रूप से किस प्रकार के शब्दों का विलयन होता है?",
+    "options": {
+      "A": "अव्यय",
+      "B": "विशेषण",
+      "C": "क्रिया",
+      "D": "सर्वनाम"
+    },
+    "correctAnswer": "A",
+    "explanation": "बहुब्रीहि सामस्या (Bahubrihi Samas) में शाब्दिक विलयन से बनाए गए शब्दों का अंतिम हिस्सा अव्यय (Avyaya) होता है, जो संख्या की वृद्धि की ओर इशारा करता है। उदाहरण के लिए, दो-दो, तीन-तीन, चार-चार आदि।",
+    "generatedAt": "2026-01-31T15:35:40.649014"
+  },
+  {
+    "id": "q_1769853940649_9409",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "hard",
+    "question": "बहुब्रीहि सामस्या (Bahubrihi Samas) के उदाहरण के रूप में कौन से शब्दों का उल्लेख किया जा सकता है?",
+    "options": {
+      "A": "दो-दो, तीन-तीन, चार-चार",
+      "B": "आठ-आठ, दस-दस, बारह-बारह",
+      "C": "एक-एक, दो-दो, तीन-तीन",
+      "D": "चार-चार, पाँच-पाँच, छह-छह"
+    },
+    "correctAnswer": "A",
+    "explanation": "बहुब्रीहि सामस्या (Bahubrihi Samas) के उदाहरण के रूप में 'दो-दो, तीन-तीन, चार-चार' जैसे शब्दों का उल्लेख किया जा सकता है। इन शब्दों में संख्या की वृद्धि की ओर इशारा किया जाता है।",
+    "generatedAt": "2026-01-31T15:35:40.649014"
+  },
+  {
+    "id": "q_1769853940649_4744",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "hard",
+    "question": "बहुब्रीहि सामस्या (Bahubrihi Samas) का उद्देश्य बताएं?",
+    "options": {
+      "A": "वाक्य की तर्कहीनता को दिखाना और लेखक की विचारशीलता को प्रदर्शित करना ",
+      "B": "वाक्य की तर्कहीनता को दिखाना और संख्या के बारे में जागरूकता बढ़ाना ",
+      "C": "वाक्य की तर्कहीनता को दिखाना और वाक्य को संगीतमय बनाना ",
+      "D": "वाक्य की तर्कहीनता को दिखाना और लेखक की कल्पनाशीलता को प्रदर्शित करना"
+    },
+    "correctAnswer": "B",
+    "explanation": "बहुब्रीहि सामस्या (Bahubrihi Samas) का मुख्य उद्देश्य संख्या के बारे में जागरूकता बढ़ाना और वाक्य की तर्कहीनता को दिखाना है। यह संख्या की वृद्धि की ओर इशारा करता है और संख्या के संबंध में वाक्य को प्रभावी ढंग से व्यक्त करता है।",
+    "generatedAt": "2026-01-31T15:35:40.649014"
+  },
+  {
+    "id": "q_1769854638440_4594",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What does the Odia idiom 'Ratira Ghare Duka' mean?",
+    "options": {
+      "A": "In a house full of women",
+      "B": "Where one woman rules the whole family",
+      "C": "Where a woman is more powerful than a man",
+      "D": "Where the daughter-in-law rules the household"
+    },
+    "correctAnswer": "D",
+    "explanation": "The idiom 'Ratira Ghare Duka' is derived from the phrase 'Ratira' meaning 'wife' or 'daughter-in-law' and 'Ghare Duka' meaning 'a small shop' or 'a household'. It means a household where the daughter-in-law or wife is in charge or rules the family.",
+    "generatedAt": "2026-01-31T15:47:18.440860"
+  },
+  {
+    "id": "q_1769854638441_7931",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom 'Bhala Bahu, Bhala Ghar'?",
+    "options": {
+      "A": "A good brother-in-law is a blessing",
+      "B": "A good daughter-in-law is a blessing",
+      "C": "A good son is a blessing",
+      "D": "A good father is a blessing"
+    },
+    "correctAnswer": "B",
+    "explanation": "The idiom 'Bhala Bahu, Bhala Ghar' means a good daughter-in-law is a blessing to the family. This idiom is often used to express the value and importance of a good daughter-in-law in the family.",
+    "generatedAt": "2026-01-31T15:47:18.441873"
+  },
+  {
+    "id": "q_1769854638441_4316",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Proverbs",
+    "difficulty": "hard",
+    "question": "What does the Odia idiom 'Bhai Pahadha Bhauta' mean?",
+    "options": {
+      "A": "A brother who is very old",
+      "B": "A brother who is far away",
+      "C": "A brother who is very dear",
+      "D": "A brother who is very poor"
+    },
+    "correctAnswer": "C",
+    "explanation": "The idiom 'Bhai Pahadha Bhauta' is derived from the phrase 'Bhai' meaning 'brother' and 'Pahadha Bhauta' meaning 'very dear' or 'very loving'. It means a brother who is very dear or very loving.",
+    "generatedAt": "2026-01-31T15:47:18.441873"
+  },
+  {
+    "id": "q_1769854886087_9645",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom 'Ghadar Khai'",
+    "options": {
+      "A": "To sow wheat",
+      "B": "To sow paddy",
+      "C": "To do something carelessly",
+      "D": "To sow mustard"
+    },
+    "correctAnswer": "C",
+    "explanation": "The Odia idiom 'Ghadar Khai' is a common expression that means to do something carelessly or without thinking. 'Ghadar' is the Odia word for a type of mustard that is sown in the field, but here it's used to imply carelessness. The phrase is often used to caution someone against taking reckless actions.",
+    "generatedAt": "2026-01-31T15:51:26.087613"
+  },
+  {
+    "id": "q_1769854886087_5321",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom 'Pakhi Jata'",
+    "options": {
+      "A": "A type of bird",
+      "B": "A type of tree",
+      "C": "A type of insect",
+      "D": "When the bird lays eggs"
+    },
+    "correctAnswer": "D",
+    "explanation": "The Odia idiom 'Pakhi Jata' is a common expression that means when the bird lays eggs. The phrase is often used to describe a situation when something is about to happen, just like how a bird lays eggs before hatching them.",
+    "generatedAt": "2026-01-31T15:51:26.087613"
+  },
+  {
+    "id": "q_1769854886087_4835",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "hard",
+    "question": "What is the meaning of the Odia idiom 'Kala Bala'",
+    "options": {
+      "A": "Good or strong",
+      "B": "Bad or weak",
+      "C": "A type of exercise",
+      "D": "An old person"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Odia idiom 'Kala Bala' is a common expression that means good or strong. The phrase is often used to describe someone or something that is excellent or powerful. It is derived from the Odia words 'Kala' meaning good or strong and 'Bala' meaning power or strength.",
+    "generatedAt": "2026-01-31T15:51:26.087613"
+  },
+  {
+    "id": "q_1769854984327_1314",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "Kanha na kanha bhauni kate, kene bhaba haika kate?",
+    "options": {
+      "A": "Nija ghara ghumaie",
+      "B": "Khali paakha ghumaie",
+      "C": "Bhui bhuin chhadi ghumaie",
+      "D": "Khali paakha bhuin chhadi ghumaie"
+    },
+    "correctAnswer": "A",
+    "explanation": "Idiom - Kanha na kanha bhauni kate, kene bhaba haika kate. Odia idiom. Meaning in English: 'The more we take care of our own house, the more worried we get about others house.'",
+    "generatedAt": "2026-01-31T15:53:04.327466"
+  },
+  {
+    "id": "q_1769854984327_7336",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "Kanika kalia kalia khae, kheuha kalia kalia kheuha?",
+    "options": {
+      "A": "Nija kania khaya kheuha",
+      "B": "Bhuli kania khaya kheuha",
+      "C": "Khali karia kheuha kheuha",
+      "D": "Bhuli karia khaya khali"
+    },
+    "correctAnswer": "A",
+    "explanation": "Idiom - Kanika kalia kalia khae, kheuha kalia kalia kheuha. Odia idiom. Meaning in English: 'He who is busy with his own work does not have time to gossip.'",
+    "generatedAt": "2026-01-31T15:53:04.327466"
+  },
+  {
+    "id": "q_1769854984327_1236",
+    "subject": "Odia Language",
+    "topic": "Odia Idioms",
+    "subtopic": "Common Idioms",
+    "difficulty": "medium",
+    "question": "Sata ghara sata khali, kene bhaba sata khali?",
+    "options": {
+      "A": "Khali ghara khali khali",
+      "B": "Sata bhai sata khali",
+      "C": "Bhuli ghara khali khali",
+      "D": "Sata bhai khali khali"
+    },
+    "correctAnswer": "A",
+    "explanation": "Idiom - Sata ghara sata khali, kene bhaba sata khali. Odia idiom. Meaning in English: 'If every house is empty, then why are you emptying another house?'",
+    "generatedAt": "2026-01-31T15:53:04.327466"
+  },
+  {
+    "id": "q_1769855082621_8382",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "medium",
+    "question": "Who was the patron of Balaram Das?",
+    "options": {
+      "A": "King Purushottama Dev",
+      "B": "King Pratap Rudra Dev",
+      "C": "King Kapilendra Dev",
+      "D": "King Mukunda Dev"
+    },
+    "correctAnswer": "B",
+    "explanation": "Balaram Das was a renowned Odia poet and saint, and King Pratap Rudra Dev was his patron. King Pratap Rudra Dev was the ruler of the Gajapati kingdom in the 16th century. He was a patron of art and literature, and his court was known for its scholars and poets.",
+    "generatedAt": "2026-01-31T15:54:42.621430"
+  },
+  {
+    "id": "q_1769855082621_9373",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "medium",
+    "question": "In which of the following works is Balaram Das' most famous poem 'Dharmaraksaka' found?",
+    "options": {
+      "A": "Dharmaraksaka",
+      "B": "Jagamohana",
+      "C": "Raghavapritabharata",
+      "D": "Bhaktamala"
+    },
+    "correctAnswer": "C",
+    "explanation": "Balaram Das was a prolific poet, and his most famous poem 'Dharmaraksaka' is part of his epic work 'Raghavapritabharata'. 'Raghavapritabharata' is a Odia translation of the 'Raghavamangala' and 'Bala Ramdas's own contribution, 'Dharmaraksaka'.",
+    "generatedAt": "2026-01-31T15:54:42.621430"
+  },
+  {
+    "id": "q_1769855082621_4566",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Ancient",
+    "subtopic": "Balaram Das",
+    "difficulty": "medium",
+    "question": "What is the genre of Balaram Das' work 'Bhaktamala'?",
+    "options": {
+      "A": "Bhakti Prabandha",
+      "B": "Gita-Govinda",
+      "C": "Chautisa",
+      "D": "Panchasakha"
+    },
+    "correctAnswer": "A",
+    "explanation": "Balaram Das' work 'Bhaktamala' is a collection of poems and stories about the lives of the saints and devotees of Lord Krishna. 'Bhaktamala' is classified as a Bhakti Prabandha, which is a genre of Odia literature that emphasizes devotion and spiritual themes.",
+    "generatedAt": "2026-01-31T15:54:42.621430"
+  },
+  {
+    "id": "q_1769855623835_3637",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "hard",
+    "question": "What is the Odia synonym for the English word 'Philosophy'?",
+    "options": {
+      "A": "Tattvajnana",
+      "B": "Sastrajnana",
+      "C": "Darshana",
+      "D": "Dharmajnana"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct answer is 'Darshana' because in Odia, Darshana refers to the study of philosophy and spiritual knowledge, which is similar to the English concept of philosophy.",
+    "generatedAt": "2026-01-31T16:03:43.835340"
+  },
+  {
+    "id": "q_1769855623835_8572",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "hard",
+    "question": "What is the Odia synonym for the English word 'Rebellion'?",
+    "options": {
+      "A": "Virodhya",
+      "B": "Bhagnata",
+      "C": "Aparadha",
+      "D": "Sangharsha"
+    },
+    "correctAnswer": "D",
+    "explanation": "The correct answer is 'Sangharsha' because in Odia, Sangharsha refers to a fierce struggle or rebellion against an opponent, which aligns with the meaning of the English word 'Rebellion'.",
+    "generatedAt": "2026-01-31T16:03:43.835340"
+  },
+  {
+    "id": "q_1769855623835_9952",
+    "subject": "Odia Language",
+    "topic": "Odia Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "hard",
+    "question": "What is the Odia synonym for the English word 'Sincerity'?",
+    "options": {
+      "A": "Aatmashuddha",
+      "B": "Manavata",
+      "C": "Abhyarkata",
+      "D": "Shuddha Chitra"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct answer is 'Abhyarkata' because in Odia, Abhyarkata refers to the quality of being sincere or genuine, which is similar to the meaning of the English word 'Sincerity'.",
+    "generatedAt": "2026-01-31T16:03:43.835340"
+  },
+  {
+    "id": "q_1769855823837_6031",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "medium",
+    "question": "Identify the correct example of Tatpurusha Samas in Odia language.",
+    "options": {
+      "A": "Mukti-kranta",
+      "B": "Kranti-yug",
+      "C": "Tathapura",
+      "D": "Durlabh"
+    },
+    "correctAnswer": "A",
+    "explanation": "Tatpurusha Samas is a type of compound word in Odia where the second part is a noun and the first part is a word derived from a noun. Example: Mukti-kranta (liberated movement).",
+    "generatedAt": "2026-01-31T16:07:03.837876"
+  },
+  {
+    "id": "q_1769855823837_4634",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "medium",
+    "question": "What is the correct Tatpurusha Samas for 'water' and 'spring' in Odia?",
+    "options": {
+      "A": "Jal-srot",
+      "B": "Srot-jal",
+      "C": "Jala-srot",
+      "D": "Srot-jala"
+    },
+    "correctAnswer": "A",
+    "explanation": "The correct Tatpurusha Samas for 'water' and 'spring' is Jal-srot. As per the rule of Tatpurusha Samas, the word for water is 'jala' or 'jal', so it should be Jal-srot.",
+    "generatedAt": "2026-01-31T16:07:03.837876"
+  },
+  {
+    "id": "q_1769855823837_9604",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Tatpurusha",
+    "difficulty": "medium",
+    "question": "Identify the correct Tatpurusha Samas for 'king' and 'power' in Odia.",
+    "options": {
+      "A": "Raj-yoga",
+      "B": "Yoga-raja",
+      "C": "Raja-yoga",
+      "D": "Raja-bala"
+    },
+    "correctAnswer": "C",
+    "explanation": "The correct Tatpurusha Samas for 'king' and 'power' is Raja-yoga. In Odia, the word for king is 'raja' and power is 'yoga'. As per the rule of Tatpurusha Samas, 'raja' comes first followed by 'yoga'.",
+    "generatedAt": "2026-01-31T16:07:03.837876"
+  },
+  {
+    "id": "q_1769856022046_9881",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "Which of the following works of Gopabandhu Das is a collection of short stories?",
+    "options": {
+      "A": "Nabakalebara",
+      "B": "Sakala Samaya",
+      "C": "Manika Sangrah",
+      "D": "Gopabandhu Rachana Sangrah"
+    },
+    "correctAnswer": "B",
+    "explanation": "Sakala Samaya is a collection of short stories written by Gopabandhu Das. This collection showcases his creative writing skills and storytelling ability. Nabakalebara is a novel, Manika Sangrah is a collection of children's stories, and Gopabandhu Rachana Sangrah is a collection of his collected works, but not primarily a collection of short stories.",
+    "generatedAt": "2026-01-31T16:10:22.046183"
+  },
+  {
+    "id": "q_1769856022046_3290",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "What is the name of the novel written by Gopabandhu Das which is considered a classic of modern Odia literature?",
+    "options": {
+      "A": "Nabakalebara",
+      "B": "Gopa Bala",
+      "C": "Kari Jugi",
+      "D": "Sakala Samaya"
+    },
+    "correctAnswer": "A",
+    "explanation": "Nabakalebara is a novel written by Gopabandhu Das, which is considered a classic of modern Odia literature. It is a thought-provoking novel that explores the social and economic issues of the time. Gopa Bala, Kari Jugi, and Sakala Samaya are other notable works of Gopabandhu Das, but Nabakalebara is his most famous novel.",
+    "generatedAt": "2026-01-31T16:10:22.046183"
+  },
+  {
+    "id": "q_1769856022046_1577",
+    "subject": "Odia Language",
+    "topic": "Odia Literature - Modern",
+    "subtopic": "Gopabandhu Das",
+    "difficulty": "medium",
+    "question": "Which of the following phrases is a famous quote from Gopabandhu Das's work?",
+    "options": {
+      "A": "Jibanara katha ki aji bada",
+      "B": "Bhul bujhi bhitara",
+      "C": "Jibanara katha ki aji kichhi",
+      "D": "Jibanara katha ki aji kichhi kichhi"
+    },
+    "correctAnswer": "B",
+    "explanation": "The famous quote 'Bhul bujhi bhitara' is from the work of Gopabandhu Das. This phrase reflects his philosophical thoughts and writing style. Although all the other options seem to resemble quotes, 'Bhul bujhi bhitara' is the authentic and most recognized quote from his work.",
+    "generatedAt": "2026-01-31T16:10:22.046183"
+  },
+  {
+    "id": "q_1769857062506_7715",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "medium",
+    "question": "The Visarga Sandhi takes place when two words are combined, and the last letter of the first word is 'ਹ' and the first letter of the second word is 'આ', 'ઈ', 'ઉ', 'ઋ', '૦૧'. Which of the following options represents the correct change at the Sandhi?",
+    "options": {
+      "A": "ਹ > ਆ",
+      "B": "ਹ > ਏ",
+      "C": "ਹ > ੱ",
+      "D": "No change"
+    },
+    "correctAnswer": "C",
+    "explanation": "In Visarga Sandhi, when 'ਹ' is followed by '૦૧', it gets converted to ੱ, as per the rules of Odia grammar.",
+    "generatedAt": "2026-01-31T16:27:42.506505"
+  },
+  {
+    "id": "q_1769857062506_6481",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "medium",
+    "question": "When 'ਹ' is followed by the Visarga '੪', what is the correct change in Visarga Sandhi?",
+    "options": {
+      "A": "ਹ > ੱ੪",
+      "B": "ਹ > ੱ",
+      "C": "ਹ > ੪",
+      "D": "No change"
+    },
+    "correctAnswer": "D",
+    "explanation": "In Visarga Sandhi, 'ਹ' is followed by '੪' without any change, as per the rules of Odia grammar.",
+    "generatedAt": "2026-01-31T16:27:42.506505"
+  },
+  {
+    "id": "q_1769857062506_4068",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Sandhi",
+    "subtopic": "Visarga Sandhi",
+    "difficulty": "medium",
+    "question": "Which of the following options represents the correct change when 'ਹ' is followed by '૦૨' in Visarga Sandhi?",
+    "options": {
+      "A": "ਹ > ੱ",
+      "B": "ਹ > ੱ૦૨",
+      "C": "ਹ > ੱ૨",
+      "D": "No change"
+    },
+    "correctAnswer": "B",
+    "explanation": "In Visarga Sandhi, when 'ਹ' is followed by '૦૨', it gets converted to ੱ૦૨, as per the rules of Odia grammar.",
+    "generatedAt": "2026-01-31T16:27:42.506505"
+  },
+  {
+    "id": "q_1769858642255_1922",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "easy",
+    "question": "What is the type of bahubrihi in the following phrase: 'Gudia dhania'?",
+    "options": {
+      "A": "Pratiprasav Bahubrihi",
+      "B": "Vipratiprasav Bahubrihi",
+      "C": "Samarthak Bahubrihi",
+      "D": "Aparisamarthak Bahubrihi"
+    },
+    "correctAnswer": "B",
+    "explanation": "In the phrase 'Gudia dhania', 'dhania' is the comparative form of 'dhan' (dhana), and 'gudia' is the superlative form of 'gudi' (gudiya). This is an example of vipratiprasav bahubrihi where both terms are in a comparative or superlative degree.",
+    "generatedAt": "2026-01-31T16:54:02.255946"
+  },
+  {
+    "id": "q_1769858642255_3768",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "easy",
+    "question": "Identify the type of bahubrihi in the phrase: 'Jagata jata',",
+    "options": {
+      "A": "Samarthak Bahubrihi",
+      "B": "Aparisamarthak Bahubrihi",
+      "C": "Pratiprasav Bahubrihi",
+      "D": "Vipratiprasav Bahubrihi"
+    },
+    "correctAnswer": "D",
+    "explanation": "In the phrase 'Jagata jata', both 'Jagata' and 'jata' are in a comparative degree. This is an example of vipratiprasav bahubrihi where both terms are in a comparative degree.",
+    "generatedAt": "2026-01-31T16:54:02.255946"
+  },
+  {
+    "id": "q_1769858642255_2936",
+    "subject": "Odia Language",
+    "topic": "Odia Grammar - Samas",
+    "subtopic": "Bahubrihi",
+    "difficulty": "easy",
+    "question": "Classify the bahubrihi in the phrase: 'Gandha gandha', as a",
+    "options": {
+      "A": "Samarthak Bahubrihi",
+      "B": "Aparisamarthak Bahubrihi",
+      "C": "Pratiprasav Bahubrihi",
+      "D": "Vipratiprasav Bahubrihi"
+    },
+    "correctAnswer": "B",
+    "explanation": "In the phrase 'Gandha gandha', both 'Gandha' are in the same degree. This is an example of aparisamarthak bahubrihi where the terms are in the same degree.",
+    "generatedAt": "2026-01-31T16:54:02.255946"
+  }
+]

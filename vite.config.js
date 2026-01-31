@@ -10,5 +10,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false
+  },
+  // Enable JSON import
+  json: {
+    stringify: false
   }
 });
